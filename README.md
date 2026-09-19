@@ -2,7 +2,7 @@
 
 ### Python | Pandas | SQL | Power BI | Tableau | Looker Studio | Neo4j
 
-An end-to-end courier and logistics analytics project designed to analyze shipment performance, delivery operations, customer segments, shipping modes, and logistics trends using data analytics and business intelligence tools.
+An end-to-end courier and logistics analytics project designed to analyze shipment performance, delivery operations, customer segments, shipping modes, and logistics trends using data analytics and business intelligence tools
 
 ---
 
