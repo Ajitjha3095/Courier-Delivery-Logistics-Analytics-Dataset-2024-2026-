@@ -8,7 +8,7 @@ An end-to-end courier and logistics analytics project designed to analyze shipme
 
 ## 📌 Project Overview
 
-This project focuses on analyzing courier shipment data from 2024 to 2026 to understand delivery operations and identify meaningful business insights.
+This project focuses on analyzing courier shipment data from 2024 to 2026 to understand delivery operations and identify meaningful business insights
 
 The project demonstrates the complete analytics workflow:
 
