@@ -1,0 +1,2001 @@
+Shipment_ID,Order_Date,Delivery_Date,Customer_Type,Origin_Zone,Destination_Zone,Package_Type,Shipping_Mode,Shipping_Cost,Delivery_Days,Delivery_Status,Delivery_Performance
+SHP00743,2024-01-01,2024-01-07,Individual,Central,Central,Parcel,Standard,381,6,Delivered,Not On Time
+SHP00559,2024-01-01,2024-01-04,Individual,Central,East,Parcel,Express,382,3,Delayed,Not On Time
+SHP00146,2024-01-02,2024-01-06,Individual,North,South,Document,Standard,241,4,Delivered,Not On Time
+SHP01459,2024-01-02,2024-01-03,Individual,East,North,Fragile,Same Day,412,1,Delivered,On Time
+SHP01364,2024-01-02,2024-01-04,Individual,East,South,Electronics,Standard,89,2,Delivered,On Time
+SHP01624,2024-01-02,2024-01-06,Individual,East,North,Document,Standard,365,4,Delivered,Not On Time
+SHP00189,2024-01-02,2024-01-06,Individual,Central,North,Fragile,Standard,191,4,Delivered,Not On Time
+SHP01178,2024-01-03,2024-01-06,Individual,North,Central,Electronics,Standard,431,3,Delivered,On Time
+SHP01138,2024-01-03,2024-01-05,Business,North,Central,Electronics,Standard,179,2,Delivered,On Time
+SHP00723,2024-01-04,2024-01-07,Individual,West,South,Parcel,Same Day,353,3,Delivered,On Time
+SHP00990,2024-01-04,2024-01-05,Business,South,Central,Parcel,Standard,275,1,Delivered,On Time
+SHP00773,2024-01-05,2024-01-08,Business,East,South,Parcel,Express,382,3,Delayed,Not On Time
+SHP00308,2024-01-05,2024-01-07,Individual,South,South,Parcel,Express,384,2,Delivered,On Time
+SHP00720,2024-01-06,2024-01-08,Individual,South,Central,Fragile,Express,393,2,Delivered,On Time
+SHP01225,2024-01-07,2024-01-11,Individual,East,East,Document,Standard,111,4,Delivered,Not On Time
+SHP00955,2024-01-07,2024-01-09,Individual,East,North,Fragile,Express,368,2,Delivered,On Time
+SHP01389,2024-01-07,2024-01-11,Business,North,West,Fragile,Standard,90,4,Delivered,Not On Time
+SHP00656,2024-01-08,2024-01-12,Individual,East,Central,Document,Same Day,808,4,Delivered,Not On Time
+SHP01381,2024-01-09,2024-01-15,Individual,East,Central,Fragile,Express,291,6,Delivered,Not On Time
+SHP00195,2024-01-09,2024-01-13,Individual,West,Central,Parcel,Standard,320,4,Delayed,Not On Time
+SHP00528,2024-01-10,2024-01-13,Business,East,South,Fragile,Standard,353,3,Delivered,On Time
+SHP00752,2024-01-10,2024-01-16,Individual,East,West,Parcel,Express,526,6,Delivered,Not On Time
+SHP01645,2024-01-10,2024-01-15,Individual,South,East,Parcel,Standard,418,5,Delivered,Not On Time
+SHP01155,2024-01-11,2024-01-13,Individual,Central,Central,Document,Standard,249,2,Delivered,On Time
+SHP00830,2024-01-11,2024-01-13,Individual,North,South,Document,Standard,186,2,Delivered,On Time
+SHP01348,2024-01-11,2024-01-16,Individual,North,Central,Electronics,Standard,410,5,Delivered,Not On Time
+SHP01027,2024-01-11,2024-01-12,Individual,South,East,Parcel,Standard,358,1,Delivered,On Time
+SHP01590,2024-01-12,2024-01-13,Individual,North,South,Fragile,Standard,89,1,Cancelled,Not On Time
+SHP00381,2024-01-12,2024-01-15,Business,Central,North,Document,Express,601,3,Delivered,On Time
+SHP01066,2024-01-12,2024-01-14,Business,West,West,Parcel,Same Day,673,2,Delivered,On Time
+SHP01767,2024-01-12,2024-01-18,Individual,North,North,Parcel,Standard,473,6,Delivered,Not On Time
+SHP00756,2024-01-13,2024-01-17,Individual,North,East,Electronics,Standard,339,4,Delivered,Not On Time
+SHP01399,2024-01-14,2024-01-16,Business,Central,East,Parcel,Standard,87,2,Delayed,Not On Time
+SHP00039,2024-01-14,2024-01-18,Individual,East,East,Fragile,Standard,320,4,Delayed,Not On Time
+SHP01467,2024-01-14,2024-01-16,Individual,Central,South,Fragile,Standard,110,2,Delayed,Not On Time
+SHP00820,2024-01-15,2024-01-17,Individual,East,West,Document,Express,430,2,Delivered,On Time
+SHP00075,2024-01-15,2024-01-20,Business,East,North,Parcel,Same Day,511,5,Delivered,Not On Time
+SHP01112,2024-01-16,2024-01-19,Individual,East,West,Parcel,Express,332,3,Delayed,Not On Time
+SHP01240,2024-01-17,2024-01-20,Business,East,Central,Fragile,Express,588,3,Delivered,On Time
+SHP00242,2024-01-17,2024-01-18,Individual,South,North,Document,Standard,282,1,Delayed,Not On Time
+SHP01888,2024-01-17,2024-01-20,Individual,West,East,Parcel,Standard,378,3,Delivered,On Time
+SHP00916,2024-01-18,2024-01-22,Individual,East,North,Fragile,Standard,319,4,Delivered,Not On Time
+SHP00261,2024-01-18,2024-01-19,Individual,East,Central,Document,Same Day,441,1,Delivered,On Time
+SHP01560,2024-01-19,2024-01-21,Business,Central,Central,Parcel,Standard,409,2,Delayed,Not On Time
+SHP00282,2024-01-20,2024-01-22,Individual,West,North,Parcel,Express,486,2,Delivered,On Time
+SHP01602,2024-01-21,2024-01-22,Individual,East,South,Document,Standard,176,1,Delivered,On Time
+SHP01449,2024-01-21,2024-01-22,Individual,North,North,Parcel,Same Day,551,1,Delivered,On Time
+SHP00033,2024-01-21,2024-01-26,Individual,North,Central,Electronics,Standard,494,5,Delivered,Not On Time
+SHP01882,2024-01-21,2024-01-23,Individual,East,Central,Fragile,Standard,388,2,Delivered,On Time
+SHP01302,2024-01-21,2024-01-27,Business,East,West,Parcel,Standard,427,6,Delivered,Not On Time
+SHP01268,2024-01-22,2024-01-29,Individual,North,Central,Parcel,Standard,329,7,Delivered,Not On Time
+SHP00017,2024-01-22,2024-01-27,Individual,Central,North,Fragile,Express,519,5,Delivered,Not On Time
+SHP01393,2024-01-22,2024-01-26,Individual,North,Central,Parcel,Standard,293,4,Delivered,Not On Time
+SHP00834,2024-01-23,2024-01-24,Individual,South,North,Document,Standard,310,1,Delivered,On Time
+SHP00358,2024-01-23,2024-01-24,Business,West,Central,Parcel,Standard,94,1,Delivered,On Time
+SHP01429,2024-01-24,2024-01-27,Individual,South,North,Document,Standard,295,3,Delivered,On Time
+SHP00886,2024-01-25,2024-01-29,Business,North,Central,Electronics,Express,441,4,Delivered,Not On Time
+SHP01052,2024-01-25,2024-01-27,Individual,East,East,Parcel,Express,175,2,Failed,Not On Time
+SHP00689,2024-01-25,2024-01-26,Individual,South,North,Parcel,Express,305,1,Delayed,Not On Time
+SHP00230,2024-01-27,2024-01-29,Individual,North,Central,Electronics,Standard,460,2,Delivered,On Time
+SHP01007,2024-01-27,2024-01-30,Individual,Central,Central,Document,Express,195,3,Cancelled,Not On Time
+SHP00665,2024-01-28,2024-01-30,Individual,West,Central,Parcel,Standard,212,2,Delivered,On Time
+SHP01473,2024-01-28,2024-02-01,Individual,East,Central,Parcel,Express,130,4,Delivered,Not On Time
+SHP00681,2024-01-28,2024-01-31,Individual,South,West,Document,Express,150,3,Delivered,On Time
+SHP00993,2024-01-29,2024-02-01,Business,West,East,Electronics,Standard,281,3,Delivered,On Time
+SHP01123,2024-01-29,2024-02-04,Business,West,North,Electronics,Standard,437,6,Delivered,Not On Time
+SHP00456,2024-01-29,2024-02-04,Individual,West,Central,Electronics,Standard,397,6,Cancelled,Not On Time
+SHP01281,2024-01-29,2024-02-03,Business,North,Central,Fragile,Express,227,5,Delivered,Not On Time
+SHP01893,2024-01-29,2024-01-30,Business,Central,Central,Document,Standard,217,1,Delivered,On Time
+SHP01025,2024-01-29,2024-02-01,Individual,North,West,Electronics,Standard,393,3,Delivered,On Time
+SHP00910,2024-02-01,2024-02-06,Individual,South,West,Parcel,Standard,81,5,Delivered,Not On Time
+SHP00696,2024-02-03,2024-02-05,Individual,Central,North,Document,Express,160,2,Delivered,On Time
+SHP01002,2024-02-03,2024-02-08,Individual,North,Central,Parcel,Express,536,5,Delivered,Not On Time
+SHP00566,2024-02-03,2024-02-04,Individual,North,North,Parcel,Express,517,1,Delivered,On Time
+SHP01421,2024-02-04,2024-02-05,Individual,West,West,Parcel,Standard,191,1,Delivered,On Time
+SHP00048,2024-02-04,2024-02-05,Business,North,Central,Electronics,Standard,173,1,Delayed,Not On Time
+SHP00384,2024-02-04,2024-02-05,Individual,South,South,Parcel,Standard,382,1,Delivered,On Time
+SHP00280,2024-02-05,2024-02-10,Individual,South,Central,Electronics,Express,168,5,Delayed,Not On Time
+SHP01690,2024-02-05,2024-02-12,Individual,West,Central,Document,Express,594,7,Delivered,Not On Time
+SHP01637,2024-02-05,2024-02-08,Business,North,North,Parcel,Express,501,3,Delivered,On Time
+SHP00409,2024-02-06,2024-02-09,Individual,North,South,Parcel,Express,221,3,Delivered,On Time
+SHP01199,2024-02-06,2024-02-09,Individual,South,Central,Document,Express,427,3,Delivered,On Time
+SHP01255,2024-02-06,2024-02-08,Individual,East,Central,Fragile,Standard,331,2,Cancelled,Not On Time
+SHP01195,2024-02-07,2024-02-10,Business,South,North,Parcel,Same Day,367,3,Delivered,On Time
+SHP00226,2024-02-07,2024-02-11,Individual,Central,Central,Fragile,Express,213,4,Delivered,Not On Time
+SHP01107,2024-02-08,2024-02-09,Individual,North,North,Document,Standard,334,1,Delivered,On Time
+SHP01292,2024-02-08,2024-02-10,Business,North,North,Fragile,Express,442,2,Delivered,On Time
+SHP01976,2024-02-08,2024-02-11,Individual,South,West,Fragile,Express,585,3,Delivered,On Time
+SHP00467,2024-02-08,2024-02-12,Individual,East,South,Parcel,Standard,121,4,Delivered,Not On Time
+SHP01191,2024-02-09,2024-02-12,Business,West,East,Parcel,Express,540,3,Delivered,On Time
+SHP01211,2024-02-09,2024-02-15,Business,East,West,Electronics,Express,300,6,Delivered,Not On Time
+SHP00513,2024-02-10,2024-02-14,Individual,North,Central,Fragile,Standard,417,4,Delayed,Not On Time
+SHP01000,2024-02-10,2024-02-13,Individual,South,South,Parcel,Express,580,3,Delayed,Not On Time
+SHP00087,2024-02-10,2024-02-12,Individual,East,East,Fragile,Same Day,799,2,Failed,Not On Time
+SHP00999,2024-02-11,2024-02-12,Business,South,South,Document,Express,330,1,Delivered,On Time
+SHP01769,2024-02-11,2024-02-14,Individual,North,West,Electronics,Same Day,407,3,Delayed,Not On Time
+SHP01051,2024-02-11,2024-02-16,Individual,North,South,Parcel,Standard,165,5,Delivered,Not On Time
+SHP00617,2024-02-12,2024-02-16,Individual,West,Central,Parcel,Same Day,698,4,Delivered,Not On Time
+SHP01917,2024-02-12,2024-02-13,Individual,Central,West,Electronics,Standard,317,1,Delayed,Not On Time
+SHP01594,2024-02-12,2024-02-15,Individual,North,Central,Parcel,Express,276,3,Delivered,On Time
+SHP01811,2024-02-12,2024-02-15,Individual,South,West,Fragile,Standard,480,3,Delivered,On Time
+SHP00494,2024-02-16,2024-02-17,Business,South,East,Parcel,Standard,249,1,Delayed,Not On Time
+SHP00645,2024-02-16,2024-02-18,Individual,West,South,Parcel,Standard,485,2,Delayed,Not On Time
+SHP00821,2024-02-16,2024-02-22,Individual,West,West,Parcel,Express,235,6,Cancelled,Not On Time
+SHP01075,2024-02-16,2024-02-19,Business,Central,South,Electronics,Standard,191,3,Delayed,Not On Time
+SHP00313,2024-02-16,2024-02-20,Individual,West,North,Fragile,Standard,163,4,Delivered,Not On Time
+SHP00652,2024-02-17,2024-02-20,Individual,West,North,Parcel,Standard,189,3,Delivered,On Time
+SHP01654,2024-02-19,2024-02-20,Business,East,East,Parcel,Express,566,1,Delivered,On Time
+SHP01610,2024-02-20,2024-02-25,Individual,West,Central,Parcel,Express,319,5,Delivered,Not On Time
+SHP00855,2024-02-20,2024-02-22,Individual,Central,East,Parcel,Express,314,2,Delivered,On Time
+SHP00560,2024-02-20,2024-02-23,Individual,South,South,Fragile,Express,388,3,Delivered,On Time
+SHP00292,2024-02-20,2024-02-23,Business,Central,North,Document,Express,672,3,Delivered,On Time
+SHP00614,2024-02-22,2024-02-28,Individual,Central,West,Parcel,Standard,243,6,Delivered,Not On Time
+SHP00200,2024-02-23,2024-02-27,Individual,Central,West,Parcel,Standard,265,4,Delivered,Not On Time
+SHP01168,2024-02-23,2024-02-24,Individual,Central,South,Electronics,Express,487,1,Delivered,On Time
+SHP01033,2024-02-24,2024-02-27,Business,North,West,Parcel,Express,564,3,Delayed,Not On Time
+SHP00927,2024-02-24,2024-02-26,Business,South,South,Electronics,Standard,483,2,Delivered,On Time
+SHP01727,2024-02-24,2024-03-02,Business,East,West,Parcel,Express,144,7,Delayed,Not On Time
+SHP00932,2024-02-24,2024-02-26,Individual,North,Central,Parcel,Express,241,2,Delivered,On Time
+SHP00661,2024-02-25,2024-03-03,Individual,East,South,Electronics,Express,353,7,Delivered,Not On Time
+SHP01710,2024-02-27,2024-03-01,Individual,East,Central,Parcel,Express,603,3,Delivered,On Time
+SHP00485,2024-02-27,2024-03-01,Individual,West,North,Electronics,Standard,185,3,Delivered,On Time
+SHP00981,2024-02-28,2024-03-04,Individual,East,East,Parcel,Standard,319,5,Delayed,Not On Time
+SHP01151,2024-03-01,2024-03-02,Business,West,North,Electronics,Express,361,1,Delivered,On Time
+SHP01049,2024-03-01,2024-03-04,Individual,South,North,Electronics,Express,672,3,Delivered,On Time
+SHP00629,2024-03-01,2024-03-04,Business,Central,West,Parcel,Standard,283,3,Cancelled,Not On Time
+SHP01176,2024-03-02,2024-03-05,Individual,South,East,Parcel,Standard,295,3,Cancelled,Not On Time
+SHP00414,2024-03-02,2024-03-08,Individual,East,East,Parcel,Standard,130,6,Delivered,Not On Time
+SHP00890,2024-03-03,2024-03-07,Business,East,West,Fragile,Express,507,4,Delivered,Not On Time
+SHP00540,2024-03-03,2024-03-04,Individual,North,East,Parcel,Standard,412,1,Delivered,On Time
+SHP01858,2024-03-05,2024-03-07,Individual,East,West,Document,Same Day,405,2,Delivered,On Time
+SHP00076,2024-03-05,2024-03-08,Individual,West,South,Parcel,Standard,170,3,Failed,Not On Time
+SHP01474,2024-03-06,2024-03-08,Individual,West,Central,Electronics,Express,281,2,Delivered,On Time
+SHP00690,2024-03-07,2024-03-12,Business,North,West,Fragile,Standard,239,5,Delivered,Not On Time
+SHP01707,2024-03-07,2024-03-10,Individual,West,South,Fragile,Express,546,3,Delayed,Not On Time
+SHP00829,2024-03-09,2024-03-11,Individual,North,Central,Parcel,Standard,481,2,Delivered,On Time
+SHP00612,2024-03-09,2024-03-10,Individual,South,West,Electronics,Standard,361,1,Delivered,On Time
+SHP01038,2024-03-09,2024-03-11,Business,West,Central,Fragile,Standard,486,2,Delivered,On Time
+SHP01343,2024-03-12,2024-03-16,Individual,Central,Central,Document,Express,370,4,Delivered,Not On Time
+SHP01776,2024-03-13,2024-03-16,Business,North,South,Parcel,Standard,499,3,Delayed,Not On Time
+SHP01045,2024-03-13,2024-03-17,Individual,North,Central,Parcel,Express,658,4,Delivered,Not On Time
+SHP01693,2024-03-13,2024-03-15,Business,West,East,Document,Standard,129,2,Delivered,On Time
+SHP00587,2024-03-15,2024-03-17,Business,East,East,Parcel,Standard,472,2,Delivered,On Time
+SHP00722,2024-03-15,2024-03-17,Business,West,West,Fragile,Express,202,2,Failed,Not On Time
+SHP00875,2024-03-15,2024-03-20,Individual,East,East,Document,Express,326,5,Delivered,Not On Time
+SHP00996,2024-03-15,2024-03-18,Business,West,South,Parcel,Standard,172,3,Delivered,On Time
+SHP00423,2024-03-16,2024-03-19,Individual,Central,North,Fragile,Express,627,3,Delayed,Not On Time
+SHP00666,2024-03-18,2024-03-21,Individual,South,Central,Document,Standard,362,3,Delivered,On Time
+SHP00775,2024-03-18,2024-03-19,Individual,West,East,Fragile,Standard,492,1,Delivered,On Time
+SHP01285,2024-03-19,2024-03-22,Individual,West,North,Document,Standard,366,3,Delivered,On Time
+SHP01905,2024-03-19,2024-03-22,Business,Central,North,Parcel,Standard,256,3,Delivered,On Time
+SHP00490,2024-03-20,2024-03-25,Business,East,East,Document,Standard,391,5,Delayed,Not On Time
+SHP00604,2024-03-21,2024-03-23,Individual,North,Central,Document,Standard,382,2,Delivered,On Time
+SHP01235,2024-03-22,2024-03-27,Individual,East,Central,Electronics,Standard,182,5,Delivered,Not On Time
+SHP00962,2024-03-22,2024-03-23,Individual,South,Central,Parcel,Standard,368,1,Cancelled,Not On Time
+SHP01826,2024-03-23,2024-03-25,Business,North,East,Electronics,Express,505,2,Delayed,Not On Time
+SHP00557,2024-03-23,2024-03-25,Individual,South,Central,Parcel,Standard,480,2,Delivered,On Time
+SHP01305,2024-03-24,2024-03-28,Individual,West,North,Parcel,Same Day,803,4,Delivered,Not On Time
+SHP01584,2024-03-25,2024-03-26,Business,East,West,Document,Standard,271,1,Delivered,On Time
+SHP00684,2024-03-26,2024-03-30,Business,South,South,Document,Standard,286,4,Delivered,Not On Time
+SHP01535,2024-03-26,2024-03-31,Business,Central,East,Parcel,Standard,239,5,Delivered,Not On Time
+SHP01404,2024-03-27,2024-03-31,Business,North,Central,Parcel,Standard,352,4,Delivered,Not On Time
+SHP01912,2024-03-27,2024-04-02,Business,North,East,Parcel,Express,608,6,Delivered,Not On Time
+SHP01916,2024-03-27,2024-03-28,Business,West,East,Fragile,Standard,176,1,Delivered,On Time
+SHP00931,2024-03-27,2024-03-31,Individual,South,Central,Parcel,Standard,211,4,Delivered,Not On Time
+SHP00007,2024-03-28,2024-04-01,Individual,South,West,Fragile,Express,641,4,Cancelled,Not On Time
+SHP00780,2024-03-29,2024-03-30,Individual,North,Central,Electronics,Standard,139,1,Delivered,On Time
+SHP01372,2024-03-30,2024-04-04,Individual,West,North,Parcel,Express,192,5,Delivered,Not On Time
+SHP00744,2024-03-30,2024-03-31,Business,North,East,Parcel,Standard,482,1,Delivered,On Time
+SHP00387,2024-03-30,2024-04-03,Individual,North,East,Fragile,Standard,489,4,Delivered,Not On Time
+SHP00508,2024-03-30,2024-04-02,Individual,South,North,Electronics,Express,137,3,Delivered,On Time
+SHP01627,2024-03-30,2024-04-06,Business,South,South,Parcel,Standard,148,7,Cancelled,Not On Time
+SHP00465,2024-03-31,2024-04-04,Individual,South,North,Electronics,Standard,447,4,Delivered,Not On Time
+SHP01804,2024-04-01,2024-04-07,Individual,South,South,Fragile,Standard,316,6,Delivered,Not On Time
+SHP01214,2024-04-01,2024-04-04,Individual,East,West,Parcel,Same Day,463,3,Delivered,On Time
+SHP01846,2024-04-01,2024-04-03,Individual,Central,North,Fragile,Standard,433,2,Delayed,Not On Time
+SHP01359,2024-04-01,2024-04-04,Individual,West,North,Parcel,Standard,397,3,Delivered,On Time
+SHP00044,2024-04-01,2024-04-03,Business,North,West,Parcel,Express,158,2,Delivered,On Time
+SHP01423,2024-04-02,2024-04-04,Individual,Central,South,Parcel,Express,673,2,Delivered,On Time
+SHP00627,2024-04-02,2024-04-06,Individual,Central,West,Document,Same Day,457,4,Delivered,Not On Time
+SHP00347,2024-04-03,2024-04-06,Individual,Central,East,Parcel,Same Day,846,3,Delayed,Not On Time
+SHP01787,2024-04-04,2024-04-07,Business,North,West,Electronics,Express,196,3,Delivered,On Time
+SHP00825,2024-04-04,2024-04-05,Individual,Central,South,Parcel,Standard,374,1,Delivered,On Time
+SHP00621,2024-04-04,2024-04-07,Individual,South,South,Parcel,Express,459,3,Delivered,On Time
+SHP00567,2024-04-04,2024-04-11,Individual,South,East,Parcel,Express,136,7,Delivered,Not On Time
+SHP00118,2024-04-05,2024-04-11,Individual,East,West,Parcel,Standard,217,6,Failed,Not On Time
+SHP00407,2024-04-05,2024-04-12,Business,South,Central,Parcel,Standard,476,7,Delayed,Not On Time
+SHP00944,2024-04-05,2024-04-12,Individual,North,Central,Parcel,Standard,270,7,Delivered,Not On Time
+SHP01032,2024-04-07,2024-04-10,Individual,East,North,Document,Standard,188,3,Cancelled,Not On Time
+SHP00593,2024-04-07,2024-04-09,Individual,Central,East,Fragile,Express,662,2,Delivered,On Time
+SHP00247,2024-04-08,2024-04-12,Business,Central,East,Document,Standard,405,4,Delivered,Not On Time
+SHP00206,2024-04-08,2024-04-10,Individual,South,Central,Fragile,Same Day,356,2,Delivered,On Time
+SHP00098,2024-04-08,2024-04-15,Business,South,North,Parcel,Standard,181,7,Delivered,Not On Time
+SHP01453,2024-04-09,2024-04-12,Business,South,South,Document,Standard,205,3,Delivered,On Time
+SHP01913,2024-04-10,2024-04-11,Individual,North,North,Fragile,Standard,283,1,Delivered,On Time
+SHP01835,2024-04-10,2024-04-13,Individual,East,North,Parcel,Standard,366,3,Failed,Not On Time
+SHP01576,2024-04-11,2024-04-16,Individual,South,South,Parcel,Express,644,5,Delivered,Not On Time
+SHP01351,2024-04-11,2024-04-13,Individual,West,North,Parcel,Express,409,2,Delivered,On Time
+SHP01057,2024-04-11,2024-04-14,Individual,East,South,Parcel,Standard,88,3,Delivered,On Time
+SHP00589,2024-04-12,2024-04-14,Individual,West,West,Parcel,Standard,480,2,Delivered,On Time
+SHP00795,2024-04-13,2024-04-14,Business,West,North,Fragile,Express,248,1,Delivered,On Time
+SHP00203,2024-04-13,2024-04-14,Business,West,East,Document,Standard,185,1,Delivered,On Time
+SHP00544,2024-04-14,2024-04-21,Individual,South,South,Fragile,Standard,309,7,Delivered,Not On Time
+SHP01886,2024-04-14,2024-04-18,Individual,North,East,Parcel,Express,542,4,Delivered,Not On Time
+SHP01376,2024-04-15,2024-04-17,Individual,Central,West,Document,Same Day,511,2,Delivered,On Time
+SHP01622,2024-04-15,2024-04-18,Individual,West,West,Parcel,Standard,295,3,Delivered,On Time
+SHP00650,2024-04-16,2024-04-21,Individual,West,North,Electronics,Standard,484,5,Delivered,Not On Time
+SHP01055,2024-04-17,2024-04-19,Individual,East,West,Document,Standard,235,2,Delivered,On Time
+SHP00692,2024-04-18,2024-04-21,Individual,Central,Central,Document,Express,318,3,Delivered,On Time
+SHP00438,2024-04-18,2024-04-23,Business,North,Central,Fragile,Standard,191,5,Delivered,Not On Time
+SHP00693,2024-04-20,2024-04-21,Individual,West,South,Parcel,Same Day,778,1,Delivered,On Time
+SHP00695,2024-04-20,2024-04-24,Individual,West,South,Parcel,Express,451,4,Delivered,Not On Time
+SHP01386,2024-04-20,2024-04-27,Individual,East,South,Electronics,Standard,388,7,Delivered,Not On Time
+SHP00618,2024-04-20,2024-04-23,Individual,East,South,Document,Standard,341,3,Delivered,On Time
+SHP00740,2024-04-22,2024-04-25,Individual,North,East,Fragile,Express,351,3,Delivered,On Time
+SHP00145,2024-04-22,2024-04-24,Business,East,North,Document,Express,211,2,Delivered,On Time
+SHP01973,2024-04-22,2024-04-24,Individual,Central,East,Parcel,Standard,261,2,Delivered,On Time
+SHP01751,2024-04-23,2024-04-24,Individual,South,West,Parcel,Standard,399,1,Cancelled,Not On Time
+SHP01538,2024-04-23,2024-04-26,Business,West,Central,Fragile,Same Day,860,3,Delivered,On Time
+SHP00923,2024-04-23,2024-04-25,Business,South,East,Parcel,Standard,365,2,Delivered,On Time
+SHP01208,2024-04-24,2024-04-27,Individual,Central,Central,Electronics,Standard,375,3,Delayed,Not On Time
+SHP00393,2024-04-24,2024-04-26,Individual,West,East,Parcel,Same Day,365,2,Delivered,On Time
+SHP01716,2024-04-25,2024-04-29,Business,East,West,Electronics,Standard,385,4,Delivered,Not On Time
+SHP01368,2024-04-25,2024-04-28,Business,North,Central,Parcel,Standard,439,3,Delivered,On Time
+SHP00870,2024-04-26,2024-04-30,Business,North,South,Parcel,Standard,281,4,Delivered,Not On Time
+SHP01337,2024-04-26,2024-04-29,Individual,East,Central,Parcel,Standard,150,3,Delivered,On Time
+SHP00326,2024-04-26,2024-04-28,Business,West,South,Electronics,Standard,307,2,Delivered,On Time
+SHP00725,2024-04-27,2024-05-03,Individual,East,South,Fragile,Express,329,6,Delivered,Not On Time
+SHP00573,2024-04-27,2024-04-29,Individual,West,East,Electronics,Express,134,2,Delivered,On Time
+SHP01505,2024-04-28,2024-05-03,Individual,Central,Central,Document,Standard,150,5,Delivered,Not On Time
+SHP01948,2024-04-28,2024-05-02,Business,West,North,Document,Same Day,571,4,Delivered,Not On Time
+SHP00322,2024-04-29,2024-05-04,Individual,East,North,Parcel,Standard,247,5,Delivered,Not On Time
+SHP01373,2024-05-01,2024-05-05,Business,South,West,Document,Express,552,4,Delayed,Not On Time
+SHP00004,2024-05-01,2024-05-03,Business,Central,North,Electronics,Express,354,2,Delivered,On Time
+SHP01406,2024-05-01,2024-05-06,Individual,East,East,Parcel,Standard,291,5,Delivered,Not On Time
+SHP01975,2024-05-01,2024-05-05,Individual,South,South,Parcel,Express,302,4,Delivered,Not On Time
+SHP00156,2024-05-02,2024-05-05,Individual,West,Central,Parcel,Express,263,3,Delivered,On Time
+SHP01968,2024-05-03,2024-05-07,Business,East,West,Document,Standard,362,4,Delivered,Not On Time
+SHP01839,2024-05-03,2024-05-05,Individual,West,Central,Document,Standard,137,2,Delayed,Not On Time
+SHP01518,2024-05-05,2024-05-08,Individual,West,East,Document,Express,391,3,Delivered,On Time
+SHP00685,2024-05-05,2024-05-06,Business,North,East,Parcel,Standard,97,1,Delivered,On Time
+SHP00616,2024-05-05,2024-05-06,Business,West,East,Electronics,Express,470,1,Delivered,On Time
+SHP00851,2024-05-06,2024-05-11,Individual,Central,South,Document,Standard,125,5,Delivered,Not On Time
+SHP01803,2024-05-07,2024-05-11,Individual,North,West,Electronics,Standard,500,4,Delivered,Not On Time
+SHP00998,2024-05-07,2024-05-12,Business,Central,North,Document,Standard,218,5,Delayed,Not On Time
+SHP00260,2024-05-07,2024-05-11,Business,East,Central,Fragile,Standard,323,4,Cancelled,Not On Time
+SHP00982,2024-05-07,2024-05-13,Individual,South,North,Document,Standard,411,6,Delivered,Not On Time
+SHP01891,2024-05-08,2024-05-10,Individual,North,North,Document,Express,638,2,Delivered,On Time
+SHP01531,2024-05-08,2024-05-15,Individual,North,South,Fragile,Standard,232,7,Failed,Not On Time
+SHP01470,2024-05-09,2024-05-13,Individual,North,South,Parcel,Express,508,4,Delivered,Not On Time
+SHP00824,2024-05-09,2024-05-14,Individual,North,North,Fragile,Express,633,5,Delivered,Not On Time
+SHP01780,2024-05-09,2024-05-15,Business,North,East,Document,Standard,96,6,Delivered,Not On Time
+SHP01020,2024-05-09,2024-05-10,Individual,West,North,Parcel,Express,357,1,Delivered,On Time
+SHP01054,2024-05-10,2024-05-11,Individual,North,Central,Document,Standard,265,1,Delivered,On Time
+SHP00009,2024-05-10,2024-05-11,Individual,Central,Central,Parcel,Express,679,1,Cancelled,Not On Time
+SHP01100,2024-05-10,2024-05-12,Business,South,North,Electronics,Standard,304,2,Delivered,On Time
+SHP00777,2024-05-11,2024-05-13,Individual,West,North,Document,Same Day,895,2,Delayed,Not On Time
+SHP01486,2024-05-12,2024-05-15,Individual,South,Central,Electronics,Standard,399,3,Delivered,On Time
+SHP01226,2024-05-12,2024-05-14,Business,South,Central,Fragile,Express,407,2,Delivered,On Time
+SHP00605,2024-05-12,2024-05-15,Business,South,Central,Document,Standard,416,3,Delivered,On Time
+SHP01772,2024-05-13,2024-05-16,Business,Central,West,Fragile,Standard,459,3,Delivered,On Time
+SHP00484,2024-05-13,2024-05-15,Business,East,Central,Fragile,Standard,226,2,Delivered,On Time
+SHP00089,2024-05-14,2024-05-17,Individual,Central,North,Document,Standard,449,3,Failed,Not On Time
+SHP01085,2024-05-16,2024-05-17,Individual,North,East,Parcel,Express,444,1,Delivered,On Time
+SHP00608,2024-05-17,2024-05-20,Business,West,North,Fragile,Express,531,3,Delivered,On Time
+SHP01934,2024-05-17,2024-05-21,Individual,West,Central,Parcel,Same Day,464,4,Delivered,Not On Time
+SHP00747,2024-05-18,2024-05-19,Individual,East,East,Parcel,Express,571,1,Delivered,On Time
+SHP00741,2024-05-19,2024-05-22,Business,South,West,Document,Express,468,3,Delayed,Not On Time
+SHP00841,2024-05-20,2024-05-24,Individual,West,North,Parcel,Same Day,605,4,Delivered,Not On Time
+SHP01613,2024-05-20,2024-05-23,Business,North,North,Fragile,Standard,332,3,Failed,Not On Time
+SHP01640,2024-05-20,2024-05-21,Individual,Central,Central,Parcel,Express,563,1,Delivered,On Time
+SHP00788,2024-05-22,2024-05-26,Individual,East,North,Electronics,Express,407,4,Delivered,Not On Time
+SHP01374,2024-05-22,2024-05-25,Individual,West,Central,Document,Standard,207,3,Delayed,Not On Time
+SHP01763,2024-05-22,2024-05-25,Business,West,South,Document,Standard,422,3,Delivered,On Time
+SHP01569,2024-05-22,2024-05-24,Business,North,Central,Fragile,Same Day,385,2,Cancelled,Not On Time
+SHP00165,2024-05-23,2024-05-30,Individual,South,South,Document,Standard,158,7,Delivered,Not On Time
+SHP00184,2024-05-23,2024-05-27,Individual,South,Central,Parcel,Standard,327,4,Delivered,Not On Time
+SHP00429,2024-05-23,2024-05-25,Individual,West,North,Document,Standard,100,2,Delivered,On Time
+SHP00688,2024-05-24,2024-05-28,Business,East,South,Fragile,Same Day,356,4,Delivered,Not On Time
+SHP00791,2024-05-24,2024-05-28,Individual,South,West,Fragile,Express,421,4,Delivered,Not On Time
+SHP00536,2024-05-25,2024-05-28,Business,South,East,Parcel,Standard,81,3,Delivered,On Time
+SHP01141,2024-05-25,2024-05-26,Business,Central,North,Parcel,Express,692,1,Delayed,Not On Time
+SHP01659,2024-05-25,2024-05-26,Individual,East,West,Parcel,Express,252,1,Delivered,On Time
+SHP00959,2024-05-26,2024-05-28,Individual,Central,South,Electronics,Standard,347,2,Delivered,On Time
+SHP00173,2024-05-26,2024-06-02,Business,East,East,Fragile,Same Day,725,7,Delivered,Not On Time
+SHP00899,2024-05-27,2024-06-02,Individual,Central,South,Parcel,Standard,375,6,Delivered,Not On Time
+SHP01921,2024-05-27,2024-05-29,Individual,West,South,Electronics,Express,669,2,Delivered,On Time
+SHP01980,2024-05-28,2024-05-30,Business,East,South,Fragile,Standard,119,2,Delivered,On Time
+SHP01026,2024-05-28,2024-05-31,Individual,Central,West,Parcel,Standard,383,3,Delivered,On Time
+SHP01827,2024-05-28,2024-05-30,Business,East,Central,Electronics,Standard,180,2,Delivered,On Time
+SHP01705,2024-05-28,2024-06-03,Individual,North,South,Fragile,Express,395,6,Delivered,Not On Time
+SHP01740,2024-05-28,2024-05-31,Individual,Central,East,Document,Express,655,3,Delivered,On Time
+SHP01952,2024-05-28,2024-05-30,Individual,North,Central,Document,Same Day,187,2,Delivered,On Time
+SHP00294,2024-05-29,2024-06-03,Business,North,North,Parcel,Same Day,423,5,Delivered,Not On Time
+SHP00958,2024-05-30,2024-06-01,Individual,East,South,Fragile,Standard,394,2,Delayed,Not On Time
+SHP01524,2024-05-30,2024-06-03,Business,North,South,Parcel,Express,230,4,Delivered,Not On Time
+SHP00182,2024-05-30,2024-06-02,Individual,West,North,Parcel,Standard,313,3,Failed,Not On Time
+SHP00199,2024-05-31,2024-06-03,Business,Central,Central,Parcel,Standard,489,3,Delivered,On Time
+SHP01436,2024-05-31,2024-06-04,Business,East,East,Parcel,Standard,337,4,Delivered,Not On Time
+SHP01650,2024-05-31,2024-06-02,Individual,North,East,Parcel,Standard,319,2,Delivered,On Time
+SHP00207,2024-06-01,2024-06-07,Individual,Central,West,Electronics,Express,395,6,Delivered,Not On Time
+SHP01044,2024-06-02,2024-06-04,Business,West,North,Fragile,Express,389,2,Delivered,On Time
+SHP00569,2024-06-02,2024-06-09,Individual,North,North,Electronics,Standard,441,7,Delivered,Not On Time
+SHP00341,2024-06-02,2024-06-06,Business,South,East,Fragile,Express,286,4,Delivered,Not On Time
+SHP01845,2024-06-03,2024-06-07,Individual,North,North,Parcel,Express,490,4,Delivered,Not On Time
+SHP00268,2024-06-03,2024-06-10,Business,West,South,Electronics,Standard,131,7,Delivered,Not On Time
+SHP01495,2024-06-04,2024-06-08,Individual,Central,East,Fragile,Express,606,4,Delivered,Not On Time
+SHP00894,2024-06-04,2024-06-05,Business,North,West,Fragile,Same Day,760,1,Delivered,On Time
+SHP01295,2024-06-05,2024-06-08,Individual,West,East,Fragile,Standard,495,3,Delivered,On Time
+SHP00805,2024-06-05,2024-06-06,Individual,West,East,Electronics,Standard,181,1,Delayed,Not On Time
+SHP00243,2024-06-06,2024-06-08,Individual,North,West,Document,Express,571,2,Delivered,On Time
+SHP01427,2024-06-07,2024-06-14,Individual,North,North,Fragile,Express,181,7,Delayed,Not On Time
+SHP01631,2024-06-07,2024-06-12,Individual,West,East,Fragile,Standard,322,5,Delivered,Not On Time
+SHP00372,2024-06-08,2024-06-11,Business,South,North,Parcel,Express,473,3,Delayed,Not On Time
+SHP01957,2024-06-08,2024-06-10,Individual,South,North,Document,Express,188,2,Delivered,On Time
+SHP01704,2024-06-08,2024-06-12,Business,South,West,Parcel,Standard,167,4,Delivered,Not On Time
+SHP01179,2024-06-08,2024-06-09,Individual,East,Central,Document,Standard,186,1,Delivered,On Time
+SHP00213,2024-06-09,2024-06-11,Business,Central,South,Parcel,Standard,236,2,Delivered,On Time
+SHP00930,2024-06-10,2024-06-15,Individual,East,North,Document,Standard,410,5,Delivered,Not On Time
+SHP00056,2024-06-10,2024-06-13,Business,South,North,Parcel,Standard,427,3,Delivered,On Time
+SHP01866,2024-06-12,2024-06-13,Individual,West,East,Fragile,Standard,255,1,Delayed,Not On Time
+SHP01786,2024-06-12,2024-06-13,Individual,South,Central,Parcel,Standard,218,1,Delivered,On Time
+SHP00948,2024-06-13,2024-06-18,Business,South,North,Electronics,Standard,366,5,Delayed,Not On Time
+SHP01493,2024-06-13,2024-06-16,Individual,South,North,Document,Standard,308,3,Delivered,On Time
+SHP01347,2024-06-14,2024-06-18,Individual,South,Central,Document,Express,412,4,Delivered,Not On Time
+SHP00599,2024-06-14,2024-06-18,Individual,West,Central,Parcel,Standard,371,4,Failed,Not On Time
+SHP00464,2024-06-15,2024-06-17,Individual,Central,South,Parcel,Express,315,2,Delivered,On Time
+SHP00035,2024-06-15,2024-06-16,Individual,South,North,Fragile,Standard,215,1,Delivered,On Time
+SHP01010,2024-06-16,2024-06-18,Business,South,West,Parcel,Standard,315,2,Delayed,Not On Time
+SHP01945,2024-06-17,2024-06-18,Individual,South,South,Parcel,Standard,190,1,Delivered,On Time
+SHP01189,2024-06-18,2024-06-24,Individual,East,East,Electronics,Standard,267,6,Delivered,Not On Time
+SHP00452,2024-06-18,2024-06-20,Individual,North,West,Parcel,Standard,191,2,Failed,Not On Time
+SHP00754,2024-06-20,2024-06-22,Individual,West,West,Parcel,Express,120,2,Delivered,On Time
+SHP01056,2024-06-20,2024-06-27,Individual,Central,Central,Document,Standard,477,7,Delivered,Not On Time
+SHP00488,2024-06-21,2024-06-26,Individual,North,South,Parcel,Standard,201,5,Delivered,Not On Time
+SHP00468,2024-06-21,2024-06-22,Individual,South,Central,Fragile,Standard,376,1,Cancelled,Not On Time
+SHP00734,2024-06-21,2024-06-22,Business,East,West,Parcel,Standard,383,1,Failed,Not On Time
+SHP01864,2024-06-21,2024-06-23,Individual,West,West,Parcel,Standard,473,2,Delivered,On Time
+SHP00538,2024-06-25,2024-06-28,Business,East,North,Parcel,Express,206,3,Delivered,On Time
+SHP00420,2024-06-25,2024-06-28,Individual,South,East,Fragile,Express,399,3,Delivered,On Time
+SHP00888,2024-06-25,2024-06-26,Individual,South,East,Electronics,Standard,351,1,Delivered,On Time
+SHP00252,2024-06-29,2024-07-01,Business,Central,North,Document,Standard,94,2,Delivered,On Time
+SHP00949,2024-06-30,2024-07-04,Business,North,South,Fragile,Standard,356,4,Cancelled,Not On Time
+SHP01965,2024-07-01,2024-07-03,Individual,East,East,Parcel,Standard,192,2,Delivered,On Time
+SHP01874,2024-07-01,2024-07-05,Individual,North,North,Document,Express,188,4,Delivered,Not On Time
+SHP01104,2024-07-01,2024-07-07,Individual,East,East,Document,Express,525,6,Delivered,Not On Time
+SHP00609,2024-07-02,2024-07-03,Individual,North,North,Electronics,Standard,258,1,Delivered,On Time
+SHP01446,2024-07-04,2024-07-09,Individual,East,North,Fragile,Express,469,5,Delivered,Not On Time
+SHP00167,2024-07-05,2024-07-06,Individual,South,East,Parcel,Standard,329,1,Delivered,On Time
+SHP01150,2024-07-05,2024-07-07,Business,South,East,Fragile,Same Day,686,2,Delivered,On Time
+SHP01029,2024-07-05,2024-07-11,Individual,South,West,Parcel,Same Day,155,6,Delivered,Not On Time
+SHP01099,2024-07-06,2024-07-09,Individual,North,East,Parcel,Standard,276,3,Delivered,On Time
+SHP00071,2024-07-06,2024-07-10,Business,North,South,Parcel,Standard,299,4,Delivered,Not On Time
+SHP00026,2024-07-08,2024-07-13,Business,South,East,Document,Same Day,562,5,Delivered,Not On Time
+SHP00479,2024-07-08,2024-07-11,Business,East,South,Parcel,Standard,439,3,Delivered,On Time
+SHP01949,2024-07-08,2024-07-09,Individual,East,West,Fragile,Same Day,148,1,Delivered,On Time
+SHP00132,2024-07-08,2024-07-10,Individual,North,South,Electronics,Standard,310,2,Cancelled,Not On Time
+SHP01828,2024-07-08,2024-07-09,Individual,Central,West,Fragile,Same Day,277,1,Delivered,On Time
+SHP00256,2024-07-09,2024-07-13,Business,West,Central,Parcel,Standard,372,4,Delivered,Not On Time
+SHP01222,2024-07-09,2024-07-11,Individual,South,West,Parcel,Express,398,2,Delivered,On Time
+SHP00403,2024-07-10,2024-07-17,Individual,East,East,Parcel,Standard,444,7,Delivered,Not On Time
+SHP01887,2024-07-10,2024-07-16,Individual,East,North,Document,Express,116,6,Delivered,Not On Time
+SHP01261,2024-07-10,2024-07-12,Individual,North,East,Parcel,Standard,104,2,Delivered,On Time
+SHP00730,2024-07-12,2024-07-17,Individual,Central,East,Document,Standard,146,5,Delivered,Not On Time
+SHP00920,2024-07-12,2024-07-15,Individual,Central,Central,Fragile,Standard,402,3,Delivered,On Time
+SHP01370,2024-07-12,2024-07-15,Business,North,South,Document,Standard,300,3,Failed,Not On Time
+SHP00811,2024-07-14,2024-07-15,Business,East,West,Document,Express,430,1,Delivered,On Time
+SHP00797,2024-07-16,2024-07-22,Individual,Central,East,Fragile,Standard,376,6,Delivered,Not On Time
+SHP00162,2024-07-16,2024-07-18,Business,West,West,Electronics,Standard,278,2,Delivered,On Time
+SHP01507,2024-07-16,2024-07-23,Business,Central,Central,Parcel,Standard,451,7,Delayed,Not On Time
+SHP01319,2024-07-17,2024-07-22,Individual,West,East,Parcel,Standard,125,5,Delivered,Not On Time
+SHP01903,2024-07-18,2024-07-20,Individual,Central,West,Electronics,Standard,138,2,Delivered,On Time
+SHP01043,2024-07-19,2024-07-21,Business,Central,North,Parcel,Standard,477,2,Delayed,Not On Time
+SHP00090,2024-07-19,2024-07-21,Individual,East,South,Fragile,Standard,273,2,Delivered,On Time
+SHP00868,2024-07-20,2024-07-23,Individual,North,Central,Document,Express,329,3,Delivered,On Time
+SHP00057,2024-07-20,2024-07-25,Individual,East,North,Parcel,Standard,333,5,Delivered,Not On Time
+SHP00492,2024-07-21,2024-07-24,Business,Central,South,Document,Standard,428,3,Delayed,Not On Time
+SHP01988,2024-07-21,2024-07-25,Business,East,South,Parcel,Standard,341,4,Delivered,Not On Time
+SHP00155,2024-07-21,2024-07-25,Individual,Central,East,Electronics,Express,260,4,Delayed,Not On Time
+SHP00615,2024-07-23,2024-07-26,Individual,South,South,Parcel,Standard,176,3,Delivered,On Time
+SHP00049,2024-07-24,2024-07-28,Business,West,North,Parcel,Standard,407,4,Delivered,Not On Time
+SHP01329,2024-07-24,2024-07-30,Individual,North,North,Document,Same Day,711,6,Delivered,Not On Time
+SHP00111,2024-07-25,2024-07-28,Individual,North,North,Parcel,Express,202,3,Delayed,Not On Time
+SHP01391,2024-07-26,2024-07-30,Individual,North,Central,Parcel,Standard,314,4,Delivered,Not On Time
+SHP00197,2024-07-26,2024-07-28,Individual,West,East,Document,Standard,444,2,Delivered,On Time
+SHP01722,2024-07-26,2024-07-29,Business,Central,East,Electronics,Standard,290,3,Delayed,Not On Time
+SHP01312,2024-07-26,2024-07-27,Individual,West,West,Fragile,Express,609,1,Delivered,On Time
+SHP01270,2024-07-28,2024-08-01,Business,West,North,Parcel,Standard,413,4,Delivered,Not On Time
+SHP01997,2024-07-31,2024-08-03,Individual,West,West,Parcel,Standard,98,3,Delivered,On Time
+SHP01860,2024-07-31,2024-08-02,Individual,North,North,Parcel,Express,561,2,Delivered,On Time
+SHP01353,2024-08-01,2024-08-03,Business,North,West,Document,Standard,120,2,Failed,Not On Time
+SHP00646,2024-08-01,2024-08-05,Individual,East,East,Fragile,Standard,311,4,Delivered,Not On Time
+SHP00906,2024-08-02,2024-08-05,Individual,East,Central,Document,Standard,428,3,Delivered,On Time
+SHP01177,2024-08-03,2024-08-05,Individual,Central,South,Electronics,Standard,363,2,Delivered,On Time
+SHP00818,2024-08-03,2024-08-04,Business,East,North,Electronics,Express,308,1,Delivered,On Time
+SHP01212,2024-08-03,2024-08-04,Individual,East,East,Parcel,Same Day,166,1,Delivered,On Time
+SHP01067,2024-08-03,2024-08-06,Individual,West,Central,Parcel,Express,487,3,Delayed,Not On Time
+SHP00411,2024-08-04,2024-08-05,Individual,West,North,Fragile,Standard,272,1,Failed,Not On Time
+SHP00069,2024-08-04,2024-08-07,Individual,East,Central,Document,Standard,469,3,Delivered,On Time
+SHP01946,2024-08-04,2024-08-08,Business,West,North,Fragile,Express,619,4,Failed,Not On Time
+SHP01519,2024-08-04,2024-08-09,Business,East,West,Electronics,Express,694,5,Delivered,Not On Time
+SHP00460,2024-08-04,2024-08-08,Individual,East,North,Parcel,Standard,465,4,Delivered,Not On Time
+SHP00352,2024-08-05,2024-08-06,Individual,South,Central,Parcel,Standard,314,1,Delivered,On Time
+SHP01163,2024-08-05,2024-08-08,Individual,Central,East,Document,Express,382,3,Delivered,On Time
+SHP00840,2024-08-05,2024-08-07,Business,Central,East,Parcel,Same Day,810,2,Delivered,On Time
+SHP00148,2024-08-07,2024-08-09,Individual,North,East,Document,Express,207,2,Cancelled,Not On Time
+SHP01383,2024-08-10,2024-08-13,Business,North,East,Parcel,Express,164,3,Delivered,On Time
+SHP00537,2024-08-11,2024-08-16,Individual,East,South,Parcel,Standard,291,5,Delivered,Not On Time
+SHP01205,2024-08-11,2024-08-12,Individual,Central,South,Parcel,Express,154,1,Delivered,On Time
+SHP01365,2024-08-12,2024-08-14,Individual,Central,West,Document,Express,279,2,Delivered,On Time
+SHP00738,2024-08-12,2024-08-15,Business,East,South,Parcel,Express,357,3,Delayed,Not On Time
+SHP01157,2024-08-13,2024-08-20,Individual,West,West,Electronics,Express,634,7,Delivered,Not On Time
+SHP01161,2024-08-13,2024-08-17,Business,North,West,Document,Same Day,427,4,Delivered,Not On Time
+SHP00231,2024-08-13,2024-08-18,Business,Central,East,Document,Standard,84,5,Delivered,Not On Time
+SHP00694,2024-08-15,2024-08-19,Individual,East,East,Fragile,Standard,471,4,Delivered,Not On Time
+SHP00817,2024-08-15,2024-08-21,Business,Central,West,Fragile,Standard,397,6,Delivered,Not On Time
+SHP00717,2024-08-16,2024-08-19,Individual,East,Central,Fragile,Express,692,3,Delivered,On Time
+SHP00227,2024-08-17,2024-08-19,Individual,Central,East,Parcel,Express,448,2,Delivered,On Time
+SHP00120,2024-08-18,2024-08-19,Individual,West,East,Parcel,Express,680,1,Failed,Not On Time
+SHP01469,2024-08-18,2024-08-21,Business,East,West,Parcel,Same Day,337,3,Delivered,On Time
+SHP00085,2024-08-18,2024-08-22,Individual,East,South,Document,Express,144,4,Delivered,Not On Time
+SHP01923,2024-08-19,2024-08-23,Individual,South,North,Fragile,Express,134,4,Delivered,Not On Time
+SHP01896,2024-08-19,2024-08-20,Individual,South,North,Parcel,Express,340,1,Delivered,On Time
+SHP00638,2024-08-20,2024-08-23,Individual,East,South,Parcel,Standard,220,3,Delivered,On Time
+SHP00691,2024-08-20,2024-08-22,Individual,West,West,Document,Express,435,2,Delivered,On Time
+SHP00444,2024-08-22,2024-08-23,Business,West,South,Document,Express,420,1,Delayed,Not On Time
+SHP01992,2024-08-22,2024-08-25,Individual,South,South,Document,Express,391,3,Delivered,On Time
+SHP00577,2024-08-23,2024-08-27,Individual,North,North,Electronics,Express,454,4,Delivered,Not On Time
+SHP01987,2024-08-23,2024-08-25,Business,Central,Central,Parcel,Standard,255,2,Delivered,On Time
+SHP00763,2024-08-23,2024-08-24,Individual,West,West,Parcel,Express,669,1,Delivered,On Time
+SHP00988,2024-08-24,2024-08-26,Individual,West,Central,Electronics,Standard,100,2,Delivered,On Time
+SHP01733,2024-08-24,2024-08-26,Business,Central,East,Parcel,Standard,309,2,Delayed,Not On Time
+SHP01791,2024-08-25,2024-08-29,Individual,Central,South,Document,Express,529,4,Delivered,Not On Time
+SHP01984,2024-08-25,2024-08-26,Business,North,Central,Document,Express,475,1,Delivered,On Time
+SHP00647,2024-08-26,2024-08-30,Individual,North,Central,Parcel,Express,235,4,Delivered,Not On Time
+SHP01861,2024-08-29,2024-08-31,Individual,Central,South,Document,Express,560,2,Delivered,On Time
+SHP01662,2024-08-29,2024-08-31,Individual,Central,East,Fragile,Standard,108,2,Cancelled,Not On Time
+SHP01363,2024-08-29,2024-08-31,Individual,West,North,Parcel,Standard,300,2,Delivered,On Time
+SHP01517,2024-08-29,2024-09-03,Business,South,Central,Electronics,Express,420,5,Delivered,Not On Time
+SHP00040,2024-08-29,2024-09-03,Business,South,Central,Document,Standard,423,5,Delivered,Not On Time
+SHP01895,2024-08-29,2024-09-04,Individual,Central,Central,Parcel,Express,120,6,Failed,Not On Time
+SHP00714,2024-08-30,2024-09-02,Individual,North,West,Electronics,Standard,253,3,Delayed,Not On Time
+SHP01765,2024-08-31,2024-09-02,Individual,Central,North,Parcel,Express,449,2,Failed,Not On Time
+SHP00873,2024-08-31,2024-09-03,Business,Central,South,Electronics,Standard,421,3,Delivered,On Time
+SHP01127,2024-09-01,2024-09-05,Individual,West,South,Document,Express,641,4,Delivered,Not On Time
+SHP01853,2024-09-02,2024-09-09,Individual,West,West,Electronics,Standard,263,7,Delivered,Not On Time
+SHP00271,2024-09-02,2024-09-08,Individual,Central,Central,Fragile,Express,619,6,Delivered,Not On Time
+SHP00153,2024-09-03,2024-09-05,Business,Central,West,Document,Standard,482,2,Delivered,On Time
+SHP00340,2024-09-03,2024-09-08,Business,East,South,Electronics,Standard,310,5,Delivered,Not On Time
+SHP00644,2024-09-05,2024-09-12,Business,North,East,Parcel,Express,304,7,Delivered,Not On Time
+SHP00598,2024-09-05,2024-09-10,Business,East,Central,Document,Express,654,5,Delivered,Not On Time
+SHP00570,2024-09-06,2024-09-09,Business,North,West,Fragile,Same Day,736,3,Delivered,On Time
+SHP01081,2024-09-06,2024-09-08,Individual,South,Central,Fragile,Express,329,2,Delivered,On Time
+SHP01119,2024-09-07,2024-09-10,Business,West,South,Parcel,Express,263,3,Delivered,On Time
+SHP01387,2024-09-07,2024-09-10,Individual,South,West,Fragile,Standard,131,3,Delivered,On Time
+SHP00257,2024-09-09,2024-09-11,Individual,South,Central,Parcel,Express,403,2,Delivered,On Time
+SHP00018,2024-09-09,2024-09-13,Individual,South,North,Fragile,Standard,356,4,Cancelled,Not On Time
+SHP01784,2024-09-09,2024-09-13,Individual,Central,South,Electronics,Standard,409,4,Delayed,Not On Time
+SHP00191,2024-09-10,2024-09-14,Business,Central,Central,Document,Standard,439,4,Delivered,Not On Time
+SHP00204,2024-09-10,2024-09-14,Business,North,North,Fragile,Express,129,4,Delivered,Not On Time
+SHP01812,2024-09-10,2024-09-14,Individual,North,West,Document,Standard,407,4,Delivered,Not On Time
+SHP00525,2024-09-12,2024-09-16,Individual,South,North,Electronics,Standard,483,4,Delivered,Not On Time
+SHP01989,2024-09-12,2024-09-18,Individual,Central,North,Parcel,Standard,331,6,Cancelled,Not On Time
+SHP00369,2024-09-14,2024-09-17,Individual,West,South,Electronics,Standard,264,3,Delivered,On Time
+SHP00749,2024-09-15,2024-09-20,Business,South,East,Fragile,Standard,445,5,Delivered,Not On Time
+SHP01167,2024-09-15,2024-09-21,Business,East,North,Electronics,Standard,500,6,Delivered,Not On Time
+SHP00753,2024-09-17,2024-09-20,Business,South,Central,Parcel,Same Day,583,3,Delivered,On Time
+SHP00971,2024-09-17,2024-09-18,Individual,West,Central,Document,Standard,179,1,Delivered,On Time
+SHP01475,2024-09-17,2024-09-20,Business,North,North,Document,Standard,294,3,Delivered,On Time
+SHP01761,2024-09-18,2024-09-20,Business,Central,North,Parcel,Express,294,2,Delivered,On Time
+SHP01830,2024-09-19,2024-09-22,Business,Central,South,Parcel,Express,402,3,Delivered,On Time
+SHP00183,2024-09-19,2024-09-20,Individual,Central,South,Parcel,Express,657,1,Delayed,Not On Time
+SHP01680,2024-09-19,2024-09-22,Business,East,West,Parcel,Express,246,3,Delivered,On Time
+SHP00305,2024-09-20,2024-09-27,Individual,North,East,Document,Standard,304,7,Delayed,Not On Time
+SHP00424,2024-09-21,2024-09-24,Individual,South,West,Parcel,Standard,390,3,Delivered,On Time
+SHP01132,2024-09-22,2024-09-23,Individual,South,South,Document,Standard,256,1,Delayed,Not On Time
+SHP01782,2024-09-22,2024-09-26,Business,West,Central,Parcel,Express,585,4,Delivered,Not On Time
+SHP01012,2024-09-24,2024-09-25,Individual,West,West,Fragile,Standard,98,1,Delivered,On Time
+SHP00575,2024-09-24,2024-09-26,Business,North,North,Parcel,Express,542,2,Delivered,On Time
+SHP00318,2024-09-25,2024-09-30,Individual,Central,West,Parcel,Express,153,5,Failed,Not On Time
+SHP00059,2024-09-26,2024-09-30,Individual,South,South,Parcel,Standard,413,4,Delivered,Not On Time
+SHP01482,2024-09-26,2024-10-01,Business,North,South,Fragile,Standard,433,5,Delivered,Not On Time
+SHP00770,2024-09-26,2024-10-02,Business,Central,North,Fragile,Standard,439,6,Delivered,Not On Time
+SHP01130,2024-09-28,2024-10-03,Individual,Central,Central,Document,Standard,431,5,Delayed,Not On Time
+SHP01963,2024-09-29,2024-10-03,Business,West,East,Electronics,Same Day,493,4,Delivered,Not On Time
+SHP01344,2024-09-30,2024-10-02,Individual,South,Central,Parcel,Standard,446,2,Delivered,On Time
+SHP01060,2024-10-01,2024-10-04,Individual,North,West,Parcel,Standard,209,3,Delayed,Not On Time
+SHP01515,2024-10-02,2024-10-05,Individual,Central,South,Parcel,Standard,112,3,Delivered,On Time
+SHP00706,2024-10-03,2024-10-05,Business,South,Central,Parcel,Standard,481,2,Delivered,On Time
+SHP01922,2024-10-03,2024-10-08,Business,East,Central,Parcel,Same Day,774,5,Delivered,Not On Time
+SHP00015,2024-10-03,2024-10-05,Individual,South,Central,Electronics,Standard,118,2,Delayed,Not On Time
+SHP01257,2024-10-04,2024-10-07,Individual,Central,North,Parcel,Standard,221,3,Delayed,Not On Time
+SHP00410,2024-10-05,2024-10-10,Business,South,West,Fragile,Standard,322,5,Delivered,Not On Time
+SHP00160,2024-10-06,2024-10-10,Individual,West,East,Parcel,Standard,144,4,Delayed,Not On Time
+SHP00249,2024-10-06,2024-10-11,Business,East,Central,Fragile,Standard,360,5,Delivered,Not On Time
+SHP00625,2024-10-07,2024-10-13,Individual,East,East,Document,Express,566,6,Delivered,Not On Time
+SHP01502,2024-10-08,2024-10-13,Individual,North,South,Document,Standard,157,5,Delivered,Not On Time
+SHP02000,2024-10-09,2024-10-11,Individual,West,South,Parcel,Standard,473,2,Delivered,On Time
+SHP00233,2024-10-10,2024-10-13,Business,North,North,Electronics,Express,545,3,Delivered,On Time
+SHP01274,2024-10-11,2024-10-13,Business,West,East,Parcel,Express,343,2,Delivered,On Time
+SHP00889,2024-10-11,2024-10-15,Individual,Central,East,Parcel,Standard,258,4,Delivered,Not On Time
+SHP00912,2024-10-11,2024-10-12,Individual,East,South,Fragile,Express,497,1,Delivered,On Time
+SHP00379,2024-10-11,2024-10-14,Individual,East,South,Parcel,Standard,381,3,Delivered,On Time
+SHP00914,2024-10-12,2024-10-15,Individual,West,West,Electronics,Standard,376,3,Delivered,On Time
+SHP01739,2024-10-12,2024-10-15,Business,Central,West,Fragile,Standard,432,3,Delivered,On Time
+SHP01719,2024-10-13,2024-10-19,Business,South,South,Parcel,Standard,216,6,Delivered,Not On Time
+SHP01479,2024-10-13,2024-10-15,Business,East,North,Fragile,Same Day,671,2,Delivered,On Time
+SHP01816,2024-10-13,2024-10-18,Business,North,Central,Parcel,Same Day,772,5,Delivered,Not On Time
+SHP01687,2024-10-14,2024-10-16,Individual,North,West,Parcel,Express,132,2,Delivered,On Time
+SHP01411,2024-10-14,2024-10-17,Individual,North,South,Parcel,Standard,448,3,Delivered,On Time
+SHP00810,2024-10-15,2024-10-18,Individual,North,Central,Electronics,Standard,457,3,Delivered,On Time
+SHP00083,2024-10-15,2024-10-20,Individual,Central,South,Electronics,Standard,247,5,Delivered,Not On Time
+SHP01575,2024-10-17,2024-10-20,Individual,South,West,Parcel,Express,650,3,Delivered,On Time
+SHP01621,2024-10-17,2024-10-23,Individual,East,West,Parcel,Express,333,6,Delivered,Not On Time
+SHP01461,2024-10-19,2024-10-23,Individual,South,West,Electronics,Standard,497,4,Delivered,Not On Time
+SHP01142,2024-10-19,2024-10-21,Business,West,South,Parcel,Express,342,2,Delivered,On Time
+SHP00159,2024-10-20,2024-10-21,Individual,Central,North,Parcel,Standard,220,1,Delivered,On Time
+SHP01238,2024-10-21,2024-10-28,Individual,East,Central,Fragile,Same Day,882,7,Delayed,Not On Time
+SHP01444,2024-10-21,2024-10-23,Business,Central,East,Parcel,Standard,252,2,Delivered,On Time
+SHP01047,2024-10-22,2024-10-25,Individual,South,South,Document,Standard,338,3,Delayed,Not On Time
+SHP00782,2024-10-22,2024-10-26,Business,East,South,Parcel,Standard,123,4,Delivered,Not On Time
+SHP00063,2024-10-22,2024-10-23,Business,East,West,Document,Express,668,1,Delivered,On Time
+SHP01635,2024-10-24,2024-10-28,Business,South,West,Parcel,Standard,140,4,Delivered,Not On Time
+SHP01477,2024-10-27,2024-10-29,Individual,North,East,Parcel,Express,146,2,Delivered,On Time
+SHP00837,2024-10-28,2024-10-30,Business,North,South,Electronics,Standard,213,2,Delivered,On Time
+SHP00251,2024-10-28,2024-11-01,Business,East,North,Parcel,Express,452,4,Delivered,Not On Time
+SHP01983,2024-10-28,2024-11-01,Business,Central,North,Fragile,Standard,470,4,Delivered,Not On Time
+SHP01685,2024-10-28,2024-10-30,Individual,West,West,Parcel,Standard,212,2,Delivered,On Time
+SHP01539,2024-10-29,2024-11-01,Individual,Central,West,Document,Standard,386,3,Delivered,On Time
+SHP00659,2024-10-29,2024-11-05,Individual,West,East,Document,Standard,269,7,Delivered,Not On Time
+SHP01303,2024-10-29,2024-10-30,Individual,North,West,Document,Standard,228,1,Delivered,On Time
+SHP01591,2024-10-30,2024-11-02,Individual,East,North,Electronics,Express,480,3,Delayed,Not On Time
+SHP01494,2024-10-31,2024-11-03,Individual,West,Central,Fragile,Express,238,3,Cancelled,Not On Time
+SHP01573,2024-10-31,2024-11-03,Business,South,South,Electronics,Express,659,3,Delayed,Not On Time
+SHP00297,2024-10-31,2024-11-01,Individual,East,West,Document,Express,125,1,Delivered,On Time
+SHP01271,2024-11-01,2024-11-04,Individual,East,East,Document,Standard,132,3,Delivered,On Time
+SHP01412,2024-11-02,2024-11-07,Individual,East,East,Document,Express,596,5,Delivered,Not On Time
+SHP01873,2024-11-03,2024-11-09,Individual,Central,West,Document,Same Day,889,6,Delivered,Not On Time
+SHP01526,2024-11-03,2024-11-07,Individual,West,North,Document,Standard,121,4,Failed,Not On Time
+SHP01409,2024-11-04,2024-11-06,Business,North,North,Parcel,Express,326,2,Failed,Not On Time
+SHP01115,2024-11-06,2024-11-09,Business,South,Central,Fragile,Standard,317,3,Delivered,On Time
+SHP01536,2024-11-06,2024-11-10,Business,South,East,Electronics,Standard,496,4,Delivered,Not On Time
+SHP01760,2024-11-06,2024-11-08,Business,South,South,Parcel,Express,573,2,Delivered,On Time
+SHP01721,2024-11-06,2024-11-11,Individual,West,Central,Parcel,Standard,483,5,Delivered,Not On Time
+SHP01416,2024-11-07,2024-11-10,Individual,East,Central,Parcel,Express,402,3,Delivered,On Time
+SHP01633,2024-11-07,2024-11-09,Individual,West,West,Electronics,Standard,491,2,Delivered,On Time
+SHP00869,2024-11-08,2024-11-11,Business,West,East,Parcel,Standard,455,3,Delayed,Not On Time
+SHP01489,2024-11-08,2024-11-11,Individual,North,South,Fragile,Standard,223,3,Delivered,On Time
+SHP00935,2024-11-08,2024-11-14,Business,South,South,Document,Standard,130,6,Delivered,Not On Time
+SHP00295,2024-11-09,2024-11-14,Business,South,Central,Fragile,Express,230,5,Delivered,Not On Time
+SHP00703,2024-11-10,2024-11-13,Business,East,South,Electronics,Express,266,3,Delivered,On Time
+SHP00038,2024-11-11,2024-11-15,Business,East,Central,Parcel,Standard,455,4,Delivered,Not On Time
+SHP01379,2024-11-12,2024-11-15,Business,North,Central,Parcel,Express,311,3,Delayed,Not On Time
+SHP01126,2024-11-13,2024-11-18,Individual,West,North,Parcel,Standard,330,5,Delivered,Not On Time
+SHP01465,2024-11-13,2024-11-15,Business,North,North,Fragile,Standard,217,2,Delayed,Not On Time
+SHP01206,2024-11-13,2024-11-15,Individual,West,Central,Electronics,Standard,276,2,Delivered,On Time
+SHP00762,2024-11-13,2024-11-17,Individual,North,West,Document,Express,140,4,Delivered,Not On Time
+SHP00138,2024-11-13,2024-11-15,Individual,North,East,Fragile,Standard,358,2,Delayed,Not On Time
+SHP00746,2024-11-15,2024-11-20,Individual,Central,West,Document,Express,379,5,Delivered,Not On Time
+SHP00757,2024-11-16,2024-11-17,Individual,North,West,Document,Express,235,1,Delivered,On Time
+SHP00283,2024-11-16,2024-11-17,Individual,Central,East,Electronics,Standard,217,1,Failed,Not On Time
+SHP01738,2024-11-16,2024-11-19,Business,North,East,Parcel,Standard,480,3,Failed,Not On Time
+SHP00822,2024-11-19,2024-11-21,Individual,South,South,Parcel,Express,239,2,Cancelled,Not On Time
+SHP01611,2024-11-19,2024-11-22,Business,Central,West,Document,Same Day,342,3,Delivered,On Time
+SHP01140,2024-11-19,2024-11-21,Business,West,West,Parcel,Same Day,686,2,Delivered,On Time
+SHP00735,2024-11-21,2024-11-23,Individual,North,North,Electronics,Standard,405,2,Delivered,On Time
+SHP00904,2024-11-22,2024-11-25,Individual,North,East,Document,Standard,259,3,Cancelled,Not On Time
+SHP00938,2024-11-23,2024-11-28,Individual,West,South,Electronics,Standard,208,5,Delivered,Not On Time
+SHP01585,2024-11-23,2024-11-29,Individual,East,West,Document,Standard,147,6,Delivered,Not On Time
+SHP01196,2024-11-23,2024-11-26,Business,South,East,Document,Standard,240,3,Delivered,On Time
+SHP00758,2024-11-24,2024-11-25,Business,West,Central,Parcel,Express,358,1,Delivered,On Time
+SHP01939,2024-11-24,2024-11-25,Individual,Central,Central,Fragile,Standard,417,1,Cancelled,Not On Time
+SHP01182,2024-11-24,2024-11-28,Individual,South,North,Document,Standard,309,4,Delivered,Not On Time
+SHP01065,2024-11-25,2024-11-26,Individual,South,West,Document,Express,316,1,Delivered,On Time
+SHP00956,2024-11-25,2024-11-28,Individual,East,North,Parcel,Express,174,3,Delivered,On Time
+SHP00006,2024-11-26,2024-11-30,Individual,North,East,Parcel,Standard,140,4,Delayed,Not On Time
+SHP00764,2024-11-29,2024-12-01,Individual,Central,East,Parcel,Same Day,373,2,Failed,Not On Time
+SHP01498,2024-11-29,2024-12-04,Business,South,East,Parcel,Standard,348,5,Delivered,Not On Time
+SHP01458,2024-11-29,2024-12-03,Business,West,North,Parcel,Express,447,4,Delivered,Not On Time
+SHP01442,2024-11-30,2024-12-02,Business,East,Central,Fragile,Express,377,2,Delivered,On Time
+SHP01254,2024-11-30,2024-12-03,Individual,Central,South,Fragile,Standard,193,3,Delivered,On Time
+SHP01083,2024-11-30,2024-12-01,Individual,South,North,Document,Standard,397,1,Cancelled,Not On Time
+SHP00368,2024-12-01,2024-12-04,Business,Central,South,Parcel,Express,427,3,Delivered,On Time
+SHP01606,2024-12-01,2024-12-05,Individual,West,South,Parcel,Standard,156,4,Delivered,Not On Time
+SHP01789,2024-12-01,2024-12-05,Individual,West,Central,Fragile,Express,561,4,Delayed,Not On Time
+SHP01213,2024-12-01,2024-12-05,Business,Central,North,Parcel,Standard,83,4,Delayed,Not On Time
+SHP00653,2024-12-02,2024-12-05,Individual,South,South,Parcel,Same Day,778,3,Delivered,On Time
+SHP01863,2024-12-03,2024-12-09,Individual,South,West,Parcel,Express,549,6,Delivered,Not On Time
+SHP00065,2024-12-03,2024-12-06,Individual,North,North,Fragile,Standard,129,3,Delivered,On Time
+SHP00178,2024-12-03,2024-12-06,Individual,North,East,Fragile,Express,522,3,Delivered,On Time
+SHP00210,2024-12-03,2024-12-06,Individual,South,East,Fragile,Express,323,3,Delivered,On Time
+SHP01345,2024-12-03,2024-12-06,Individual,South,East,Document,Same Day,731,3,Delivered,On Time
+SHP01068,2024-12-04,2024-12-06,Individual,South,Central,Document,Express,297,2,Delivered,On Time
+SHP00457,2024-12-04,2024-12-08,Individual,South,East,Electronics,Standard,425,4,Delivered,Not On Time
+SHP01135,2024-12-05,2024-12-10,Business,South,West,Parcel,Express,178,5,Delayed,Not On Time
+SHP01754,2024-12-06,2024-12-09,Business,West,South,Document,Standard,465,3,Delivered,On Time
+SHP00355,2024-12-06,2024-12-09,Individual,East,East,Parcel,Same Day,671,3,Delivered,On Time
+SHP01764,2024-12-07,2024-12-09,Individual,North,Central,Fragile,Express,476,2,Delivered,On Time
+SHP01006,2024-12-07,2024-12-12,Business,East,Central,Fragile,Standard,369,5,Delivered,Not On Time
+SHP01711,2024-12-07,2024-12-11,Individual,South,Central,Parcel,Express,346,4,Delivered,Not On Time
+SHP00900,2024-12-07,2024-12-14,Business,East,North,Parcel,Standard,402,7,Cancelled,Not On Time
+SHP01596,2024-12-08,2024-12-09,Individual,East,East,Document,Standard,138,1,Delivered,On Time
+SHP00011,2024-12-09,2024-12-10,Business,North,West,Electronics,Standard,162,1,Delivered,On Time
+SHP01543,2024-12-10,2024-12-15,Individual,South,Central,Electronics,Express,207,5,Delivered,Not On Time
+SHP01819,2024-12-10,2024-12-12,Business,East,South,Fragile,Express,223,2,Delivered,On Time
+SHP00640,2024-12-11,2024-12-13,Individual,East,East,Document,Standard,465,2,Cancelled,Not On Time
+SHP00185,2024-12-11,2024-12-13,Individual,Central,East,Parcel,Standard,469,2,Delayed,Not On Time
+SHP00836,2024-12-11,2024-12-13,Individual,East,East,Document,Standard,200,2,Delivered,On Time
+SHP00879,2024-12-12,2024-12-15,Individual,South,South,Parcel,Express,389,3,Delivered,On Time
+SHP01734,2024-12-13,2024-12-18,Individual,Central,Central,Document,Standard,492,5,Delayed,Not On Time
+SHP00478,2024-12-13,2024-12-18,Individual,North,West,Parcel,Express,539,5,Delivered,Not On Time
+SHP01207,2024-12-14,2024-12-15,Individual,South,West,Fragile,Standard,311,1,Delivered,On Time
+SHP01321,2024-12-14,2024-12-16,Individual,West,Central,Parcel,Express,528,2,Delivered,On Time
+SHP00649,2024-12-15,2024-12-16,Individual,South,North,Parcel,Standard,215,1,Delivered,On Time
+SHP01628,2024-12-15,2024-12-19,Individual,East,West,Parcel,Express,297,4,Delivered,Not On Time
+SHP00710,2024-12-15,2024-12-19,Individual,West,West,Parcel,Express,475,4,Delivered,Not On Time
+SHP01932,2024-12-15,2024-12-17,Individual,East,Central,Parcel,Standard,147,2,Delayed,Not On Time
+SHP01958,2024-12-16,2024-12-22,Individual,North,North,Parcel,Standard,242,6,Cancelled,Not On Time
+SHP01215,2024-12-18,2024-12-20,Individual,West,East,Parcel,Express,438,2,Delivered,On Time
+SHP01424,2024-12-18,2024-12-22,Individual,East,South,Parcel,Standard,126,4,Delivered,Not On Time
+SHP01692,2024-12-18,2024-12-22,Individual,South,Central,Parcel,Same Day,704,4,Delivered,Not On Time
+SHP01715,2024-12-19,2024-12-20,Business,South,South,Electronics,Express,319,1,Delivered,On Time
+SHP00848,2024-12-21,2024-12-26,Business,North,North,Fragile,Express,232,5,Delivered,Not On Time
+SHP01236,2024-12-21,2024-12-24,Business,North,Central,Document,Express,157,3,Delivered,On Time
+SHP01221,2024-12-21,2024-12-27,Individual,South,West,Electronics,Standard,385,6,Delayed,Not On Time
+SHP00357,2024-12-22,2024-12-27,Individual,West,West,Parcel,Express,217,5,Delayed,Not On Time
+SHP00502,2024-12-23,2024-12-25,Individual,East,East,Document,Standard,344,2,Delivered,On Time
+SHP01241,2024-12-25,2024-12-29,Individual,South,North,Parcel,Express,552,4,Delivered,Not On Time
+SHP01937,2024-12-25,2024-12-27,Individual,West,West,Parcel,Standard,392,2,Delivered,On Time
+SHP00623,2024-12-25,2024-12-28,Individual,Central,South,Parcel,Standard,330,3,Delivered,On Time
+SHP01549,2024-12-26,2024-12-27,Business,Central,West,Parcel,Standard,225,1,Delayed,Not On Time
+SHP01753,2024-12-26,2024-12-29,Individual,Central,North,Fragile,Standard,344,3,Delivered,On Time
+SHP01219,2024-12-28,2025-01-03,Individual,North,West,Parcel,Standard,362,6,Delivered,Not On Time
+SHP00676,2024-12-28,2025-01-01,Individual,South,East,Document,Express,438,4,Delivered,Not On Time
+SHP01234,2024-12-28,2025-01-02,Individual,Central,East,Document,Express,181,5,Delivered,Not On Time
+SHP00838,2024-12-28,2024-12-31,Business,North,North,Parcel,Standard,385,3,Delayed,Not On Time
+SHP01106,2024-12-29,2025-01-02,Business,South,North,Document,Same Day,376,4,Delivered,Not On Time
+SHP01598,2024-12-29,2025-01-01,Business,West,Central,Document,Standard,129,3,Delivered,On Time
+SHP01737,2024-12-29,2025-01-04,Business,East,Central,Parcel,Standard,444,6,Delivered,Not On Time
+SHP01041,2024-12-30,2025-01-04,Individual,West,South,Document,Standard,87,5,Failed,Not On Time
+SHP01246,2024-12-30,2024-12-31,Business,North,East,Electronics,Express,325,1,Delivered,On Time
+SHP00667,2024-12-30,2024-12-31,Individual,West,North,Parcel,Express,388,1,Delivered,On Time
+SHP01924,2024-12-31,2025-01-04,Individual,North,East,Parcel,Same Day,394,4,Delayed,Not On Time
+SHP01936,2025-01-02,2025-01-06,Individual,East,Central,Document,Standard,476,4,Delivered,Not On Time
+SHP01951,2025-01-04,2025-01-08,Individual,West,East,Fragile,Standard,483,4,Delivered,Not On Time
+SHP00319,2025-01-04,2025-01-05,Individual,West,East,Parcel,Same Day,158,1,Delayed,Not On Time
+SHP00864,2025-01-05,2025-01-12,Individual,Central,East,Parcel,Standard,239,7,Cancelled,Not On Time
+SHP01092,2025-01-06,2025-01-08,Individual,South,South,Fragile,Express,358,2,Delivered,On Time
+SHP00505,2025-01-07,2025-01-08,Business,South,South,Fragile,Express,615,1,Delivered,On Time
+SHP01618,2025-01-07,2025-01-11,Individual,South,West,Fragile,Standard,413,4,Delayed,Not On Time
+SHP01070,2025-01-08,2025-01-11,Individual,North,West,Fragile,Standard,102,3,Delivered,On Time
+SHP00534,2025-01-08,2025-01-09,Individual,East,West,Electronics,Standard,107,1,Delayed,Not On Time
+SHP01955,2025-01-08,2025-01-10,Individual,South,North,Electronics,Express,196,2,Failed,Not On Time
+SHP01529,2025-01-09,2025-01-14,Individual,West,West,Parcel,Standard,112,5,Delivered,Not On Time
+SHP01460,2025-01-09,2025-01-11,Individual,West,South,Fragile,Standard,218,2,Delivered,On Time
+SHP00765,2025-01-10,2025-01-15,Individual,Central,Central,Fragile,Standard,274,5,Delivered,Not On Time
+SHP01139,2025-01-10,2025-01-12,Individual,West,East,Parcel,Express,409,2,Delivered,On Time
+SHP01131,2025-01-11,2025-01-14,Individual,Central,East,Fragile,Standard,137,3,Delivered,On Time
+SHP01324,2025-01-12,2025-01-15,Business,Central,Central,Parcel,Same Day,652,3,Delayed,Not On Time
+SHP01947,2025-01-12,2025-01-17,Business,Central,North,Parcel,Standard,437,5,Delivered,Not On Time
+SHP01647,2025-01-12,2025-01-15,Business,East,North,Parcel,Express,556,3,Delivered,On Time
+SHP00084,2025-01-13,2025-01-17,Individual,Central,East,Parcel,Standard,447,4,Delivered,Not On Time
+SHP00072,2025-01-14,2025-01-18,Business,West,West,Document,Same Day,743,4,Delivered,Not On Time
+SHP00375,2025-01-14,2025-01-17,Individual,West,West,Parcel,Express,529,3,Delayed,Not On Time
+SHP01466,2025-01-15,2025-01-17,Individual,West,South,Parcel,Standard,383,2,Delivered,On Time
+SHP01792,2025-01-15,2025-01-16,Individual,North,East,Parcel,Same Day,889,1,Delivered,On Time
+SHP01278,2025-01-15,2025-01-16,Business,South,South,Fragile,Express,204,1,Delayed,Not On Time
+SHP01709,2025-01-15,2025-01-19,Business,North,South,Fragile,Express,365,4,Delivered,Not On Time
+SHP01821,2025-01-16,2025-01-19,Business,South,East,Parcel,Express,682,3,Delivered,On Time
+SHP01388,2025-01-17,2025-01-18,Individual,West,South,Electronics,Standard,80,1,Delivered,On Time
+SHP01525,2025-01-18,2025-01-21,Business,East,South,Parcel,Standard,168,3,Delayed,Not On Time
+SHP00150,2025-01-19,2025-01-22,Individual,East,Central,Fragile,Express,426,3,Delivered,On Time
+SHP00546,2025-01-19,2025-01-20,Individual,North,North,Parcel,Standard,454,1,Delivered,On Time
+SHP01851,2025-01-20,2025-01-27,Individual,North,West,Document,Express,199,7,Delayed,Not On Time
+SHP00013,2025-01-20,2025-01-25,Individual,North,North,Parcel,Standard,446,5,Delayed,Not On Time
+SHP00876,2025-01-20,2025-01-22,Business,North,South,Parcel,Standard,443,2,Delivered,On Time
+SHP01338,2025-01-20,2025-01-23,Individual,North,North,Parcel,Express,648,3,Delivered,On Time
+SHP01320,2025-01-21,2025-01-26,Individual,West,South,Parcel,Standard,128,5,Delivered,Not On Time
+SHP00477,2025-01-21,2025-01-24,Individual,West,North,Fragile,Express,249,3,Delayed,Not On Time
+SHP00036,2025-01-22,2025-01-26,Individual,South,South,Fragile,Standard,492,4,Delivered,Not On Time
+SHP01136,2025-01-23,2025-01-30,Individual,North,South,Document,Standard,380,7,Cancelled,Not On Time
+SHP00578,2025-01-23,2025-01-25,Individual,North,Central,Parcel,Express,517,2,Delivered,On Time
+SHP00523,2025-01-24,2025-01-27,Individual,North,South,Document,Express,280,3,Delayed,Not On Time
+SHP01809,2025-01-24,2025-01-26,Business,West,South,Parcel,Standard,285,2,Failed,Not On Time
+SHP01082,2025-01-25,2025-01-27,Individual,North,West,Parcel,Express,269,2,Delivered,On Time
+SHP00799,2025-01-25,2025-01-29,Business,Central,South,Fragile,Standard,107,4,Delivered,Not On Time
+SHP00081,2025-01-26,2025-01-28,Business,North,South,Document,Express,113,2,Delivered,On Time
+SHP01889,2025-01-27,2025-02-01,Individual,Central,South,Electronics,Standard,119,5,Delivered,Not On Time
+SHP00110,2025-01-27,2025-01-30,Individual,South,South,Fragile,Standard,359,3,Delayed,Not On Time
+SHP01340,2025-01-29,2025-01-31,Business,Central,South,Fragile,Standard,137,2,Delivered,On Time
+SHP01871,2025-01-29,2025-01-31,Individual,North,West,Parcel,Standard,283,2,Delivered,On Time
+SHP00970,2025-01-30,2025-02-02,Individual,South,West,Parcel,Standard,441,3,Delivered,On Time
+SHP00839,2025-01-30,2025-02-01,Business,Central,West,Fragile,Express,402,2,Delivered,On Time
+SHP00432,2025-01-30,2025-02-01,Individual,Central,North,Parcel,Express,325,2,Delivered,On Time
+SHP00421,2025-01-30,2025-02-02,Individual,East,Central,Fragile,Standard,393,3,Delivered,On Time
+SHP00417,2025-01-31,2025-02-03,Individual,Central,Central,Parcel,Standard,463,3,Delivered,On Time
+SHP01291,2025-01-31,2025-02-03,Business,South,West,Electronics,Standard,258,3,Delivered,On Time
+SHP00380,2025-01-31,2025-02-04,Individual,East,Central,Electronics,Express,511,4,Delivered,Not On Time
+SHP01561,2025-01-31,2025-02-01,Individual,West,Central,Electronics,Express,413,1,Delivered,On Time
+SHP01884,2025-01-31,2025-02-01,Business,Central,South,Parcel,Express,370,1,Cancelled,Not On Time
+SHP00107,2025-02-01,2025-02-06,Individual,Central,South,Fragile,Standard,428,5,Delivered,Not On Time
+SHP00215,2025-02-01,2025-02-03,Individual,South,North,Fragile,Express,297,2,Delivered,On Time
+SHP00441,2025-02-01,2025-02-04,Individual,North,Central,Parcel,Standard,381,3,Delivered,On Time
+SHP01777,2025-02-02,2025-02-06,Individual,South,West,Parcel,Standard,359,4,Delivered,Not On Time
+SHP01607,2025-02-02,2025-02-08,Individual,South,East,Electronics,Standard,456,6,Delivered,Not On Time
+SHP01147,2025-02-02,2025-02-07,Business,North,North,Fragile,Standard,167,5,Delivered,Not On Time
+SHP01926,2025-02-02,2025-02-07,Individual,South,Central,Parcel,Express,500,5,Failed,Not On Time
+SHP00285,2025-02-03,2025-02-07,Individual,East,West,Parcel,Standard,321,4,Delivered,Not On Time
+SHP01831,2025-02-03,2025-02-07,Business,Central,South,Fragile,Same Day,292,4,Delivered,Not On Time
+SHP00581,2025-02-04,2025-02-06,Business,Central,East,Parcel,Standard,278,2,Delayed,Not On Time
+SHP00157,2025-02-04,2025-02-07,Individual,Central,North,Electronics,Express,570,3,Delivered,On Time
+SHP01265,2025-02-04,2025-02-06,Individual,Central,South,Parcel,Express,486,2,Delivered,On Time
+SHP00217,2025-02-04,2025-02-06,Individual,North,South,Parcel,Standard,354,2,Delivered,On Time
+SHP01354,2025-02-04,2025-02-07,Individual,Central,Central,Parcel,Standard,432,3,Delivered,On Time
+SHP01079,2025-02-04,2025-02-11,Individual,Central,South,Electronics,Standard,136,7,Delivered,Not On Time
+SHP00781,2025-02-05,2025-02-08,Business,Central,North,Document,Standard,197,3,Delivered,On Time
+SHP01095,2025-02-05,2025-02-06,Individual,West,South,Parcel,Express,521,1,Delivered,On Time
+SHP00054,2025-02-05,2025-02-07,Individual,East,South,Fragile,Same Day,407,2,Delivered,On Time
+SHP00172,2025-02-06,2025-02-09,Business,North,Central,Parcel,Standard,167,3,Cancelled,Not On Time
+SHP01430,2025-02-07,2025-02-14,Individual,East,North,Electronics,Standard,492,7,Cancelled,Not On Time
+SHP00198,2025-02-07,2025-02-12,Individual,West,West,Parcel,Express,624,5,Delayed,Not On Time
+SHP01852,2025-02-08,2025-02-11,Individual,East,East,Parcel,Standard,451,3,Delivered,On Time
+SHP00547,2025-02-08,2025-02-09,Business,North,North,Fragile,Standard,300,1,Delayed,Not On Time
+SHP01741,2025-02-09,2025-02-11,Business,East,South,Parcel,Express,239,2,Delivered,On Time
+SHP01762,2025-02-09,2025-02-11,Business,East,Central,Parcel,Standard,469,2,Delivered,On Time
+SHP01037,2025-02-09,2025-02-11,Individual,North,South,Fragile,Standard,489,2,Delivered,On Time
+SHP00096,2025-02-10,2025-02-12,Individual,North,North,Document,Standard,249,2,Failed,Not On Time
+SHP01603,2025-02-10,2025-02-12,Individual,West,South,Electronics,Express,288,2,Delivered,On Time
+SHP00276,2025-02-11,2025-02-15,Individual,North,South,Document,Standard,169,4,Delivered,Not On Time
+SHP01918,2025-02-11,2025-02-13,Individual,East,West,Electronics,Express,353,2,Delivered,On Time
+SHP01394,2025-02-13,2025-02-16,Business,Central,West,Fragile,Standard,322,3,Delayed,Not On Time
+SHP00396,2025-02-16,2025-02-19,Individual,South,Central,Fragile,Standard,364,3,Delayed,Not On Time
+SHP01971,2025-02-17,2025-02-20,Individual,North,East,Parcel,Same Day,421,3,Delayed,Not On Time
+SHP01250,2025-02-17,2025-02-18,Individual,South,Central,Fragile,Express,267,1,Delivered,On Time
+SHP01118,2025-02-17,2025-02-19,Individual,South,South,Document,Express,332,2,Delayed,Not On Time
+SHP00878,2025-02-21,2025-02-28,Individual,North,Central,Document,Standard,198,7,Delivered,Not On Time
+SHP00392,2025-02-21,2025-02-23,Business,West,South,Parcel,Standard,499,2,Delivered,On Time
+SHP01173,2025-02-22,2025-03-01,Individual,Central,East,Fragile,Standard,259,7,Delivered,Not On Time
+SHP00082,2025-02-22,2025-02-23,Business,South,North,Fragile,Same Day,792,1,Delivered,On Time
+SHP01671,2025-02-22,2025-02-24,Business,Central,Central,Electronics,Standard,99,2,Delivered,On Time
+SHP00804,2025-02-23,2025-02-26,Individual,West,South,Parcel,Same Day,234,3,Delivered,On Time
+SHP01838,2025-02-23,2025-03-01,Business,East,North,Parcel,Same Day,877,6,Delivered,Not On Time
+SHP00859,2025-02-23,2025-02-26,Business,West,South,Parcel,Same Day,284,3,Delivered,On Time
+SHP01439,2025-02-23,2025-02-25,Business,West,West,Document,Standard,482,2,Delivered,On Time
+SHP00785,2025-02-25,2025-02-27,Individual,North,South,Parcel,Express,137,2,Cancelled,Not On Time
+SHP01840,2025-02-25,2025-02-28,Individual,West,East,Fragile,Standard,152,3,Delivered,On Time
+SHP01223,2025-02-25,2025-03-01,Individual,South,East,Parcel,Express,134,4,Delivered,Not On Time
+SHP01890,2025-02-28,2025-03-05,Individual,East,Central,Parcel,Standard,309,5,Cancelled,Not On Time
+SHP00700,2025-02-28,2025-03-02,Individual,Central,West,Parcel,Standard,318,2,Delivered,On Time
+SHP01696,2025-02-28,2025-03-02,Business,South,East,Parcel,Express,640,2,Delivered,On Time
+SHP01232,2025-03-01,2025-03-02,Individual,North,West,Document,Express,365,1,Delivered,On Time
+SHP01600,2025-03-02,2025-03-03,Individual,South,West,Fragile,Express,525,1,Delivered,On Time
+SHP01537,2025-03-02,2025-03-03,Individual,North,East,Parcel,Express,385,1,Delivered,On Time
+SHP01522,2025-03-02,2025-03-04,Individual,East,West,Parcel,Same Day,637,2,Delivered,On Time
+SHP01703,2025-03-03,2025-03-06,Business,West,West,Document,Standard,266,3,Delivered,On Time
+SHP01378,2025-03-03,2025-03-06,Individual,South,West,Parcel,Standard,183,3,Delivered,On Time
+SHP00913,2025-03-04,2025-03-11,Individual,West,East,Fragile,Standard,369,7,Delivered,Not On Time
+SHP01314,2025-03-05,2025-03-08,Individual,East,North,Fragile,Express,154,3,Delayed,Not On Time
+SHP01143,2025-03-07,2025-03-09,Individual,South,North,Parcel,Standard,479,2,Delayed,Not On Time
+SHP00354,2025-03-07,2025-03-08,Individual,North,East,Parcel,Express,225,1,Delivered,On Time
+SHP00588,2025-03-10,2025-03-15,Business,Central,North,Electronics,Express,573,5,Delivered,Not On Time
+SHP00596,2025-03-10,2025-03-14,Business,South,West,Fragile,Standard,94,4,Delayed,Not On Time
+SHP00907,2025-03-10,2025-03-13,Business,North,East,Parcel,Standard,189,3,Delivered,On Time
+SHP01925,2025-03-11,2025-03-14,Business,North,North,Parcel,Standard,333,3,Cancelled,Not On Time
+SHP01999,2025-03-11,2025-03-13,Individual,North,East,Document,Same Day,731,2,Delivered,On Time
+SHP00572,2025-03-13,2025-03-15,Business,East,East,Parcel,Standard,330,2,Delivered,On Time
+SHP00229,2025-03-13,2025-03-16,Business,North,Central,Fragile,Express,442,3,Failed,Not On Time
+SHP01677,2025-03-16,2025-03-17,Individual,Central,North,Electronics,Standard,500,1,Delayed,Not On Time
+SHP00362,2025-03-17,2025-03-18,Individual,East,North,Parcel,Express,482,1,Delivered,On Time
+SHP00141,2025-03-17,2025-03-18,Individual,Central,South,Parcel,Standard,100,1,Delivered,On Time
+SHP01930,2025-03-17,2025-03-21,Business,North,West,Electronics,Standard,219,4,Delivered,Not On Time
+SHP00992,2025-03-17,2025-03-19,Business,North,Central,Fragile,Express,133,2,Failed,Not On Time
+SHP00937,2025-03-18,2025-03-20,Individual,East,North,Parcel,Express,522,2,Delivered,On Time
+SHP00302,2025-03-19,2025-03-23,Business,South,East,Parcel,Express,329,4,Delivered,Not On Time
+SHP01422,2025-03-20,2025-03-23,Business,West,West,Parcel,Standard,271,3,Delivered,On Time
+SHP01634,2025-03-20,2025-03-22,Individual,West,North,Document,Standard,489,2,Delivered,On Time
+SHP00422,2025-03-20,2025-03-23,Business,West,West,Parcel,Express,644,3,Delivered,On Time
+SHP00462,2025-03-20,2025-03-21,Individual,East,East,Parcel,Standard,326,1,Delivered,On Time
+SHP01724,2025-03-21,2025-03-24,Business,North,North,Electronics,Express,228,3,Cancelled,Not On Time
+SHP01808,2025-03-22,2025-03-25,Business,East,West,Parcel,Standard,357,3,Delivered,On Time
+SHP00597,2025-03-22,2025-03-23,Individual,Central,West,Parcel,Express,150,1,Delayed,Not On Time
+SHP01244,2025-03-23,2025-03-27,Individual,South,East,Parcel,Express,423,4,Delivered,Not On Time
+SHP01758,2025-03-24,2025-03-27,Individual,North,East,Document,Express,472,3,Delivered,On Time
+SHP00563,2025-03-24,2025-03-25,Individual,Central,East,Parcel,Standard,500,1,Delivered,On Time
+SHP01911,2025-03-24,2025-03-27,Business,East,Central,Parcel,Express,529,3,Delivered,On Time
+SHP00527,2025-03-25,2025-03-27,Individual,North,North,Parcel,Standard,214,2,Delivered,On Time
+SHP00947,2025-03-27,2025-03-30,Individual,North,East,Document,Express,442,3,Delivered,On Time
+SHP00192,2025-03-28,2025-03-29,Business,North,North,Parcel,Standard,86,1,Delivered,On Time
+SHP00350,2025-03-28,2025-03-30,Individual,South,South,Fragile,Standard,294,2,Delivered,On Time
+SHP01718,2025-03-28,2025-03-31,Business,East,North,Parcel,Standard,190,3,Delivered,On Time
+SHP00236,2025-03-28,2025-03-31,Business,South,South,Fragile,Express,473,3,Delivered,On Time
+SHP01587,2025-03-29,2025-03-30,Individual,Central,North,Parcel,Standard,321,1,Delivered,On Time
+SHP01198,2025-03-29,2025-03-31,Business,South,East,Fragile,Standard,388,2,Delivered,On Time
+SHP01848,2025-03-30,2025-04-01,Business,East,North,Document,Standard,398,2,Delivered,On Time
+SHP01565,2025-03-30,2025-03-31,Business,East,South,Electronics,Standard,431,1,Delivered,On Time
+SHP01014,2025-03-30,2025-04-01,Individual,East,South,Document,Express,220,2,Delivered,On Time
+SHP00425,2025-03-30,2025-04-04,Individual,West,South,Fragile,Express,636,5,Delayed,Not On Time
+SHP01330,2025-03-30,2025-03-31,Individual,Central,Central,Document,Express,428,1,Delayed,Not On Time
+SHP00061,2025-03-31,2025-04-02,Individual,North,South,Fragile,Express,286,2,Delivered,On Time
+SHP00473,2025-03-31,2025-04-02,Individual,Central,Central,Parcel,Same Day,666,2,Delivered,On Time
+SHP01743,2025-03-31,2025-04-02,Individual,West,Central,Electronics,Express,181,2,Delivered,On Time
+SHP00558,2025-04-01,2025-04-03,Individual,Central,West,Document,Express,501,2,Delivered,On Time
+SHP01824,2025-04-01,2025-04-04,Business,East,South,Document,Standard,275,3,Failed,Not On Time
+SHP00401,2025-04-01,2025-04-03,Individual,West,East,Document,Standard,227,2,Delivered,On Time
+SHP01390,2025-04-03,2025-04-07,Business,North,East,Fragile,Standard,393,4,Delayed,Not On Time
+SHP01287,2025-04-03,2025-04-07,Individual,North,Central,Parcel,Standard,265,4,Cancelled,Not On Time
+SHP01682,2025-04-03,2025-04-06,Individual,Central,South,Document,Standard,214,3,Delivered,On Time
+SHP00016,2025-04-04,2025-04-07,Individual,South,Central,Fragile,Standard,202,3,Delivered,On Time
+SHP00221,2025-04-04,2025-04-07,Business,Central,West,Document,Standard,123,3,Delivered,On Time
+SHP01747,2025-04-04,2025-04-08,Individual,West,North,Fragile,Express,361,4,Delivered,Not On Time
+SHP01476,2025-04-04,2025-04-08,Business,North,West,Electronics,Standard,351,4,Cancelled,Not On Time
+SHP01279,2025-04-04,2025-04-08,Individual,East,West,Electronics,Standard,145,4,Delivered,Not On Time
+SHP00518,2025-04-05,2025-04-06,Business,North,South,Fragile,Standard,388,1,Delivered,On Time
+SHP01998,2025-04-07,2025-04-10,Business,East,North,Electronics,Standard,141,3,Delivered,On Time
+SHP01941,2025-04-07,2025-04-10,Business,West,West,Parcel,Express,687,3,Delivered,On Time
+SHP00168,2025-04-08,2025-04-12,Individual,North,North,Document,Express,638,4,Delivered,Not On Time
+SHP01867,2025-04-09,2025-04-15,Individual,West,Central,Parcel,Standard,455,6,Delayed,Not On Time
+SHP01073,2025-04-10,2025-04-13,Business,Central,East,Electronics,Express,234,3,Delivered,On Time
+SHP00005,2025-04-11,2025-04-14,Individual,Central,North,Parcel,Express,147,3,Delayed,Not On Time
+SHP01908,2025-04-11,2025-04-14,Individual,North,West,Parcel,Standard,115,3,Delivered,On Time
+SHP01249,2025-04-11,2025-04-13,Individual,North,Central,Fragile,Same Day,817,2,Delivered,On Time
+SHP01815,2025-04-11,2025-04-16,Business,North,North,Document,Same Day,799,5,Delivered,Not On Time
+SHP00721,2025-04-12,2025-04-14,Individual,North,East,Parcel,Express,503,2,Delivered,On Time
+SHP00950,2025-04-13,2025-04-15,Individual,Central,Central,Parcel,Same Day,839,2,Delivered,On Time
+SHP00223,2025-04-14,2025-04-16,Individual,East,North,Parcel,Express,164,2,Failed,Not On Time
+SHP01614,2025-04-14,2025-04-15,Business,East,West,Fragile,Standard,245,1,Delivered,On Time
+SHP00496,2025-04-15,2025-04-21,Individual,South,Central,Parcel,Standard,276,6,Delivered,Not On Time
+SHP00288,2025-04-15,2025-04-19,Business,North,Central,Parcel,Standard,376,4,Delivered,Not On Time
+SHP00969,2025-04-15,2025-04-18,Business,North,South,Document,Standard,202,3,Delivered,On Time
+SHP00181,2025-04-17,2025-04-22,Individual,East,South,Document,Express,417,5,Delivered,Not On Time
+SHP00353,2025-04-18,2025-04-20,Business,East,South,Document,Standard,446,2,Delivered,On Time
+SHP01269,2025-04-18,2025-04-20,Individual,South,Central,Electronics,Standard,366,2,Delivered,On Time
+SHP00664,2025-04-18,2025-04-19,Individual,North,East,Parcel,Standard,377,1,Delivered,On Time
+SHP00877,2025-04-19,2025-04-21,Individual,East,North,Document,Standard,410,2,Delivered,On Time
+SHP00021,2025-04-19,2025-04-21,Individual,South,South,Parcel,Standard,361,2,Delivered,On Time
+SHP00550,2025-04-20,2025-04-23,Business,North,West,Electronics,Standard,462,3,Delivered,On Time
+SHP00472,2025-04-20,2025-04-23,Individual,North,East,Parcel,Express,528,3,Delivered,On Time
+SHP00901,2025-04-20,2025-04-23,Individual,North,North,Parcel,Standard,209,3,Delivered,On Time
+SHP00244,2025-04-21,2025-04-25,Business,South,South,Fragile,Standard,373,4,Delivered,Not On Time
+SHP01125,2025-04-21,2025-04-26,Individual,West,Central,Parcel,Standard,215,5,Delivered,Not On Time
+SHP00802,2025-04-22,2025-04-26,Individual,North,West,Document,Same Day,544,4,Delayed,Not On Time
+SHP01455,2025-04-22,2025-04-25,Business,West,West,Parcel,Standard,132,3,Delivered,On Time
+SHP01750,2025-04-25,2025-05-02,Individual,South,South,Fragile,Express,666,7,Delivered,Not On Time
+SHP01797,2025-04-26,2025-05-03,Business,South,North,Document,Same Day,184,7,Delivered,Not On Time
+SHP01042,2025-04-26,2025-04-27,Individual,West,East,Parcel,Standard,132,1,Delivered,On Time
+SHP01665,2025-04-27,2025-04-28,Individual,East,Central,Parcel,Standard,152,1,Delivered,On Time
+SHP01794,2025-04-27,2025-04-29,Individual,West,East,Parcel,Standard,370,2,Delivered,On Time
+SHP01843,2025-04-27,2025-04-29,Business,East,East,Fragile,Standard,345,2,Delivered,On Time
+SHP01259,2025-04-28,2025-04-30,Individual,South,South,Fragile,Same Day,664,2,Delivered,On Time
+SHP00680,2025-04-29,2025-05-01,Individual,East,South,Parcel,Standard,310,2,Delivered,On Time
+SHP01508,2025-04-29,2025-05-03,Individual,North,North,Document,Same Day,806,4,Delivered,Not On Time
+SHP00119,2025-04-29,2025-05-03,Individual,West,East,Document,Standard,247,4,Delivered,Not On Time
+SHP01966,2025-05-02,2025-05-04,Business,East,East,Electronics,Express,679,2,Delivered,On Time
+SHP00334,2025-05-02,2025-05-05,Individual,West,East,Parcel,Standard,461,3,Delivered,On Time
+SHP00565,2025-05-02,2025-05-04,Individual,West,West,Document,Express,200,2,Delivered,On Time
+SHP00175,2025-05-03,2025-05-06,Individual,Central,North,Document,Standard,436,3,Delivered,On Time
+SHP01074,2025-05-03,2025-05-04,Business,West,Central,Parcel,Express,689,1,Delivered,On Time
+SHP01557,2025-05-03,2025-05-09,Business,West,East,Parcel,Standard,442,6,Delivered,Not On Time
+SHP01514,2025-05-04,2025-05-06,Individual,West,West,Parcel,Express,195,2,Delivered,On Time
+SHP01766,2025-05-04,2025-05-06,Business,North,Central,Parcel,Standard,466,2,Delivered,On Time
+SHP00269,2025-05-04,2025-05-06,Business,East,Central,Document,Express,634,2,Delivered,On Time
+SHP00946,2025-05-05,2025-05-10,Individual,South,East,Electronics,Express,311,5,Delivered,Not On Time
+SHP00450,2025-05-06,2025-05-11,Individual,South,North,Document,Same Day,373,5,Delivered,Not On Time
+SHP01311,2025-05-06,2025-05-11,Individual,East,South,Fragile,Standard,491,5,Cancelled,Not On Time
+SHP00073,2025-05-07,2025-05-14,Business,Central,South,Document,Same Day,743,7,Delivered,Not On Time
+SHP01862,2025-05-07,2025-05-10,Individual,South,West,Electronics,Express,171,3,Delivered,On Time
+SHP01113,2025-05-07,2025-05-10,Individual,West,Central,Parcel,Express,491,3,Delivered,On Time
+SHP00989,2025-05-08,2025-05-14,Business,West,North,Electronics,Standard,430,6,Delivered,Not On Time
+SHP01559,2025-05-08,2025-05-11,Individual,South,West,Electronics,Standard,174,3,Delayed,Not On Time
+SHP01619,2025-05-08,2025-05-09,Individual,Central,North,Parcel,Same Day,162,1,Cancelled,Not On Time
+SHP01521,2025-05-09,2025-05-12,Business,East,South,Document,Standard,120,3,Delivered,On Time
+SHP00250,2025-05-11,2025-05-12,Business,East,East,Document,Standard,351,1,Delivered,On Time
+SHP01869,2025-05-11,2025-05-13,Individual,Central,Central,Document,Standard,135,2,Delivered,On Time
+SHP01108,2025-05-11,2025-05-15,Individual,West,Central,Document,Express,591,4,Delivered,Not On Time
+SHP00370,2025-05-11,2025-05-16,Business,West,North,Document,Express,154,5,Delivered,Not On Time
+SHP01977,2025-05-11,2025-05-13,Individual,West,Central,Parcel,Express,699,2,Cancelled,Not On Time
+SHP01597,2025-05-12,2025-05-15,Individual,North,East,Parcel,Standard,274,3,Delivered,On Time
+SHP00382,2025-05-13,2025-05-14,Individual,Central,Central,Document,Express,413,1,Delayed,Not On Time
+SHP01927,2025-05-13,2025-05-15,Business,West,East,Parcel,Standard,230,2,Delivered,On Time
+SHP00458,2025-05-14,2025-05-19,Business,South,West,Document,Express,279,5,Delivered,Not On Time
+SHP01336,2025-05-15,2025-05-17,Individual,East,West,Fragile,Standard,290,2,Delivered,On Time
+SHP00921,2025-05-16,2025-05-22,Business,Central,North,Document,Standard,397,6,Delayed,Not On Time
+SHP00515,2025-05-16,2025-05-21,Individual,Central,North,Fragile,Standard,145,5,Delivered,Not On Time
+SHP00793,2025-05-17,2025-05-21,Business,East,South,Parcel,Standard,302,4,Delivered,Not On Time
+SHP00095,2025-05-17,2025-05-23,Business,South,East,Document,Standard,396,6,Cancelled,Not On Time
+SHP00105,2025-05-17,2025-05-21,Business,North,North,Parcel,Standard,400,4,Delivered,Not On Time
+SHP01468,2025-05-18,2025-05-21,Individual,North,East,Fragile,Standard,372,3,Delivered,On Time
+SHP00727,2025-05-18,2025-05-21,Individual,East,Central,Parcel,Standard,161,3,Delivered,On Time
+SHP00480,2025-05-19,2025-05-22,Individual,East,West,Document,Standard,421,3,Cancelled,Not On Time
+SHP01166,2025-05-20,2025-05-26,Business,South,West,Fragile,Express,554,6,Delivered,Not On Time
+SHP00046,2025-05-23,2025-05-27,Individual,Central,Central,Parcel,Express,617,4,Delayed,Not On Time
+SHP01676,2025-05-23,2025-05-25,Individual,North,North,Parcel,Standard,215,2,Delivered,On Time
+SHP01749,2025-05-23,2025-05-25,Business,South,Central,Parcel,Standard,347,2,Delivered,On Time
+SHP00205,2025-05-24,2025-05-26,Individual,South,Central,Parcel,Same Day,405,2,Failed,Not On Time
+SHP01876,2025-05-24,2025-05-29,Individual,East,South,Fragile,Express,451,5,Delivered,Not On Time
+SHP01850,2025-05-24,2025-05-25,Individual,Central,North,Parcel,Standard,192,1,Delivered,On Time
+SHP00459,2025-05-25,2025-05-26,Individual,West,South,Electronics,Standard,322,1,Delivered,On Time
+SHP01500,2025-05-25,2025-05-27,Individual,South,East,Fragile,Express,386,2,Delivered,On Time
+SHP00545,2025-05-25,2025-05-28,Business,West,Central,Parcel,Same Day,459,3,Delivered,On Time
+SHP00023,2025-05-25,2025-05-29,Business,North,North,Parcel,Standard,371,4,Delivered,Not On Time
+SHP00284,2025-05-26,2025-05-27,Individual,Central,East,Parcel,Express,119,1,Delivered,On Time
+SHP00331,2025-05-27,2025-06-01,Individual,South,Central,Fragile,Express,375,5,Delivered,Not On Time
+SHP00767,2025-05-27,2025-05-29,Business,North,North,Parcel,Standard,263,2,Delayed,Not On Time
+SHP01488,2025-05-27,2025-05-30,Individual,South,West,Parcel,Standard,179,3,Delivered,On Time
+SHP00963,2025-05-28,2025-06-03,Business,North,West,Parcel,Express,407,6,Delivered,Not On Time
+SHP01396,2025-05-29,2025-06-02,Individual,North,Central,Document,Standard,85,4,Delivered,Not On Time
+SHP01732,2025-05-29,2025-06-03,Individual,South,South,Parcel,Express,351,5,Delivered,Not On Time
+SHP00365,2025-05-30,2025-06-01,Business,South,West,Fragile,Express,675,2,Delivered,On Time
+SHP00708,2025-05-30,2025-06-01,Individual,North,South,Document,Express,307,2,Delayed,Not On Time
+SHP01290,2025-05-30,2025-06-03,Business,South,Central,Electronics,Express,304,4,Delivered,Not On Time
+SHP01432,2025-05-30,2025-06-05,Individual,North,North,Document,Standard,459,6,Delayed,Not On Time
+SHP00813,2025-05-31,2025-06-02,Business,South,West,Parcel,Standard,143,2,Delivered,On Time
+SHP01702,2025-05-31,2025-06-01,Individual,Central,South,Parcel,Standard,252,1,Cancelled,Not On Time
+SHP01534,2025-05-31,2025-06-06,Individual,Central,East,Parcel,Standard,91,6,Delivered,Not On Time
+SHP00549,2025-06-01,2025-06-07,Individual,Central,East,Parcel,Express,113,6,Delivered,Not On Time
+SHP00246,2025-06-01,2025-06-03,Business,North,Central,Document,Standard,204,2,Delivered,On Time
+SHP01844,2025-06-02,2025-06-05,Individual,East,Central,Parcel,Standard,152,3,Delivered,On Time
+SHP01933,2025-06-03,2025-06-06,Business,Central,Central,Fragile,Standard,445,3,Cancelled,Not On Time
+SHP01316,2025-06-03,2025-06-05,Individual,West,North,Parcel,Standard,294,2,Delivered,On Time
+SHP00986,2025-06-04,2025-06-09,Individual,Central,East,Electronics,Standard,338,5,Delivered,Not On Time
+SHP00077,2025-06-04,2025-06-06,Individual,Central,North,Electronics,Express,608,2,Delayed,Not On Time
+SHP01331,2025-06-04,2025-06-09,Business,South,East,Parcel,Express,221,5,Delivered,Not On Time
+SHP01644,2025-06-04,2025-06-08,Individual,West,Central,Electronics,Express,638,4,Delayed,Not On Time
+SHP01190,2025-06-04,2025-06-05,Individual,North,Central,Parcel,Express,650,1,Delivered,On Time
+SHP00359,2025-06-05,2025-06-07,Business,East,South,Parcel,Express,419,2,Delivered,On Time
+SHP01961,2025-06-05,2025-06-06,Individual,South,East,Electronics,Express,370,1,Delivered,On Time
+SHP01960,2025-06-06,2025-06-08,Individual,Central,East,Parcel,Express,165,2,Delivered,On Time
+SHP01263,2025-06-07,2025-06-09,Business,South,North,Document,Express,545,2,Delivered,On Time
+SHP00639,2025-06-07,2025-06-09,Individual,East,Central,Electronics,Express,441,2,Delivered,On Time
+SHP01059,2025-06-07,2025-06-11,Individual,Central,Central,Document,Express,326,4,Cancelled,Not On Time
+SHP00277,2025-06-08,2025-06-10,Business,East,South,Electronics,Express,148,2,Delivered,On Time
+SHP00124,2025-06-08,2025-06-10,Business,East,North,Parcel,Standard,406,2,Delivered,On Time
+SHP01457,2025-06-09,2025-06-13,Individual,Central,East,Document,Express,333,4,Delivered,Not On Time
+SHP00663,2025-06-09,2025-06-10,Individual,Central,Central,Document,Standard,289,1,Delivered,On Time
+SHP00985,2025-06-09,2025-06-10,Individual,Central,East,Document,Same Day,619,1,Delivered,On Time
+SHP00669,2025-06-09,2025-06-15,Individual,West,West,Document,Standard,215,6,Delivered,Not On Time
+SHP01327,2025-06-10,2025-06-12,Individual,West,West,Parcel,Express,280,2,Delivered,On Time
+SHP01448,2025-06-13,2025-06-16,Individual,West,North,Fragile,Express,179,3,Delayed,Not On Time
+SHP01656,2025-06-14,2025-06-17,Business,South,West,Parcel,Express,533,3,Delivered,On Time
+SHP00739,2025-06-15,2025-06-20,Individual,East,South,Parcel,Standard,400,5,Delivered,Not On Time
+SHP01434,2025-06-15,2025-06-18,Individual,West,Central,Fragile,Express,435,3,Delivered,On Time
+SHP00635,2025-06-17,2025-06-24,Business,West,Central,Fragile,Express,417,7,Delivered,Not On Time
+SHP01993,2025-06-17,2025-06-22,Business,East,North,Parcel,Standard,278,5,Delivered,Not On Time
+SHP01231,2025-06-18,2025-06-23,Business,South,South,Parcel,Express,682,5,Delivered,Not On Time
+SHP00874,2025-06-20,2025-06-25,Individual,West,Central,Parcel,Express,274,5,Delivered,Not On Time
+SHP01801,2025-06-20,2025-06-22,Business,South,North,Fragile,Standard,288,2,Delivered,On Time
+SHP00687,2025-06-20,2025-06-25,Business,West,North,Parcel,Express,209,5,Cancelled,Not On Time
+SHP00274,2025-06-21,2025-06-28,Individual,West,South,Parcel,Express,487,7,Delayed,Not On Time
+SHP00510,2025-06-23,2025-06-25,Individual,West,East,Document,Standard,431,2,Delivered,On Time
+SHP01928,2025-06-23,2025-06-28,Individual,Central,Central,Electronics,Express,595,5,Delivered,Not On Time
+SHP01996,2025-06-24,2025-06-28,Business,Central,South,Parcel,Same Day,281,4,Delivered,Not On Time
+SHP00122,2025-06-24,2025-06-26,Individual,Central,South,Parcel,Standard,390,2,Delayed,Not On Time
+SHP00602,2025-06-25,2025-06-28,Individual,South,East,Electronics,Express,461,3,Delayed,Not On Time
+SHP00715,2025-06-26,2025-07-01,Individual,North,East,Parcel,Standard,410,5,Delivered,Not On Time
+SHP01805,2025-06-26,2025-06-28,Individual,Central,West,Document,Express,654,2,Delivered,On Time
+SHP00613,2025-06-29,2025-07-06,Individual,Central,Central,Electronics,Express,444,7,Delivered,Not On Time
+SHP00642,2025-06-29,2025-07-01,Individual,Central,Central,Parcel,Standard,94,2,Delivered,On Time
+SHP01877,2025-06-29,2025-07-01,Individual,Central,Central,Parcel,Same Day,504,2,Delivered,On Time
+SHP01117,2025-06-29,2025-07-02,Business,Central,Central,Parcel,Standard,451,3,Delivered,On Time
+SHP00240,2025-06-30,2025-07-03,Individual,Central,West,Document,Standard,477,3,Delivered,On Time
+SHP00718,2025-07-01,2025-07-04,Individual,East,West,Fragile,Express,325,3,Delivered,On Time
+SHP01415,2025-07-02,2025-07-03,Individual,Central,East,Document,Same Day,779,1,Delivered,On Time
+SHP00832,2025-07-03,2025-07-08,Individual,East,East,Fragile,Standard,356,5,Delivered,Not On Time
+SHP00806,2025-07-03,2025-07-04,Individual,East,Central,Document,Standard,255,1,Delivered,On Time
+SHP00356,2025-07-04,2025-07-06,Business,East,West,Fragile,Standard,389,2,Delivered,On Time
+SHP00177,2025-07-04,2025-07-08,Business,West,North,Parcel,Standard,302,4,Delivered,Not On Time
+SHP00987,2025-07-05,2025-07-09,Individual,West,West,Document,Same Day,470,4,Delivered,Not On Time
+SHP01384,2025-07-06,2025-07-12,Business,West,North,Parcel,Express,619,6,Failed,Not On Time
+SHP01464,2025-07-06,2025-07-08,Individual,West,Central,Parcel,Standard,449,2,Delivered,On Time
+SHP01883,2025-07-07,2025-07-09,Individual,South,South,Parcel,Standard,342,2,Cancelled,Not On Time
+SHP01881,2025-07-07,2025-07-11,Business,West,South,Electronics,Standard,156,4,Delivered,Not On Time
+SHP01686,2025-07-07,2025-07-08,Individual,East,South,Document,Express,444,1,Delivered,On Time
+SHP00800,2025-07-07,2025-07-14,Business,Central,West,Fragile,Express,200,7,Delivered,Not On Time
+SHP01227,2025-07-10,2025-07-14,Individual,West,West,Fragile,Same Day,634,4,Delivered,Not On Time
+SHP00127,2025-07-10,2025-07-11,Individual,East,North,Fragile,Standard,414,1,Delayed,Not On Time
+SHP01220,2025-07-10,2025-07-13,Business,South,South,Electronics,Standard,442,3,Delivered,On Time
+SHP01638,2025-07-12,2025-07-18,Individual,West,East,Electronics,Standard,192,6,Delivered,Not On Time
+SHP00742,2025-07-12,2025-07-14,Business,West,North,Parcel,Express,199,2,Cancelled,Not On Time
+SHP00333,2025-07-13,2025-07-14,Individual,South,Central,Parcel,Express,175,1,Delivered,On Time
+SHP00903,2025-07-14,2025-07-18,Individual,Central,North,Document,Standard,437,4,Delayed,Not On Time
+SHP01768,2025-07-14,2025-07-20,Individual,North,North,Parcel,Standard,250,6,Failed,Not On Time
+SHP01699,2025-07-14,2025-07-18,Individual,South,South,Fragile,Standard,204,4,Delivered,Not On Time
+SHP01929,2025-07-16,2025-07-20,Individual,West,West,Parcel,Express,578,4,Delivered,Not On Time
+SHP00228,2025-07-16,2025-07-18,Business,North,South,Parcel,Standard,233,2,Cancelled,Not On Time
+SHP00030,2025-07-16,2025-07-19,Individual,North,North,Fragile,Standard,414,3,Delayed,Not On Time
+SHP01158,2025-07-17,2025-07-21,Business,Central,South,Parcel,Same Day,495,4,Delivered,Not On Time
+SHP00142,2025-07-17,2025-07-20,Individual,East,East,Parcel,Same Day,599,3,Delivered,On Time
+SHP00116,2025-07-17,2025-07-18,Individual,East,North,Electronics,Same Day,398,1,Delivered,On Time
+SHP00042,2025-07-18,2025-07-21,Business,Central,Central,Fragile,Standard,366,3,Delivered,On Time
+SHP00052,2025-07-19,2025-07-20,Individual,Central,West,Fragile,Standard,283,1,Delivered,On Time
+SHP00262,2025-07-19,2025-07-23,Business,South,North,Electronics,Same Day,486,4,Cancelled,Not On Time
+SHP00863,2025-07-20,2025-07-23,Business,Central,Central,Document,Standard,390,3,Delivered,On Time
+SHP00436,2025-07-22,2025-07-27,Individual,Central,North,Parcel,Standard,192,5,Delayed,Not On Time
+SHP01288,2025-07-23,2025-07-26,Individual,South,Central,Parcel,Standard,363,3,Delivered,On Time
+SHP00296,2025-07-23,2025-07-25,Individual,South,South,Electronics,Standard,279,2,Delivered,On Time
+SHP00263,2025-07-23,2025-07-24,Individual,Central,North,Parcel,Standard,336,1,Delivered,On Time
+SHP01306,2025-07-23,2025-07-29,Individual,Central,Central,Parcel,Standard,459,6,Delivered,Not On Time
+SHP01216,2025-07-24,2025-07-25,Business,West,West,Document,Standard,338,1,Delayed,Not On Time
+SHP01253,2025-07-25,2025-07-27,Individual,West,North,Parcel,Same Day,626,2,Delivered,On Time
+SHP01892,2025-07-25,2025-07-28,Individual,East,North,Electronics,Standard,365,3,Delivered,On Time
+SHP00776,2025-07-27,2025-07-30,Individual,East,South,Electronics,Express,203,3,Delivered,On Time
+SHP00729,2025-07-27,2025-08-01,Individual,South,Central,Document,Express,561,5,Delivered,Not On Time
+SHP00872,2025-07-28,2025-08-01,Business,West,Central,Parcel,Express,588,4,Delivered,Not On Time
+SHP00293,2025-07-28,2025-08-01,Individual,South,West,Fragile,Express,491,4,Delivered,Not On Time
+SHP01552,2025-07-28,2025-08-01,Business,East,South,Fragile,Express,685,4,Delivered,Not On Time
+SHP00787,2025-07-28,2025-07-31,Business,South,Central,Document,Same Day,684,3,Delayed,Not On Time
+SHP01490,2025-07-29,2025-08-04,Business,South,East,Parcel,Standard,161,6,Delivered,Not On Time
+SHP01137,2025-07-30,2025-08-02,Individual,Central,West,Parcel,Express,609,3,Delivered,On Time
+SHP00586,2025-07-31,2025-08-07,Business,West,West,Fragile,Standard,98,7,Delivered,Not On Time
+SHP01778,2025-07-31,2025-08-03,Individual,South,East,Fragile,Express,365,3,Delivered,On Time
+SHP00125,2025-07-31,2025-08-06,Business,South,Central,Parcel,Express,608,6,Delivered,Not On Time
+SHP01441,2025-07-31,2025-08-01,Individual,South,East,Fragile,Standard,144,1,Cancelled,Not On Time
+SHP00798,2025-08-01,2025-08-02,Individual,South,North,Fragile,Standard,105,1,Delivered,On Time
+SHP00941,2025-08-01,2025-08-03,Individual,East,South,Document,Express,253,2,Delivered,On Time
+SHP01183,2025-08-02,2025-08-05,Business,Central,West,Parcel,Express,470,3,Failed,Not On Time
+SHP01663,2025-08-03,2025-08-06,Business,East,West,Parcel,Express,325,3,Delivered,On Time
+SHP00337,2025-08-03,2025-08-04,Individual,West,East,Fragile,Standard,439,1,Delivered,On Time
+SHP01909,2025-08-03,2025-08-07,Business,East,Central,Electronics,Standard,250,4,Delivered,Not On Time
+SHP01649,2025-08-06,2025-08-09,Individual,North,West,Electronics,Standard,136,3,Delayed,Not On Time
+SHP01339,2025-08-06,2025-08-07,Business,Central,Central,Parcel,Standard,276,1,Delivered,On Time
+SHP01146,2025-08-07,2025-08-10,Individual,West,East,Document,Standard,200,3,Cancelled,Not On Time
+SHP01555,2025-08-07,2025-08-10,Individual,Central,North,Parcel,Standard,446,3,Delivered,On Time
+SHP01251,2025-08-08,2025-08-09,Individual,South,North,Document,Standard,94,1,Delayed,Not On Time
+SHP00202,2025-08-09,2025-08-10,Business,North,Central,Parcel,Standard,171,1,Delayed,Not On Time
+SHP01541,2025-08-10,2025-08-12,Individual,South,South,Parcel,Express,238,2,Cancelled,Not On Time
+SHP00766,2025-08-10,2025-08-12,Individual,West,Central,Parcel,Express,382,2,Delayed,Not On Time
+SHP00447,2025-08-10,2025-08-12,Individual,South,East,Parcel,Express,409,2,Delivered,On Time
+SHP01005,2025-08-10,2025-08-15,Individual,East,Central,Electronics,Express,407,5,Delivered,Not On Time
+SHP01355,2025-08-10,2025-08-14,Business,East,Central,Electronics,Standard,483,4,Delayed,Not On Time
+SHP01625,2025-08-11,2025-08-14,Individual,Central,North,Parcel,Express,337,3,Delivered,On Time
+SHP01367,2025-08-11,2025-08-15,Individual,East,West,Parcel,Standard,326,4,Delivered,Not On Time
+SHP01237,2025-08-11,2025-08-14,Individual,Central,North,Fragile,Express,235,3,Delayed,Not On Time
+SHP01556,2025-08-11,2025-08-12,Individual,West,West,Electronics,Express,196,1,Delivered,On Time
+SHP01675,2025-08-12,2025-08-19,Individual,South,Central,Parcel,Express,624,7,Delivered,Not On Time
+SHP00918,2025-08-12,2025-08-15,Business,South,East,Parcel,Express,522,3,Delivered,On Time
+SHP01317,2025-08-13,2025-08-17,Business,East,East,Fragile,Standard,248,4,Delivered,Not On Time
+SHP01483,2025-08-14,2025-08-18,Business,East,West,Electronics,Standard,450,4,Delayed,Not On Time
+SHP01358,2025-08-14,2025-08-17,Business,East,East,Document,Standard,113,3,Delayed,Not On Time
+SHP00978,2025-08-15,2025-08-17,Individual,North,East,Parcel,Standard,167,2,Delivered,On Time
+SHP01203,2025-08-15,2025-08-18,Individual,South,Central,Fragile,Standard,441,3,Delivered,On Time
+SHP00080,2025-08-15,2025-08-17,Individual,Central,East,Fragile,Express,547,2,Delivered,On Time
+SHP01771,2025-08-16,2025-08-20,Individual,West,East,Parcel,Same Day,410,4,Failed,Not On Time
+SHP01879,2025-08-16,2025-08-21,Individual,South,West,Parcel,Express,132,5,Delivered,Not On Time
+SHP01090,2025-08-16,2025-08-17,Individual,South,East,Document,Standard,277,1,Delivered,On Time
+SHP00699,2025-08-17,2025-08-19,Individual,East,Central,Fragile,Standard,434,2,Delivered,On Time
+SHP00415,2025-08-18,2025-08-20,Individual,West,Central,Fragile,Express,435,2,Delivered,On Time
+SHP01990,2025-08-20,2025-08-21,Individual,South,Central,Parcel,Express,571,1,Delivered,On Time
+SHP00812,2025-08-20,2025-08-24,Individual,Central,North,Parcel,Express,675,4,Delivered,Not On Time
+SHP01849,2025-08-20,2025-08-25,Individual,East,South,Document,Standard,98,5,Delivered,Not On Time
+SHP00778,2025-08-23,2025-08-28,Individual,West,South,Electronics,Standard,333,5,Delivered,Not On Time
+SHP00037,2025-08-23,2025-08-27,Individual,West,North,Fragile,Standard,484,4,Delivered,Not On Time
+SHP00853,2025-08-26,2025-08-28,Individual,Central,Central,Electronics,Express,189,2,Delivered,On Time
+SHP00633,2025-08-26,2025-08-31,Individual,Central,Central,Document,Standard,403,5,Delivered,Not On Time
+SHP00389,2025-08-27,2025-09-02,Business,East,Central,Parcel,Express,501,6,Delivered,Not On Time
+SHP01572,2025-08-27,2025-08-30,Business,East,West,Electronics,Express,176,3,Delivered,On Time
+SHP00253,2025-08-29,2025-09-05,Business,South,West,Parcel,Standard,305,7,Cancelled,Not On Time
+SHP01346,2025-08-29,2025-09-01,Individual,Central,West,Fragile,Standard,244,3,Delivered,On Time
+SHP01438,2025-08-30,2025-09-03,Individual,North,East,Parcel,Standard,335,4,Cancelled,Not On Time
+SHP00166,2025-08-31,2025-09-02,Individual,North,Central,Fragile,Standard,461,2,Delivered,On Time
+SHP01833,2025-08-31,2025-09-02,Business,South,South,Electronics,Standard,135,2,Delivered,On Time
+SHP00994,2025-09-01,2025-09-05,Individual,Central,Central,Document,Standard,442,4,Delivered,Not On Time
+SHP01011,2025-09-01,2025-09-04,Individual,South,West,Parcel,Standard,415,3,Delivered,On Time
+SHP00102,2025-09-04,2025-09-07,Individual,Central,Central,Parcel,Standard,380,3,Delivered,On Time
+SHP00303,2025-09-04,2025-09-06,Individual,Central,North,Parcel,Express,682,2,Delivered,On Time
+SHP00701,2025-09-04,2025-09-06,Individual,East,East,Fragile,Express,578,2,Delivered,On Time
+SHP01714,2025-09-05,2025-09-09,Individual,West,West,Parcel,Standard,209,4,Delivered,Not On Time
+SHP01096,2025-09-06,2025-09-10,Individual,East,East,Electronics,Standard,414,4,Delivered,Not On Time
+SHP00783,2025-09-07,2025-09-08,Individual,South,South,Parcel,Express,405,1,Cancelled,Not On Time
+SHP00394,2025-09-08,2025-09-10,Individual,West,North,Document,Standard,348,2,Delivered,On Time
+SHP01723,2025-09-09,2025-09-13,Individual,North,West,Parcel,Standard,225,4,Delivered,Not On Time
+SHP01604,2025-09-10,2025-09-13,Business,North,Central,Parcel,Express,455,3,Delivered,On Time
+SHP01496,2025-09-11,2025-09-13,Business,East,East,Parcel,Express,664,2,Delivered,On Time
+SHP01098,2025-09-11,2025-09-14,Individual,Central,West,Parcel,Standard,387,3,Delivered,On Time
+SHP01688,2025-09-12,2025-09-17,Business,Central,West,Fragile,Same Day,641,5,Delivered,Not On Time
+SHP00697,2025-09-14,2025-09-19,Individual,North,West,Document,Standard,404,5,Failed,Not On Time
+SHP01034,2025-09-14,2025-09-15,Individual,South,South,Electronics,Standard,285,1,Cancelled,Not On Time
+SHP00582,2025-09-15,2025-09-20,Individual,South,Central,Parcel,Standard,437,5,Delivered,Not On Time
+SHP00186,2025-09-15,2025-09-16,Individual,North,South,Fragile,Express,183,1,Cancelled,Not On Time
+SHP00707,2025-09-15,2025-09-16,Business,East,South,Fragile,Express,427,1,Delivered,On Time
+SHP01878,2025-09-15,2025-09-19,Business,East,Central,Document,Standard,315,4,Delayed,Not On Time
+SHP00657,2025-09-16,2025-09-19,Individual,Central,East,Fragile,Express,679,3,Delayed,Not On Time
+SHP01885,2025-09-16,2025-09-19,Business,North,West,Parcel,Express,188,3,Delivered,On Time
+SHP00265,2025-09-17,2025-09-22,Individual,North,East,Parcel,Express,416,5,Delivered,Not On Time
+SHP01735,2025-09-18,2025-09-21,Individual,North,Central,Parcel,Standard,156,3,Delivered,On Time
+SHP00826,2025-09-18,2025-09-20,Individual,Central,West,Fragile,Standard,493,2,Cancelled,Not On Time
+SHP00201,2025-09-19,2025-09-23,Individual,South,North,Parcel,Same Day,659,4,Cancelled,Not On Time
+SHP00134,2025-09-19,2025-09-26,Individual,East,Central,Parcel,Standard,225,7,Delivered,Not On Time
+SHP01084,2025-09-20,2025-09-25,Individual,East,West,Parcel,Express,176,5,Delivered,Not On Time
+SHP01875,2025-09-20,2025-09-23,Individual,Central,Central,Electronics,Express,164,3,Delivered,On Time
+SHP01588,2025-09-20,2025-09-23,Business,West,West,Fragile,Standard,169,3,Cancelled,Not On Time
+SHP01481,2025-09-21,2025-09-26,Individual,Central,East,Parcel,Same Day,328,5,Delivered,Not On Time
+SHP01736,2025-09-21,2025-09-24,Individual,East,North,Document,Express,206,3,Delivered,On Time
+SHP01667,2025-09-22,2025-09-24,Individual,South,North,Parcel,Standard,478,2,Delivered,On Time
+SHP00980,2025-09-23,2025-09-26,Individual,North,South,Fragile,Express,167,3,Delayed,Not On Time
+SHP00133,2025-09-24,2025-09-28,Business,Central,East,Parcel,Standard,387,4,Delivered,Not On Time
+SHP01726,2025-09-24,2025-09-27,Business,South,West,Fragile,Express,202,3,Delivered,On Time
+SHP01019,2025-09-25,2025-09-30,Individual,South,South,Document,Standard,444,5,Delivered,Not On Time
+SHP00455,2025-09-25,2025-09-29,Business,East,North,Parcel,Same Day,259,4,Delivered,Not On Time
+SHP00330,2025-09-25,2025-09-28,Business,Central,South,Document,Standard,256,3,Delivered,On Time
+SHP00630,2025-09-25,2025-09-28,Individual,Central,West,Parcel,Standard,404,3,Delivered,On Time
+SHP00442,2025-09-25,2025-09-26,Business,Central,West,Parcel,Express,116,1,Delayed,Not On Time
+SHP01185,2025-09-26,2025-09-30,Individual,West,West,Parcel,Standard,321,4,Delivered,Not On Time
+SHP01380,2025-09-26,2025-09-27,Individual,West,West,Parcel,Standard,284,1,Delayed,Not On Time
+SHP00320,2025-09-27,2025-10-02,Individual,East,West,Fragile,Standard,249,5,Delivered,Not On Time
+SHP01681,2025-09-28,2025-09-30,Individual,East,Central,Fragile,Standard,112,2,Delivered,On Time
+SHP01447,2025-09-28,2025-09-30,Business,West,North,Document,Standard,195,2,Delivered,On Time
+SHP00660,2025-09-30,2025-10-02,Individual,North,West,Electronics,Standard,152,2,Delivered,On Time
+SHP00880,2025-10-01,2025-10-07,Individual,West,East,Document,Standard,480,6,Delayed,Not On Time
+SHP00218,2025-10-01,2025-10-04,Individual,South,South,Parcel,Standard,262,3,Delivered,On Time
+SHP00180,2025-10-02,2025-10-04,Individual,East,East,Document,Standard,389,2,Delivered,On Time
+SHP00147,2025-10-03,2025-10-04,Individual,South,West,Fragile,Standard,209,1,Delivered,On Time
+SHP01820,2025-10-03,2025-10-07,Individual,East,Central,Parcel,Standard,117,4,Delivered,Not On Time
+SHP00103,2025-10-04,2025-10-08,Individual,East,North,Fragile,Express,218,4,Delivered,Not On Time
+SHP01626,2025-10-05,2025-10-08,Individual,East,West,Fragile,Express,253,3,Delivered,On Time
+SHP00637,2025-10-06,2025-10-07,Individual,North,East,Electronics,Express,483,1,Delayed,Not On Time
+SHP00129,2025-10-07,2025-10-08,Individual,West,East,Document,Express,176,1,Delivered,On Time
+SHP01008,2025-10-07,2025-10-09,Individual,Central,East,Document,Express,463,2,Delayed,Not On Time
+SHP00724,2025-10-07,2025-10-08,Individual,North,East,Document,Standard,232,1,Delivered,On Time
+SHP00032,2025-10-08,2025-10-13,Business,South,East,Parcel,Express,350,5,Delayed,Not On Time
+SHP01985,2025-10-08,2025-10-12,Individual,West,West,Parcel,Standard,222,4,Delivered,Not On Time
+SHP00078,2025-10-09,2025-10-10,Individual,South,East,Electronics,Standard,252,1,Delivered,On Time
+SHP01694,2025-10-09,2025-10-11,Individual,Central,Central,Parcel,Standard,214,2,Delivered,On Time
+SHP00137,2025-10-10,2025-10-15,Individual,East,West,Parcel,Express,323,5,Delayed,Not On Time
+SHP01673,2025-10-11,2025-10-15,Individual,West,Central,Parcel,Standard,102,4,Cancelled,Not On Time
+SHP01856,2025-10-11,2025-10-13,Business,North,South,Document,Express,451,2,Delivered,On Time
+SHP01953,2025-10-13,2025-10-14,Individual,West,North,Electronics,Standard,410,1,Delivered,On Time
+SHP00469,2025-10-14,2025-10-17,Business,North,East,Parcel,Standard,168,3,Delayed,Not On Time
+SHP00286,2025-10-15,2025-10-18,Individual,West,East,Electronics,Express,337,3,Delivered,On Time
+SHP00745,2025-10-15,2025-10-21,Individual,West,North,Fragile,Express,455,6,Delivered,Not On Time
+SHP00317,2025-10-17,2025-10-19,Business,East,West,Fragile,Standard,377,2,Delivered,On Time
+SHP00495,2025-10-17,2025-10-19,Individual,East,South,Parcel,Standard,85,2,Delivered,On Time
+SHP00321,2025-10-18,2025-10-22,Business,East,East,Fragile,Express,517,4,Delivered,Not On Time
+SHP01730,2025-10-18,2025-10-20,Individual,North,East,Fragile,Standard,169,2,Delivered,On Time
+SHP00445,2025-10-19,2025-10-22,Individual,West,West,Parcel,Express,350,3,Delivered,On Time
+SHP00239,2025-10-20,2025-10-22,Individual,East,North,Fragile,Standard,221,2,Delayed,Not On Time
+SHP00169,2025-10-21,2025-10-24,Business,North,North,Document,Standard,166,3,Delivered,On Time
+SHP01855,2025-10-22,2025-10-25,Individual,South,West,Fragile,Standard,241,3,Delivered,On Time
+SHP01668,2025-10-22,2025-10-24,Individual,North,West,Electronics,Standard,83,2,Delivered,On Time
+SHP01982,2025-10-22,2025-10-25,Individual,East,East,Parcel,Express,344,3,Delivered,On Time
+SHP01069,2025-10-22,2025-10-25,Individual,East,Central,Parcel,Standard,129,3,Delivered,On Time
+SHP00866,2025-10-22,2025-10-25,Individual,South,Central,Parcel,Express,622,3,Delivered,On Time
+SHP00705,2025-10-23,2025-10-26,Individual,South,West,Document,Standard,96,3,Delivered,On Time
+SHP01669,2025-10-23,2025-10-25,Business,North,South,Parcel,Same Day,569,2,Delivered,On Time
+SHP01717,2025-10-23,2025-10-26,Individual,Central,Central,Fragile,Standard,288,3,Delivered,On Time
+SHP00892,2025-10-23,2025-10-26,Individual,East,South,Parcel,Express,216,3,Delivered,On Time
+SHP01991,2025-10-23,2025-10-25,Individual,North,West,Document,Standard,498,2,Delivered,On Time
+SHP01414,2025-10-23,2025-10-26,Individual,North,Central,Parcel,Same Day,898,3,Delivered,On Time
+SHP01814,2025-10-24,2025-10-27,Individual,West,North,Parcel,Express,595,3,Delivered,On Time
+SHP01986,2025-10-24,2025-10-27,Individual,Central,South,Parcel,Standard,283,3,Delivered,On Time
+SHP00408,2025-10-24,2025-10-26,Individual,East,South,Parcel,Standard,359,2,Delivered,On Time
+SHP01919,2025-10-25,2025-10-26,Business,West,East,Parcel,Standard,380,1,Failed,Not On Time
+SHP01035,2025-10-25,2025-10-27,Individual,North,East,Parcel,Express,438,2,Delivered,On Time
+SHP00885,2025-10-25,2025-10-27,Business,Central,South,Document,Express,216,2,Delivered,On Time
+SHP00140,2025-10-25,2025-10-30,Business,North,West,Electronics,Standard,230,5,Delivered,Not On Time
+SHP01655,2025-10-25,2025-10-28,Individual,North,South,Parcel,Standard,394,3,Delivered,On Time
+SHP01589,2025-10-26,2025-11-02,Business,South,North,Fragile,Standard,424,7,Delivered,Not On Time
+SHP00790,2025-10-26,2025-10-31,Individual,Central,North,Parcel,Express,680,5,Delayed,Not On Time
+SHP00893,2025-10-27,2025-10-29,Individual,East,South,Fragile,Express,312,2,Failed,Not On Time
+SHP00668,2025-10-27,2025-10-28,Business,West,Central,Parcel,Standard,111,1,Delayed,Not On Time
+SHP00991,2025-10-27,2025-10-31,Business,North,Central,Parcel,Express,407,4,Delivered,Not On Time
+SHP00626,2025-10-28,2025-10-30,Individual,North,South,Fragile,Express,347,2,Delivered,On Time
+SHP00504,2025-10-29,2025-11-01,Business,North,Central,Parcel,Express,351,3,Delivered,On Time
+SHP01533,2025-10-30,2025-11-05,Individual,South,South,Parcel,Standard,183,6,Delivered,Not On Time
+SHP01725,2025-10-31,2025-11-05,Business,East,North,Document,Express,153,5,Delivered,Not On Time
+SHP00911,2025-10-31,2025-11-04,Individual,South,South,Fragile,Standard,400,4,Delivered,Not On Time
+SHP01623,2025-10-31,2025-11-02,Individual,East,East,Parcel,Standard,105,2,Delivered,On Time
+SHP01865,2025-11-02,2025-11-03,Individual,North,North,Parcel,Express,521,1,Failed,Not On Time
+SHP01233,2025-11-02,2025-11-07,Business,East,East,Fragile,Same Day,405,5,Delivered,Not On Time
+SHP00487,2025-11-02,2025-11-05,Individual,East,East,Parcel,Express,381,3,Delivered,On Time
+SHP01810,2025-11-02,2025-11-03,Individual,Central,East,Parcel,Express,220,1,Delivered,On Time
+SHP00628,2025-11-02,2025-11-07,Individual,Central,Central,Parcel,Standard,348,5,Delivered,Not On Time
+SHP01360,2025-11-03,2025-11-04,Individual,East,East,Fragile,Standard,354,1,Delivered,On Time
+SHP01666,2025-11-03,2025-11-08,Individual,South,West,Fragile,Express,466,5,Delayed,Not On Time
+SHP00571,2025-11-04,2025-11-07,Business,East,East,Parcel,Standard,437,3,Delivered,On Time
+SHP01247,2025-11-05,2025-11-11,Individual,West,West,Document,Express,190,6,Delayed,Not On Time
+SHP00400,2025-11-06,2025-11-07,Business,West,South,Document,Express,655,1,Delayed,Not On Time
+SHP01028,2025-11-06,2025-11-08,Individual,South,South,Parcel,Standard,362,2,Delivered,On Time
+SHP00507,2025-11-06,2025-11-11,Individual,North,Central,Parcel,Standard,348,5,Delivered,Not On Time
+SHP00555,2025-11-07,2025-11-08,Individual,Central,North,Document,Standard,265,1,Delivered,On Time
+SHP01770,2025-11-08,2025-11-14,Individual,North,Central,Document,Standard,349,6,Failed,Not On Time
+SHP01648,2025-11-12,2025-11-16,Individual,South,West,Fragile,Express,371,4,Delivered,Not On Time
+SHP00634,2025-11-12,2025-11-15,Individual,Central,Central,Parcel,Standard,138,3,Delivered,On Time
+SHP00298,2025-11-12,2025-11-16,Individual,Central,North,Parcel,Express,304,4,Delivered,Not On Time
+SHP00126,2025-11-12,2025-11-15,Business,West,Central,Parcel,Standard,145,3,Cancelled,Not On Time
+SHP00846,2025-11-13,2025-11-17,Business,North,North,Electronics,Standard,500,4,Delivered,Not On Time
+SHP00139,2025-11-14,2025-11-16,Individual,South,North,Document,Standard,219,2,Delivered,On Time
+SHP00099,2025-11-14,2025-11-16,Individual,South,Central,Document,Express,160,2,Delivered,On Time
+SHP00486,2025-11-15,2025-11-19,Individual,Central,North,Parcel,Standard,480,4,Delivered,Not On Time
+SHP00281,2025-11-15,2025-11-18,Business,North,Central,Fragile,Standard,383,3,Delivered,On Time
+SHP01408,2025-11-15,2025-11-16,Individual,North,West,Parcel,Express,489,1,Delivered,On Time
+SHP00561,2025-11-15,2025-11-22,Individual,East,North,Parcel,Same Day,770,7,Failed,Not On Time
+SHP01972,2025-11-16,2025-11-22,Individual,West,South,Electronics,Standard,244,6,Delayed,Not On Time
+SHP00264,2025-11-16,2025-11-17,Individual,Central,North,Parcel,Express,568,1,Delivered,On Time
+SHP01664,2025-11-17,2025-11-19,Individual,South,North,Fragile,Standard,458,2,Delayed,Not On Time
+SHP00028,2025-11-17,2025-11-21,Individual,South,West,Fragile,Standard,225,4,Delivered,Not On Time
+SHP01273,2025-11-17,2025-11-21,Business,East,Central,Fragile,Same Day,220,4,Failed,Not On Time
+SHP01492,2025-11-17,2025-11-20,Individual,North,Central,Electronics,Express,193,3,Delivered,On Time
+SHP00220,2025-11-18,2025-11-19,Individual,South,East,Fragile,Standard,404,1,Delivered,On Time
+SHP01553,2025-11-18,2025-11-20,Individual,Central,East,Parcel,Express,438,2,Delivered,On Time
+SHP01087,2025-11-18,2025-11-23,Individual,East,East,Parcel,Standard,185,5,Delayed,Not On Time
+SHP00543,2025-11-19,2025-11-21,Individual,West,East,Fragile,Standard,447,2,Delivered,On Time
+SHP01171,2025-11-19,2025-11-20,Business,North,South,Document,Standard,342,1,Delivered,On Time
+SHP00898,2025-11-19,2025-11-21,Individual,West,East,Parcel,Express,462,2,Delivered,On Time
+SHP00374,2025-11-20,2025-11-24,Individual,Central,North,Parcel,Standard,418,4,Delivered,Not On Time
+SHP00751,2025-11-20,2025-11-26,Business,East,North,Electronics,Standard,142,6,Delivered,Not On Time
+SHP01822,2025-11-20,2025-11-21,Individual,Central,West,Document,Standard,307,1,Delivered,On Time
+SHP01174,2025-11-20,2025-11-23,Individual,Central,East,Parcel,Standard,271,3,Delivered,On Time
+SHP00377,2025-11-21,2025-11-23,Business,North,West,Parcel,Standard,345,2,Delivered,On Time
+SHP01512,2025-11-21,2025-11-23,Individual,South,Central,Parcel,Express,540,2,Delivered,On Time
+SHP00702,2025-11-22,2025-11-23,Individual,West,West,Document,Standard,228,1,Delivered,On Time
+SHP01023,2025-11-23,2025-11-25,Individual,South,East,Electronics,Express,151,2,Delivered,On Time
+SHP01516,2025-11-23,2025-11-28,Individual,West,West,Parcel,Standard,206,5,Delivered,Not On Time
+SHP01323,2025-11-23,2025-11-27,Business,East,East,Fragile,Express,626,4,Delivered,Not On Time
+SHP01410,2025-11-25,2025-11-28,Individual,East,West,Parcel,Standard,300,3,Delivered,On Time
+SHP00343,2025-11-27,2025-12-04,Individual,East,East,Parcel,Same Day,632,7,Failed,Not On Time
+SHP01129,2025-11-27,2025-11-29,Individual,South,West,Electronics,Standard,426,2,Delivered,On Time
+SHP00509,2025-11-28,2025-11-30,Individual,South,East,Parcel,Standard,433,2,Delivered,On Time
+SHP01209,2025-11-28,2025-12-01,Individual,South,Central,Fragile,Express,690,3,Delivered,On Time
+SHP00418,2025-11-29,2025-12-02,Individual,South,North,Document,Standard,454,3,Delivered,On Time
+SHP00670,2025-11-29,2025-12-04,Business,North,East,Parcel,Express,458,5,Delivered,Not On Time
+SHP00144,2025-11-29,2025-12-01,Individual,West,West,Fragile,Express,416,2,Delivered,On Time
+SHP01870,2025-11-30,2025-12-02,Individual,South,Central,Document,Express,277,2,Delivered,On Time
+SHP01684,2025-11-30,2025-12-02,Business,North,North,Document,Standard,357,2,Delayed,Not On Time
+SHP01224,2025-11-30,2025-12-03,Business,North,North,Fragile,Express,391,3,Delivered,On Time
+SHP01243,2025-11-30,2025-12-02,Individual,East,Central,Fragile,Standard,345,2,Delivered,On Time
+SHP00254,2025-11-30,2025-12-03,Individual,West,West,Parcel,Standard,210,3,Delivered,On Time
+SHP00024,2025-11-30,2025-12-02,Individual,South,Central,Electronics,Express,323,2,Delivered,On Time
+SHP00961,2025-11-30,2025-12-05,Business,West,Central,Electronics,Same Day,855,5,Delivered,Not On Time
+SHP01018,2025-12-02,2025-12-03,Individual,East,North,Fragile,Standard,244,1,Delivered,On Time
+SHP01872,2025-12-03,2025-12-04,Individual,Central,South,Parcel,Standard,499,1,Delayed,Not On Time
+SHP00053,2025-12-03,2025-12-05,Individual,South,West,Document,Standard,329,2,Delivered,On Time
+SHP01272,2025-12-04,2025-12-06,Individual,South,Central,Parcel,Standard,447,2,Delivered,On Time
+SHP00336,2025-12-04,2025-12-11,Individual,West,West,Electronics,Standard,145,7,Delivered,Not On Time
+SHP01551,2025-12-04,2025-12-10,Individual,South,East,Parcel,Standard,450,6,Delivered,Not On Time
+SHP01267,2025-12-05,2025-12-07,Business,North,North,Parcel,Express,661,2,Delivered,On Time
+SHP01144,2025-12-05,2025-12-08,Individual,North,West,Parcel,Same Day,369,3,Delivered,On Time
+SHP00968,2025-12-07,2025-12-10,Individual,West,East,Parcel,Express,437,3,Delayed,Not On Time
+SHP01698,2025-12-08,2025-12-15,Individual,North,East,Parcel,Standard,139,7,Delivered,Not On Time
+SHP00526,2025-12-09,2025-12-15,Individual,South,East,Parcel,Express,476,6,Delayed,Not On Time
+SHP00551,2025-12-09,2025-12-11,Individual,North,Central,Parcel,Standard,440,2,Delivered,On Time
+SHP00965,2025-12-09,2025-12-16,Individual,South,North,Fragile,Same Day,180,7,Delivered,Not On Time
+SHP00887,2025-12-10,2025-12-13,Individual,Central,West,Electronics,Express,550,3,Delivered,On Time
+SHP01153,2025-12-10,2025-12-14,Individual,Central,North,Parcel,Same Day,436,4,Delivered,Not On Time
+SHP01072,2025-12-10,2025-12-16,Business,West,South,Electronics,Standard,455,6,Delayed,Not On Time
+SHP00136,2025-12-10,2025-12-13,Individual,East,Central,Parcel,Express,315,3,Delayed,Not On Time
+SHP01568,2025-12-11,2025-12-16,Business,North,West,Document,Express,591,5,Delivered,Not On Time
+SHP01078,2025-12-11,2025-12-13,Individual,South,Central,Parcel,Standard,233,2,Delivered,On Time
+SHP00833,2025-12-12,2025-12-15,Business,South,South,Fragile,Standard,293,3,Delivered,On Time
+SHP01046,2025-12-13,2025-12-16,Individual,North,North,Parcel,Express,302,3,Delivered,On Time
+SHP00979,2025-12-14,2025-12-17,Business,South,North,Parcel,Standard,359,3,Delivered,On Time
+SHP00556,2025-12-14,2025-12-19,Individual,Central,West,Fragile,Standard,94,5,Delivered,Not On Time
+SHP01361,2025-12-14,2025-12-16,Business,Central,North,Document,Express,386,2,Delivered,On Time
+SHP00682,2025-12-14,2025-12-17,Individual,North,North,Document,Express,335,3,Delivered,On Time
+SHP00466,2025-12-14,2025-12-19,Individual,South,South,Parcel,Same Day,459,5,Delivered,Not On Time
+SHP01609,2025-12-15,2025-12-21,Individual,South,West,Document,Express,315,6,Delivered,Not On Time
+SHP01898,2025-12-15,2025-12-18,Business,South,North,Electronics,Standard,499,3,Delayed,Not On Time
+SHP00732,2025-12-15,2025-12-17,Business,East,South,Parcel,Standard,151,2,Delivered,On Time
+SHP01275,2025-12-16,2025-12-21,Individual,Central,East,Fragile,Same Day,218,5,Delayed,Not On Time
+SHP01385,2025-12-16,2025-12-19,Business,North,Central,Electronics,Standard,188,3,Delivered,On Time
+SHP00562,2025-12-17,2025-12-20,Individual,North,East,Parcel,Standard,490,3,Delivered,On Time
+SHP00426,2025-12-18,2025-12-19,Business,East,East,Parcel,Standard,199,1,Delivered,On Time
+SHP00658,2025-12-19,2025-12-23,Individual,South,East,Electronics,Express,690,4,Delivered,Not On Time
+SHP00064,2025-12-20,2025-12-23,Individual,South,South,Parcel,Standard,210,3,Delivered,On Time
+SHP01651,2025-12-20,2025-12-23,Individual,North,Central,Parcel,Standard,336,3,Delivered,On Time
+SHP01342,2025-12-21,2025-12-24,Business,West,West,Parcel,Express,178,3,Delivered,On Time
+SHP00984,2025-12-21,2025-12-28,Business,West,East,Parcel,Standard,261,7,Cancelled,Not On Time
+SHP01111,2025-12-22,2025-12-23,Individual,North,Central,Parcel,Standard,183,1,Delivered,On Time
+SHP00909,2025-12-23,2025-12-26,Individual,South,West,Parcel,Express,220,3,Delivered,On Time
+SHP00737,2025-12-24,2025-12-28,Individual,South,South,Parcel,Express,204,4,Delivered,Not On Time
+SHP00772,2025-12-25,2025-12-28,Business,South,West,Document,Express,335,3,Delivered,On Time
+SHP01566,2025-12-25,2025-12-28,Individual,South,West,Parcel,Standard,110,3,Delivered,On Time
+SHP01902,2025-12-26,2025-12-27,Individual,North,Central,Electronics,Express,245,1,Failed,Not On Time
+SHP01334,2025-12-26,2025-12-30,Individual,West,South,Parcel,Standard,111,4,Delivered,Not On Time
+SHP01642,2025-12-26,2025-12-29,Individual,East,East,Fragile,Express,438,3,Delivered,On Time
+SHP00100,2025-12-26,2025-12-30,Individual,East,West,Parcel,Standard,386,4,Delivered,Not On Time
+SHP00662,2025-12-26,2025-12-27,Business,Central,Central,Electronics,Standard,114,1,Delivered,On Time
+SHP00290,2025-12-27,2025-12-30,Business,Central,East,Fragile,Standard,465,3,Delayed,Not On Time
+SHP01089,2025-12-27,2025-12-28,Business,Central,South,Document,Express,333,1,Delivered,On Time
+SHP00385,2025-12-27,2026-01-02,Individual,North,West,Electronics,Standard,167,6,Delivered,Not On Time
+SHP01170,2025-12-27,2026-01-03,Individual,North,South,Fragile,Standard,303,7,Delivered,Not On Time
+SHP01712,2025-12-27,2025-12-31,Individual,North,East,Document,Express,364,4,Delivered,Not On Time
+SHP00397,2025-12-29,2026-01-02,Individual,South,North,Parcel,Same Day,360,4,Delivered,Not On Time
+SHP01349,2025-12-29,2026-01-01,Business,North,South,Fragile,Standard,409,3,Delayed,Not On Time
+SHP00416,2025-12-29,2026-01-01,Individual,West,Central,Parcel,Standard,338,3,Delivered,On Time
+SHP00055,2025-12-30,2026-01-01,Business,South,Central,Document,Standard,425,2,Delivered,On Time
+SHP00152,2025-12-30,2026-01-04,Business,Central,East,Parcel,Express,206,5,Delivered,Not On Time
+SHP01260,2025-12-31,2026-01-05,Individual,East,North,Parcel,Express,610,5,Delivered,Not On Time
+SHP01009,2025-12-31,2026-01-02,Business,North,East,Parcel,Standard,81,2,Delivered,On Time
+SHP00511,2026-01-01,2026-01-04,Individual,Central,South,Parcel,Standard,128,3,Delivered,On Time
+SHP00519,2026-01-01,2026-01-03,Business,East,South,Fragile,Standard,387,2,Failed,Not On Time
+SHP01433,2026-01-01,2026-01-02,Individual,Central,North,Electronics,Standard,169,1,Delivered,On Time
+SHP00443,2026-01-02,2026-01-06,Individual,South,West,Document,Same Day,542,4,Delivered,Not On Time
+SHP01328,2026-01-03,2026-01-05,Individual,West,Central,Parcel,Standard,82,2,Delivered,On Time
+SHP00427,2026-01-04,2026-01-09,Individual,South,East,Parcel,Express,223,5,Delivered,Not On Time
+SHP00952,2026-01-04,2026-01-09,Business,South,South,Parcel,Standard,370,5,Delivered,Not On Time
+SHP01574,2026-01-05,2026-01-08,Individual,South,North,Document,Express,399,3,Delayed,Not On Time
+SHP00499,2026-01-05,2026-01-08,Individual,East,South,Parcel,Standard,309,3,Delivered,On Time
+SHP00983,2026-01-05,2026-01-10,Individual,Central,South,Parcel,Express,301,5,Delivered,Not On Time
+SHP00591,2026-01-07,2026-01-11,Individual,West,North,Electronics,Express,435,4,Delivered,Not On Time
+SHP01289,2026-01-07,2026-01-10,Individual,South,Central,Parcel,Express,116,3,Delivered,On Time
+SHP01188,2026-01-07,2026-01-09,Business,North,West,Document,Standard,333,2,Delayed,Not On Time
+SHP01748,2026-01-07,2026-01-10,Individual,South,West,Fragile,Standard,346,3,Delivered,On Time
+SHP00678,2026-01-08,2026-01-12,Business,East,West,Parcel,Standard,123,4,Cancelled,Not On Time
+SHP00404,2026-01-08,2026-01-10,Individual,East,Central,Fragile,Express,130,2,Delivered,On Time
+SHP01116,2026-01-08,2026-01-11,Business,North,Central,Fragile,Same Day,688,3,Delayed,Not On Time
+SHP00514,2026-01-09,2026-01-10,Business,West,West,Electronics,Standard,237,1,Delivered,On Time
+SHP00325,2026-01-10,2026-01-12,Business,East,West,Document,Express,689,2,Delayed,Not On Time
+SHP01854,2026-01-11,2026-01-17,Individual,Central,Central,Fragile,Standard,356,6,Delivered,Not On Time
+SHP00115,2026-01-12,2026-01-15,Individual,Central,West,Parcel,Express,392,3,Delayed,Not On Time
+SHP01880,2026-01-13,2026-01-15,Individual,South,South,Parcel,Standard,223,2,Cancelled,Not On Time
+SHP01031,2026-01-13,2026-01-16,Individual,West,Central,Document,Express,365,3,Failed,Not On Time
+SHP01540,2026-01-13,2026-01-15,Individual,West,East,Parcel,Express,477,2,Delivered,On Time
+SHP01691,2026-01-13,2026-01-15,Individual,Central,Central,Fragile,Express,134,2,Delayed,Not On Time
+SHP00966,2026-01-15,2026-01-21,Business,South,West,Document,Express,553,6,Delivered,Not On Time
+SHP01527,2026-01-15,2026-01-16,Individual,North,Central,Parcel,Standard,199,1,Delivered,On Time
+SHP00698,2026-01-17,2026-01-20,Business,South,North,Fragile,Same Day,830,3,Delivered,On Time
+SHP01128,2026-01-17,2026-01-20,Business,East,East,Parcel,Express,315,3,Delayed,Not On Time
+SHP00019,2026-01-17,2026-01-22,Individual,Central,Central,Parcel,Express,634,5,Delivered,Not On Time
+SHP01300,2026-01-17,2026-01-18,Business,West,South,Electronics,Express,151,1,Delivered,On Time
+SHP01752,2026-01-18,2026-01-20,Individual,North,Central,Parcel,Standard,87,2,Delivered,On Time
+SHP00121,2026-01-18,2026-01-19,Individual,West,South,Document,Standard,178,1,Delivered,On Time
+SHP00675,2026-01-19,2026-01-21,Individual,South,South,Parcel,Express,311,2,Delivered,On Time
+SHP00225,2026-01-19,2026-01-21,Individual,South,East,Fragile,Express,141,2,Delayed,Not On Time
+SHP01407,2026-01-19,2026-01-21,Individual,South,North,Electronics,Express,220,2,Delivered,On Time
+SHP01620,2026-01-20,2026-01-22,Individual,Central,West,Fragile,Standard,150,2,Delayed,Not On Time
+SHP00446,2026-01-20,2026-01-26,Individual,Central,East,Fragile,Same Day,715,6,Delivered,Not On Time
+SHP01039,2026-01-20,2026-01-21,Individual,Central,North,Parcel,Express,571,1,Delayed,Not On Time
+SHP01454,2026-01-21,2026-01-24,Individual,West,South,Fragile,Express,409,3,Delivered,On Time
+SHP00164,2026-01-21,2026-01-27,Individual,North,Central,Parcel,Same Day,421,6,Delivered,Not On Time
+SHP00520,2026-01-21,2026-01-24,Business,West,South,Parcel,Standard,416,3,Delivered,On Time
+SHP01165,2026-01-22,2026-01-24,Business,West,Central,Electronics,Standard,358,2,Delivered,On Time
+SHP00383,2026-01-23,2026-01-28,Individual,South,South,Parcel,Standard,111,5,Delivered,Not On Time
+SHP00470,2026-01-23,2026-01-26,Business,East,West,Parcel,Standard,297,3,Delivered,On Time
+SHP01420,2026-01-24,2026-01-26,Business,Central,North,Electronics,Express,664,2,Delivered,On Time
+SHP01445,2026-01-24,2026-01-29,Individual,Central,Central,Parcel,Standard,326,5,Delivered,Not On Time
+SHP00827,2026-01-24,2026-01-28,Individual,West,South,Document,Standard,468,4,Delivered,Not On Time
+SHP01036,2026-01-27,2026-01-31,Individual,North,Central,Parcel,Express,372,4,Delivered,Not On Time
+SHP00273,2026-01-28,2026-02-01,Business,East,East,Parcel,Express,130,4,Cancelled,Not On Time
+SHP01120,2026-01-28,2026-01-29,Business,West,Central,Fragile,Standard,88,1,Delivered,On Time
+SHP00936,2026-01-28,2026-02-04,Individual,West,West,Fragile,Standard,428,7,Delivered,Not On Time
+SHP00712,2026-01-28,2026-02-01,Individual,South,Central,Parcel,Standard,241,4,Delivered,Not On Time
+SHP00603,2026-01-28,2026-01-31,Individual,North,Central,Parcel,Standard,177,3,Delivered,On Time
+SHP01899,2026-01-28,2026-01-31,Individual,East,West,Electronics,Standard,444,3,Delivered,On Time
+SHP00940,2026-01-30,2026-02-01,Individual,South,South,Parcel,Same Day,590,2,Delivered,On Time
+SHP01229,2026-01-30,2026-02-03,Individual,Central,South,Parcel,Standard,370,4,Delivered,Not On Time
+SHP00399,2026-01-30,2026-02-03,Individual,North,Central,Parcel,Express,407,4,Delivered,Not On Time
+SHP01756,2026-01-30,2026-02-03,Individual,North,South,Document,Standard,476,4,Failed,Not On Time
+SHP00619,2026-01-30,2026-02-01,Individual,North,West,Parcel,Standard,372,2,Delivered,On Time
+SHP00361,2026-01-31,2026-02-03,Business,West,South,Parcel,Standard,451,3,Delivered,On Time
+SHP01276,2026-02-01,2026-02-07,Individual,North,North,Parcel,Express,643,6,Delivered,Not On Time
+SHP00580,2026-02-01,2026-02-05,Individual,West,Central,Fragile,Standard,166,4,Delivered,Not On Time
+SHP00884,2026-02-01,2026-02-07,Business,East,East,Parcel,Standard,245,6,Cancelled,Not On Time
+SHP00590,2026-02-02,2026-02-06,Business,East,East,Fragile,Express,181,4,Delivered,Not On Time
+SHP00170,2026-02-02,2026-02-03,Individual,East,West,Parcel,Standard,383,1,Failed,Not On Time
+SHP00493,2026-02-02,2026-02-05,Individual,North,Central,Parcel,Express,526,3,Delivered,On Time
+SHP01832,2026-02-02,2026-02-04,Individual,Central,South,Parcel,Express,311,2,Delivered,On Time
+SHP00070,2026-02-02,2026-02-03,Individual,East,South,Document,Express,680,1,Delayed,Not On Time
+SHP00106,2026-02-05,2026-02-06,Individual,North,North,Document,Express,130,1,Delivered,On Time
+SHP00583,2026-02-05,2026-02-08,Individual,North,West,Electronics,Standard,240,3,Delivered,On Time
+SHP01950,2026-02-05,2026-02-10,Individual,Central,North,Fragile,Standard,290,5,Delivered,Not On Time
+SHP00158,2026-02-05,2026-02-12,Business,Central,North,Document,Same Day,328,7,Delivered,Not On Time
+SHP01842,2026-02-06,2026-02-09,Individual,Central,North,Parcel,Express,654,3,Delivered,On Time
+SHP00917,2026-02-07,2026-02-08,Business,East,North,Electronics,Express,143,1,Delivered,On Time
+SHP00363,2026-02-07,2026-02-12,Business,North,South,Document,Express,480,5,Delayed,Not On Time
+SHP01679,2026-02-08,2026-02-12,Individual,West,East,Electronics,Standard,380,4,Delayed,Not On Time
+SHP01713,2026-02-08,2026-02-09,Individual,South,West,Parcel,Standard,379,1,Delayed,Not On Time
+SHP01755,2026-02-08,2026-02-11,Individual,Central,West,Parcel,Standard,157,3,Delivered,On Time
+SHP01995,2026-02-08,2026-02-11,Individual,North,South,Electronics,Standard,393,3,Delivered,On Time
+SHP00010,2026-02-08,2026-02-10,Individual,West,North,Parcel,Standard,105,2,Delivered,On Time
+SHP01954,2026-02-08,2026-02-11,Business,East,North,Document,Express,368,3,Delivered,On Time
+SHP00574,2026-02-09,2026-02-14,Individual,South,North,Parcel,Standard,220,5,Delivered,Not On Time
+SHP00552,2026-02-09,2026-02-11,Business,West,East,Parcel,Express,494,2,Failed,Not On Time
+SHP01159,2026-02-10,2026-02-14,Individual,East,West,Electronics,Express,395,4,Delivered,Not On Time
+SHP01931,2026-02-11,2026-02-14,Individual,Central,West,Electronics,Express,270,3,Delivered,On Time
+SHP00309,2026-02-12,2026-02-17,Individual,South,West,Fragile,Standard,121,5,Delivered,Not On Time
+SHP01382,2026-02-12,2026-02-16,Business,Central,Central,Fragile,Standard,325,4,Delivered,Not On Time
+SHP00957,2026-02-13,2026-02-18,Business,East,North,Electronics,Express,451,5,Delivered,Not On Time
+SHP01706,2026-02-14,2026-02-15,Individual,East,West,Parcel,Express,616,1,Delivered,On Time
+SHP00388,2026-02-14,2026-02-15,Individual,North,West,Electronics,Same Day,839,1,Delivered,On Time
+SHP01901,2026-02-14,2026-02-16,Individual,East,North,Parcel,Express,179,2,Delayed,Not On Time
+SHP00047,2026-02-14,2026-02-16,Individual,East,North,Document,Standard,274,2,Delivered,On Time
+SHP00760,2026-02-15,2026-02-21,Individual,South,West,Parcel,Standard,213,6,Delivered,Not On Time
+SHP00041,2026-02-15,2026-02-18,Individual,North,West,Electronics,Express,430,3,Delivered,On Time
+SHP01818,2026-02-16,2026-02-18,Individual,Central,North,Parcel,Standard,173,2,Delivered,On Time
+SHP01076,2026-02-16,2026-02-20,Individual,North,South,Fragile,Express,266,4,Delivered,Not On Time
+SHP00929,2026-02-16,2026-02-17,Business,Central,North,Fragile,Standard,85,1,Delivered,On Time
+SHP00857,2026-02-17,2026-02-21,Individual,South,North,Parcel,Standard,161,4,Delayed,Not On Time
+SHP01352,2026-02-17,2026-02-20,Individual,North,East,Parcel,Standard,390,3,Delivered,On Time
+SHP01978,2026-02-18,2026-02-24,Individual,North,South,Fragile,Express,483,6,Delivered,Not On Time
+SHP00091,2026-02-18,2026-02-22,Individual,West,North,Document,Standard,163,4,Delivered,Not On Time
+SHP01956,2026-02-19,2026-02-24,Business,South,East,Document,Express,283,5,Failed,Not On Time
+SHP01554,2026-02-19,2026-02-20,Business,West,West,Document,Express,410,1,Delivered,On Time
+SHP01180,2026-02-19,2026-02-22,Business,West,East,Document,Standard,177,3,Delayed,Not On Time
+SHP01218,2026-02-19,2026-02-21,Business,South,East,Electronics,Express,202,2,Delayed,Not On Time
+SHP01593,2026-02-21,2026-02-26,Business,Central,West,Fragile,Express,559,5,Cancelled,Not On Time
+SHP01962,2026-02-21,2026-02-24,Individual,East,North,Fragile,Express,227,3,Failed,Not On Time
+SHP00500,2026-02-22,2026-02-27,Business,West,North,Parcel,Express,346,5,Delivered,Not On Time
+SHP01746,2026-02-22,2026-02-24,Business,South,North,Parcel,Standard,125,2,Cancelled,Not On Time
+SHP00270,2026-02-23,2026-02-25,Individual,North,Central,Document,Express,332,2,Cancelled,Not On Time
+SHP00610,2026-02-23,2026-02-27,Individual,West,North,Parcel,Standard,176,4,Delivered,Not On Time
+SHP00759,2026-02-23,2026-02-26,Individual,Central,North,Parcel,Express,396,3,Delivered,On Time
+SHP01834,2026-02-23,2026-02-26,Individual,West,North,Parcel,Standard,440,3,Delivered,On Time
+SHP01615,2026-02-25,2026-03-01,Business,Central,North,Fragile,Express,526,4,Delivered,Not On Time
+SHP01897,2026-02-27,2026-03-03,Individual,South,East,Electronics,Express,697,4,Delivered,Not On Time
+SHP01612,2026-02-27,2026-03-04,Business,East,Central,Parcel,Standard,208,5,Delivered,Not On Time
+SHP01970,2026-02-28,2026-03-03,Business,North,West,Document,Express,512,3,Failed,Not On Time
+SHP00338,2026-02-28,2026-03-04,Business,West,North,Document,Express,476,4,Failed,Not On Time
+SHP00327,2026-03-01,2026-03-03,Business,East,Central,Parcel,Standard,385,2,Delivered,On Time
+SHP00068,2026-03-02,2026-03-04,Individual,Central,Central,Parcel,Standard,389,2,Delivered,On Time
+SHP00367,2026-03-02,2026-03-09,Business,East,Central,Parcel,Express,391,7,Delayed,Not On Time
+SHP01310,2026-03-02,2026-03-05,Individual,Central,West,Document,Standard,197,3,Cancelled,Not On Time
+SHP01608,2026-03-03,2026-03-06,Business,South,North,Document,Same Day,509,3,Delayed,Not On Time
+SHP01309,2026-03-03,2026-03-08,Individual,East,North,Parcel,Standard,306,5,Delayed,Not On Time
+SHP01783,2026-03-03,2026-03-06,Business,East,Central,Parcel,Express,174,3,Delivered,On Time
+SHP00643,2026-03-04,2026-03-05,Individual,South,East,Parcel,Standard,381,1,Delivered,On Time
+SHP00828,2026-03-04,2026-03-07,Individual,North,South,Parcel,Standard,160,3,Delivered,On Time
+SHP01452,2026-03-04,2026-03-07,Business,North,Central,Document,Express,672,3,Delivered,On Time
+SHP01024,2026-03-04,2026-03-09,Individual,East,South,Fragile,Same Day,425,5,Delivered,Not On Time
+SHP00109,2026-03-05,2026-03-07,Individual,South,West,Parcel,Express,444,2,Delivered,On Time
+SHP00454,2026-03-05,2026-03-07,Individual,Central,North,Document,Express,116,2,Delivered,On Time
+SHP00542,2026-03-05,2026-03-12,Individual,East,East,Document,Express,465,7,Delivered,Not On Time
+SHP01201,2026-03-06,2026-03-10,Individual,North,Central,Fragile,Standard,424,4,Delivered,Not On Time
+SHP00130,2026-03-06,2026-03-07,Individual,South,Central,Document,Standard,416,1,Delivered,On Time
+SHP01503,2026-03-07,2026-03-08,Individual,West,East,Parcel,Standard,220,1,Delayed,Not On Time
+SHP00606,2026-03-07,2026-03-08,Business,Central,South,Electronics,Standard,118,1,Delivered,On Time
+SHP01294,2026-03-07,2026-03-10,Individual,East,Central,Parcel,Same Day,688,3,Delivered,On Time
+SHP00594,2026-03-08,2026-03-12,Individual,East,Central,Fragile,Standard,91,4,Delivered,Not On Time
+SHP00232,2026-03-08,2026-03-11,Business,North,South,Parcel,Standard,300,3,Delivered,On Time
+SHP00530,2026-03-08,2026-03-09,Business,Central,South,Fragile,Standard,410,1,Delivered,On Time
+SHP00771,2026-03-08,2026-03-10,Individual,North,North,Parcel,Standard,403,2,Delivered,On Time
+SHP00928,2026-03-10,2026-03-11,Business,East,West,Fragile,Express,276,1,Delivered,On Time
+SHP00784,2026-03-10,2026-03-15,Individual,Central,West,Parcel,Standard,115,5,Delivered,Not On Time
+SHP01744,2026-03-10,2026-03-16,Individual,South,Central,Document,Standard,182,6,Failed,Not On Time
+SHP01545,2026-03-11,2026-03-14,Business,South,East,Document,Standard,498,3,Delayed,Not On Time
+SHP00214,2026-03-11,2026-03-13,Business,North,West,Parcel,Standard,389,2,Delivered,On Time
+SHP01366,2026-03-11,2026-03-13,Business,North,Central,Electronics,Standard,202,2,Delayed,Not On Time
+SHP01350,2026-03-11,2026-03-15,Individual,Central,South,Parcel,Express,280,4,Delivered,Not On Time
+SHP00332,2026-03-12,2026-03-15,Individual,East,Central,Electronics,Express,533,3,Delivered,On Time
+SHP00360,2026-03-12,2026-03-16,Business,Central,East,Parcel,Express,433,4,Delivered,Not On Time
+SHP01900,2026-03-12,2026-03-14,Individual,North,Central,Fragile,Express,497,2,Delivered,On Time
+SHP00655,2026-03-14,2026-03-16,Business,North,Central,Parcel,Standard,170,2,Delivered,On Time
+SHP00972,2026-03-15,2026-03-16,Business,South,South,Parcel,Same Day,527,1,Delayed,Not On Time
+SHP01670,2026-03-15,2026-03-22,Individual,East,East,Parcel,Express,164,7,Delayed,Not On Time
+SHP01431,2026-03-15,2026-03-17,Individual,Central,South,Parcel,Standard,300,2,Delivered,On Time
+SHP00097,2026-03-15,2026-03-18,Individual,East,East,Parcel,Standard,208,3,Delivered,On Time
+SHP00995,2026-03-15,2026-03-18,Business,East,West,Electronics,Express,416,3,Cancelled,Not On Time
+SHP01101,2026-03-15,2026-03-18,Individual,North,East,Electronics,Same Day,853,3,Delivered,On Time
+SHP00677,2026-03-16,2026-03-18,Individual,West,East,Fragile,Standard,489,2,Delivered,On Time
+SHP00012,2026-03-16,2026-03-19,Individual,East,East,Fragile,Standard,443,3,Delivered,On Time
+SHP00592,2026-03-16,2026-03-18,Individual,West,South,Document,Express,524,2,Delivered,On Time
+SHP00815,2026-03-16,2026-03-21,Business,East,South,Parcel,Express,137,5,Delivered,Not On Time
+SHP01154,2026-03-17,2026-03-18,Business,North,West,Fragile,Same Day,288,1,Delayed,Not On Time
+SHP01030,2026-03-17,2026-03-19,Business,North,West,Document,Express,538,2,Delivered,On Time
+SHP01397,2026-03-19,2026-03-22,Individual,Central,North,Parcel,Standard,235,3,Cancelled,Not On Time
+SHP00686,2026-03-22,2026-03-23,Business,South,Central,Fragile,Standard,182,1,Delivered,On Time
+SHP00858,2026-03-24,2026-03-30,Individual,Central,West,Electronics,Standard,304,6,Delivered,Not On Time
+SHP00945,2026-03-24,2026-03-28,Business,Central,East,Document,Express,694,4,Delivered,Not On Time
+SHP01544,2026-03-24,2026-03-29,Individual,North,South,Document,Standard,299,5,Delivered,Not On Time
+SHP01122,2026-03-24,2026-03-28,Individual,South,East,Parcel,Standard,138,4,Delivered,Not On Time
+SHP00489,2026-03-25,2026-04-01,Individual,South,Central,Parcel,Standard,156,7,Delayed,Not On Time
+SHP00964,2026-03-25,2026-03-27,Individual,South,West,Fragile,Standard,256,2,Delayed,Not On Time
+SHP00816,2026-03-25,2026-03-29,Individual,East,South,Document,Express,575,4,Delivered,Not On Time
+SHP00835,2026-03-25,2026-03-27,Individual,West,West,Fragile,Express,539,2,Delivered,On Time
+SHP00216,2026-03-26,2026-03-30,Business,South,North,Parcel,Standard,242,4,Failed,Not On Time
+SHP01586,2026-03-26,2026-03-29,Individual,North,East,Parcel,Express,655,3,Delayed,Not On Time
+SHP00060,2026-03-26,2026-03-27,Individual,East,South,Electronics,Standard,255,1,Delivered,On Time
+SHP00196,2026-03-26,2026-03-29,Individual,South,North,Fragile,Express,454,3,Delivered,On Time
+SHP00238,2026-03-26,2026-03-31,Business,West,Central,Electronics,Express,164,5,Delivered,Not On Time
+SHP01217,2026-03-26,2026-03-29,Individual,Central,East,Fragile,Standard,219,3,Delivered,On Time
+SHP01148,2026-03-27,2026-03-30,Business,South,Central,Parcel,Same Day,533,3,Delivered,On Time
+SHP01062,2026-03-27,2026-03-29,Individual,Central,South,Fragile,Standard,160,2,Failed,Not On Time
+SHP01022,2026-03-29,2026-04-02,Business,South,Central,Fragile,Express,609,4,Delivered,Not On Time
+SHP01837,2026-03-30,2026-04-01,Individual,North,West,Parcel,Express,361,2,Delayed,Not On Time
+SHP01836,2026-03-30,2026-04-02,Business,West,Central,Document,Express,406,3,Delivered,On Time
+SHP00794,2026-03-31,2026-04-04,Business,South,West,Electronics,Standard,490,4,Delivered,Not On Time
+SHP01013,2026-03-31,2026-04-03,Individual,Central,West,Electronics,Standard,128,3,Delayed,Not On Time
+SHP01790,2026-04-01,2026-04-04,Individual,West,East,Parcel,Standard,112,3,Delivered,On Time
+SHP00211,2026-04-01,2026-04-04,Business,West,North,Parcel,Standard,136,3,Delivered,On Time
+SHP01785,2026-04-01,2026-04-05,Business,South,East,Parcel,Same Day,482,4,Delivered,Not On Time
+SHP01564,2026-04-01,2026-04-05,Individual,West,North,Fragile,Standard,279,4,Delivered,Not On Time
+SHP00953,2026-04-02,2026-04-03,Business,West,Central,Parcel,Standard,248,1,Delivered,On Time
+SHP00315,2026-04-02,2026-04-06,Individual,West,Central,Parcel,Standard,388,4,Delayed,Not On Time
+SHP00711,2026-04-02,2026-04-04,Individual,South,South,Parcel,Standard,296,2,Delivered,On Time
+SHP00548,2026-04-02,2026-04-04,Individual,West,East,Fragile,Express,161,2,Delivered,On Time
+SHP00481,2026-04-03,2026-04-04,Individual,South,Central,Electronics,Standard,158,1,Cancelled,Not On Time
+SHP00529,2026-04-03,2026-04-05,Business,South,Central,Parcel,Same Day,243,2,Delivered,On Time
+SHP01162,2026-04-04,2026-04-08,Individual,South,North,Fragile,Express,682,4,Delivered,Not On Time
+SHP00861,2026-04-04,2026-04-05,Business,West,Central,Electronics,Express,616,1,Delivered,On Time
+SHP00395,2026-04-05,2026-04-11,Individual,Central,Central,Parcel,Standard,461,6,Delivered,Not On Time
+SHP01228,2026-04-05,2026-04-08,Individual,Central,West,Document,Standard,369,3,Delivered,On Time
+SHP01088,2026-04-06,2026-04-08,Individual,North,East,Parcel,Express,372,2,Delivered,On Time
+SHP00541,2026-04-06,2026-04-08,Business,Central,Central,Document,Standard,103,2,Cancelled,Not On Time
+SHP01571,2026-04-07,2026-04-10,Individual,South,North,Parcel,Express,658,3,Delivered,On Time
+SHP00845,2026-04-07,2026-04-10,Business,South,East,Parcel,Standard,259,3,Delivered,On Time
+SHP01700,2026-04-07,2026-04-09,Individual,East,Central,Parcel,Standard,195,2,Delivered,On Time
+SHP00278,2026-04-07,2026-04-09,Individual,West,North,Document,Standard,168,2,Delivered,On Time
+SHP00474,2026-04-08,2026-04-12,Individual,South,West,Parcel,Standard,146,4,Delivered,Not On Time
+SHP00651,2026-04-10,2026-04-13,Individual,East,Central,Document,Standard,485,3,Delivered,On Time
+SHP00323,2026-04-10,2026-04-11,Business,North,Central,Document,Standard,423,1,Cancelled,Not On Time
+SHP00925,2026-04-10,2026-04-16,Individual,North,Central,Document,Express,381,6,Delivered,Not On Time
+SHP00031,2026-04-11,2026-04-14,Individual,West,West,Document,Standard,213,3,Delivered,On Time
+SHP01788,2026-04-12,2026-04-14,Individual,North,South,Document,Standard,373,2,Delivered,On Time
+SHP00934,2026-04-12,2026-04-14,Individual,West,West,Parcel,Express,125,2,Delivered,On Time
+SHP00289,2026-04-13,2026-04-15,Business,Central,South,Parcel,Standard,85,2,Delivered,On Time
+SHP01759,2026-04-14,2026-04-15,Individual,North,South,Fragile,Standard,275,1,Delivered,On Time
+SHP00154,2026-04-15,2026-04-20,Individual,South,North,Parcel,Standard,463,5,Delivered,Not On Time
+SHP01944,2026-04-15,2026-04-18,Individual,West,North,Fragile,Express,316,3,Cancelled,Not On Time
+SHP00736,2026-04-15,2026-04-19,Business,West,North,Parcel,Same Day,283,4,Delivered,Not On Time
+SHP01462,2026-04-16,2026-04-18,Individual,West,North,Document,Standard,192,2,Delivered,On Time
+SHP01510,2026-04-16,2026-04-20,Individual,North,North,Parcel,Express,440,4,Delivered,Not On Time
+SHP00997,2026-04-17,2026-04-19,Individual,Central,East,Parcel,Express,297,2,Delivered,On Time
+SHP00636,2026-04-17,2026-04-18,Individual,East,South,Parcel,Standard,452,1,Delivered,On Time
+SHP01471,2026-04-17,2026-04-22,Business,South,East,Document,Standard,238,5,Delivered,Not On Time
+SHP00299,2026-04-17,2026-04-18,Individual,South,East,Parcel,Standard,321,1,Delivered,On Time
+SHP00034,2026-04-20,2026-04-25,Individual,Central,Central,Fragile,Standard,107,5,Delivered,Not On Time
+SHP01580,2026-04-21,2026-04-27,Individual,North,North,Parcel,Standard,478,6,Delivered,Not On Time
+SHP00709,2026-04-22,2026-04-25,Business,East,East,Electronics,Same Day,401,3,Delayed,Not On Time
+SHP01484,2026-04-23,2026-04-27,Individual,East,West,Parcel,Standard,119,4,Cancelled,Not On Time
+SHP00823,2026-04-23,2026-04-27,Individual,North,East,Parcel,Express,169,4,Delivered,Not On Time
+SHP00748,2026-04-24,2026-04-27,Individual,East,North,Document,Express,210,3,Delivered,On Time
+SHP01915,2026-04-24,2026-04-28,Individual,North,South,Parcel,Same Day,783,4,Delivered,Not On Time
+SHP01806,2026-04-25,2026-05-01,Business,South,North,Electronics,Express,679,6,Delayed,Not On Time
+SHP01967,2026-04-25,2026-04-26,Business,Central,East,Parcel,Standard,309,1,Delivered,On Time
+SHP00731,2026-04-26,2026-04-30,Business,West,South,Parcel,Standard,317,4,Delivered,Not On Time
+SHP00620,2026-04-27,2026-04-30,Business,West,East,Parcel,Standard,337,3,Delivered,On Time
+SHP01299,2026-04-28,2026-05-02,Individual,North,North,Electronics,Standard,499,4,Delivered,Not On Time
+SHP00386,2026-04-28,2026-04-29,Individual,East,Central,Parcel,Express,199,1,Delivered,On Time
+SHP00897,2026-04-28,2026-05-02,Business,West,Central,Fragile,Standard,411,4,Failed,Not On Time
+SHP01175,2026-04-29,2026-05-01,Individual,East,East,Parcel,Standard,476,2,Delivered,On Time
+SHP00428,2026-04-30,2026-05-05,Business,South,West,Parcel,Standard,121,5,Delivered,Not On Time
+SHP01563,2026-04-30,2026-05-04,Individual,Central,East,Parcel,Express,536,4,Delivered,Not On Time
+SHP00774,2026-04-30,2026-05-07,Business,North,South,Document,Standard,189,7,Delivered,Not On Time
+SHP00373,2026-05-01,2026-05-03,Business,Central,West,Fragile,Standard,178,2,Delivered,On Time
+SHP00539,2026-05-02,2026-05-05,Individual,East,West,Parcel,Standard,207,3,Delivered,On Time
+SHP00585,2026-05-02,2026-05-05,Individual,Central,West,Fragile,Standard,155,3,Delivered,On Time
+SHP00977,2026-05-03,2026-05-10,Business,East,Central,Document,Express,416,7,Delivered,Not On Time
+SHP00291,2026-05-03,2026-05-06,Individual,South,East,Parcel,Standard,350,3,Delivered,On Time
+SHP00266,2026-05-03,2026-05-05,Individual,East,Central,Fragile,Standard,438,2,Delivered,On Time
+SHP00149,2026-05-04,2026-05-08,Individual,East,West,Parcel,Standard,494,4,Delivered,Not On Time
+SHP01907,2026-05-05,2026-05-10,Individual,East,West,Parcel,Standard,361,5,Delivered,Not On Time
+SHP01245,2026-05-05,2026-05-10,Business,South,West,Fragile,Standard,315,5,Delivered,Not On Time
+SHP00020,2026-05-06,2026-05-08,Individual,North,West,Fragile,Standard,383,2,Delayed,Not On Time
+SHP01658,2026-05-06,2026-05-08,Business,Central,North,Parcel,Standard,369,2,Cancelled,Not On Time
+SHP01653,2026-05-08,2026-05-14,Individual,East,North,Parcel,Standard,280,6,Delivered,Not On Time
+SHP01779,2026-05-08,2026-05-12,Business,East,Central,Fragile,Same Day,441,4,Delivered,Not On Time
+SHP00595,2026-05-08,2026-05-11,Business,North,North,Parcel,Express,580,3,Delivered,On Time
+SHP01994,2026-05-09,2026-05-16,Business,East,Central,Electronics,Standard,275,7,Delivered,Not On Time
+SHP00339,2026-05-10,2026-05-17,Business,South,Central,Parcel,Standard,202,7,Delivered,Not On Time
+SHP00001,2026-05-10,2026-05-17,Individual,Central,Central,Document,Standard,168,7,Failed,Not On Time
+SHP01426,2026-05-11,2026-05-14,Individual,South,East,Fragile,Standard,266,3,Cancelled,Not On Time
+SHP01485,2026-05-11,2026-05-14,Business,North,South,Document,Same Day,565,3,Delivered,On Time
+SHP00174,2026-05-13,2026-05-15,Individual,Central,South,Document,Standard,251,2,Delivered,On Time
+SHP00114,2026-05-13,2026-05-17,Individual,North,North,Document,Standard,307,4,Delivered,Not On Time
+SHP00814,2026-05-14,2026-05-20,Individual,North,East,Parcel,Express,643,6,Delivered,Not On Time
+SHP01440,2026-05-15,2026-05-17,Business,North,Central,Parcel,Express,472,2,Delivered,On Time
+SHP01242,2026-05-15,2026-05-19,Individual,North,West,Electronics,Standard,320,4,Delivered,Not On Time
+SHP01058,2026-05-15,2026-05-17,Business,Central,South,Parcel,Standard,194,2,Delivered,On Time
+SHP01577,2026-05-16,2026-05-19,Individual,East,East,Document,Express,218,3,Delivered,On Time
+SHP01451,2026-05-16,2026-05-17,Business,East,South,Fragile,Express,654,1,Delivered,On Time
+SHP00314,2026-05-16,2026-05-19,Business,East,Central,Parcel,Standard,213,3,Delivered,On Time
+SHP00412,2026-05-16,2026-05-17,Individual,West,West,Parcel,Standard,497,1,Delayed,Not On Time
+SHP01304,2026-05-18,2026-05-21,Individual,Central,Central,Document,Same Day,257,3,Delivered,On Time
+SHP00512,2026-05-18,2026-05-21,Individual,West,South,Document,Standard,435,3,Delivered,On Time
+SHP00108,2026-05-20,2026-05-22,Individual,East,East,Document,Standard,210,2,Failed,Not On Time
+SHP01371,2026-05-20,2026-05-24,Individual,East,West,Parcel,Express,476,4,Delivered,Not On Time
+SHP00831,2026-05-21,2026-05-22,Individual,North,South,Parcel,Express,266,1,Delivered,On Time
+SHP00008,2026-05-21,2026-05-24,Business,Central,North,Electronics,Standard,146,3,Delivered,On Time
+SHP00179,2026-05-21,2026-05-24,Individual,North,Central,Document,Standard,473,3,Delivered,On Time
+SHP00413,2026-05-22,2026-05-25,Business,North,West,Electronics,Express,449,3,Delayed,Not On Time
+SHP00769,2026-05-22,2026-05-26,Business,North,East,Electronics,Express,616,4,Delivered,Not On Time
+SHP01417,2026-05-22,2026-05-25,Business,North,South,Parcel,Express,694,3,Delayed,Not On Time
+SHP01398,2026-05-23,2026-05-28,Business,West,West,Parcel,Express,692,5,Delayed,Not On Time
+SHP00463,2026-05-25,2026-05-30,Individual,East,East,Document,Standard,124,5,Delivered,Not On Time
+SHP00883,2026-05-25,2026-05-30,Business,North,East,Fragile,Express,318,5,Failed,Not On Time
+SHP00310,2026-05-26,2026-05-28,Individual,Central,North,Document,Standard,475,2,Delivered,On Time
+SHP00704,2026-05-26,2026-05-31,Individual,Central,South,Fragile,Express,682,5,Delayed,Not On Time
+SHP00531,2026-05-26,2026-05-28,Business,West,West,Parcel,Same Day,315,2,Delayed,Not On Time
+SHP00209,2026-05-27,2026-05-31,Individual,East,East,Fragile,Same Day,349,4,Delivered,Not On Time
+SHP01284,2026-05-28,2026-05-31,Individual,South,South,Parcel,Standard,479,3,Cancelled,Not On Time
+SHP00066,2026-05-28,2026-05-31,Business,West,North,Fragile,Express,241,3,Delivered,On Time
+SHP00234,2026-05-28,2026-05-31,Individual,East,Central,Electronics,Standard,165,3,Delivered,On Time
+SHP00188,2026-05-30,2026-06-02,Individual,West,Central,Parcel,Express,564,3,Delivered,On Time
+SHP00564,2026-05-30,2026-06-02,Business,North,Central,Electronics,Express,538,3,Delivered,On Time
+SHP00726,2026-05-30,2026-06-03,Individual,South,North,Parcel,Same Day,437,4,Delivered,Not On Time
+SHP00524,2026-06-01,2026-06-02,Individual,North,East,Parcel,Express,466,1,Delivered,On Time
+SHP00671,2026-06-01,2026-06-06,Business,North,South,Fragile,Standard,438,5,Delivered,Not On Time
+SHP01086,2026-06-01,2026-06-02,Individual,West,East,Parcel,Standard,413,1,Delivered,On Time
+SHP01829,2026-06-01,2026-06-04,Individual,East,North,Fragile,Standard,373,3,Delivered,On Time
+SHP01296,2026-06-02,2026-06-03,Business,East,West,Electronics,Express,690,1,Delivered,On Time
+SHP00161,2026-06-02,2026-06-04,Individual,Central,North,Fragile,Standard,213,2,Delivered,On Time
+SHP00312,2026-06-02,2026-06-03,Business,North,Central,Parcel,Same Day,414,1,Delivered,On Time
+SHP00430,2026-06-03,2026-06-06,Individual,South,East,Document,Standard,89,3,Delivered,On Time
+SHP01160,2026-06-03,2026-06-04,Business,North,North,Fragile,Express,176,1,Delivered,On Time
+SHP00491,2026-06-04,2026-06-08,Business,East,East,Fragile,Express,267,4,Delivered,Not On Time
+SHP01266,2026-06-04,2026-06-07,Business,North,East,Electronics,Express,287,3,Delivered,On Time
+SHP01491,2026-06-04,2026-06-07,Individual,South,South,Parcel,Standard,156,3,Delivered,On Time
+SHP01377,2026-06-05,2026-06-07,Business,West,West,Fragile,Express,231,2,Delivered,On Time
+SHP01641,2026-06-05,2026-06-07,Individual,Central,West,Parcel,Express,336,2,Cancelled,Not On Time
+SHP01293,2026-06-05,2026-06-08,Individual,Central,West,Parcel,Standard,97,3,Delivered,On Time
+SHP01974,2026-06-06,2026-06-08,Individual,Central,North,Electronics,Express,445,2,Delivered,On Time
+SHP00850,2026-06-06,2026-06-09,Individual,West,East,Electronics,Standard,98,3,Delivered,On Time
+SHP01356,2026-06-07,2026-06-12,Business,South,North,Document,Express,515,5,Delivered,Not On Time
+SHP01639,2026-06-09,2026-06-13,Individual,West,Central,Parcel,Standard,109,4,Delivered,Not On Time
+SHP00435,2026-06-09,2026-06-11,Individual,West,Central,Fragile,Standard,165,2,Delivered,On Time
+SHP01599,2026-06-09,2026-06-15,Individual,Central,South,Parcel,Standard,486,6,Delivered,Not On Time
+SHP01472,2026-06-09,2026-06-12,Business,North,Central,Electronics,Express,567,3,Delivered,On Time
+SHP01959,2026-06-10,2026-06-13,Individual,East,Central,Document,Standard,266,3,Delivered,On Time
+SHP00113,2026-06-10,2026-06-16,Individual,North,Central,Parcel,Same Day,626,6,Delayed,Not On Time
+SHP01528,2026-06-10,2026-06-14,Individual,West,West,Parcel,Standard,358,4,Cancelled,Not On Time
+SHP01181,2026-06-11,2026-06-14,Business,North,West,Fragile,Standard,447,3,Delivered,On Time
+SHP01114,2026-06-12,2026-06-16,Individual,Central,West,Document,Express,552,4,Delivered,Not On Time
+SHP01395,2026-06-13,2026-06-18,Individual,Central,North,Electronics,Standard,123,5,Delivered,Not On Time
+SHP00475,2026-06-13,2026-06-16,Individual,North,North,Document,Express,462,3,Delivered,On Time
+SHP00371,2026-06-14,2026-06-16,Individual,West,West,Fragile,Express,253,2,Delivered,On Time
+SHP00335,2026-06-15,2026-06-16,Individual,South,South,Parcel,Standard,96,1,Delivered,On Time
+SHP00190,2026-06-15,2026-06-17,Individual,West,South,Parcel,Standard,263,2,Delivered,On Time
+SHP00755,2026-06-16,2026-06-22,Business,East,North,Fragile,Standard,472,6,Delivered,Not On Time
+SHP00043,2026-06-16,2026-06-17,Business,Central,Central,Parcel,Express,535,1,Delivered,On Time
+SHP00713,2026-06-17,2026-06-22,Business,South,North,Document,Same Day,308,5,Delivered,Not On Time
+SHP01325,2026-06-17,2026-06-19,Individual,Central,North,Electronics,Express,693,2,Delivered,On Time
+SHP01793,2026-06-17,2026-06-20,Individual,North,East,Fragile,Standard,191,3,Delayed,Not On Time
+SHP01392,2026-06-18,2026-06-24,Individual,South,North,Parcel,Same Day,373,6,Delivered,Not On Time
+SHP00622,2026-06-18,2026-06-21,Business,West,East,Document,Same Day,583,3,Delivered,On Time
+SHP00624,2026-06-18,2026-06-21,Individual,North,West,Document,Standard,202,3,Delivered,On Time
+SHP00607,2026-06-18,2026-06-22,Individual,Central,North,Document,Same Day,211,4,Delayed,Not On Time
+SHP01857,2026-06-19,2026-06-21,Business,West,South,Fragile,Standard,224,2,Delivered,On Time
+SHP00750,2026-06-20,2026-06-23,Business,Central,North,Electronics,Express,431,3,Delivered,On Time
+SHP01795,2026-06-20,2026-06-25,Business,West,South,Parcel,Standard,116,5,Delayed,Not On Time
+SHP00279,2026-06-21,2026-06-26,Individual,North,Central,Parcel,Express,661,5,Delivered,Not On Time
+SHP01425,2026-06-21,2026-06-26,Individual,North,East,Document,Standard,300,5,Delayed,Not On Time
+SHP00974,2026-06-23,2026-06-26,Business,South,South,Document,Standard,406,3,Failed,Not On Time
+SHP01015,2026-06-24,2026-06-26,Individual,East,South,Fragile,Standard,107,2,Delivered,On Time
+SHP01282,2026-06-25,2026-06-28,Individual,East,East,Parcel,Express,601,3,Delivered,On Time
+SHP01405,2026-06-27,2026-06-30,Individual,South,Central,Document,Express,482,3,Delivered,On Time
+SHP00522,2026-06-27,2026-06-29,Individual,Central,North,Fragile,Standard,350,2,Delayed,Not On Time
+SHP01630,2026-06-27,2026-07-02,Business,Central,Central,Parcel,Express,406,5,Delivered,Not On Time
+SHP00951,2026-06-28,2026-07-01,Individual,North,Central,Fragile,Same Day,830,3,Delivered,On Time
+SHP01450,2026-06-29,2026-06-30,Individual,West,East,Document,Standard,148,1,Delivered,On Time
+SHP00761,2026-06-29,2026-07-04,Individual,North,West,Parcel,Standard,161,5,Delivered,Not On Time
+SHP00351,2026-06-30,2026-07-01,Business,South,Central,Document,Express,603,1,Failed,Not On Time
+SHP01728,2026-06-30,2026-07-06,Business,South,Central,Electronics,Standard,290,6,Delivered,Not On Time
+SHP00451,2026-07-01,2026-07-05,Business,West,East,Parcel,Standard,292,4,Delivered,Not On Time
+SHP01413,2026-07-02,2026-07-05,Individual,East,South,Parcel,Express,146,3,Delivered,On Time
+SHP00208,2026-07-02,2026-07-05,Individual,West,North,Parcel,Standard,220,3,Delivered,On Time
+SHP01197,2026-07-02,2026-07-06,Individual,South,West,Parcel,Express,232,4,Delivered,Not On Time
+SHP01660,2026-07-03,2026-07-04,Individual,West,East,Fragile,Express,246,1,Delivered,On Time
+SHP00960,2026-07-03,2026-07-06,Business,West,West,Parcel,Standard,332,3,Delivered,On Time
+SHP01326,2026-07-04,2026-07-06,Individual,North,Central,Document,Same Day,301,2,Delivered,On Time
+SHP01258,2026-07-04,2026-07-06,Individual,Central,North,Parcel,Standard,193,2,Delivered,On Time
+SHP01570,2026-07-05,2026-07-07,Individual,North,South,Parcel,Standard,162,2,Delivered,On Time
+SHP01798,2026-07-05,2026-07-09,Business,East,Central,Document,Express,699,4,Cancelled,Not On Time
+SHP01264,2026-07-06,2026-07-10,Business,West,North,Parcel,Standard,334,4,Delayed,Not On Time
+SHP00768,2026-07-06,2026-07-07,Individual,South,South,Parcel,Express,456,1,Delivered,On Time
+SHP01369,2026-07-06,2026-07-13,Individual,East,West,Parcel,Standard,476,7,Delivered,Not On Time
+SHP01523,2026-07-07,2026-07-10,Individual,South,West,Parcel,Standard,376,3,Delivered,On Time
+SHP00674,2026-07-07,2026-07-08,Individual,North,South,Fragile,Standard,413,1,Cancelled,Not On Time
+SHP01478,2026-07-07,2026-07-10,Individual,North,West,Parcel,Standard,401,3,Delivered,On Time
+SHP00584,2026-07-07,2026-07-09,Individual,West,North,Electronics,Express,307,2,Delayed,Not On Time
+SHP00402,2026-07-08,2026-07-12,Individual,North,South,Parcel,Express,220,4,Delivered,Not On Time
+SHP00719,2026-07-08,2026-07-11,Business,West,Central,Parcel,Standard,182,3,Delivered,On Time
+SHP01678,2026-07-09,2026-07-14,Individual,North,Central,Parcel,Standard,327,5,Delivered,Not On Time
+SHP00275,2026-07-09,2026-07-15,Individual,North,West,Document,Express,587,6,Delivered,Not On Time
+SHP01134,2026-07-09,2026-07-15,Individual,South,North,Parcel,Express,454,6,Delivered,Not On Time
+SHP01110,2026-07-09,2026-07-14,Individual,North,East,Parcel,Standard,152,5,Delivered,Not On Time
+SHP01938,2026-07-09,2026-07-10,Individual,East,South,Parcel,Express,546,1,Delivered,On Time
+SHP01187,2026-07-09,2026-07-12,Business,South,North,Document,Standard,174,3,Delivered,On Time
+SHP01016,2026-07-10,2026-07-15,Individual,West,West,Parcel,Standard,127,5,Delivered,Not On Time
+SHP00803,2026-07-11,2026-07-14,Individual,Central,Central,Parcel,Same Day,286,3,Delivered,On Time
+SHP01419,2026-07-12,2026-07-14,Individual,East,Central,Fragile,Standard,294,2,Delivered,On Time
+SHP00521,2026-07-13,2026-07-16,Business,North,West,Parcel,Express,333,3,Delivered,On Time
+SHP00926,2026-07-13,2026-07-15,Business,Central,Central,Fragile,Express,347,2,Cancelled,Not On Time
+SHP01133,2026-07-14,2026-07-16,Individual,South,Central,Parcel,Express,514,2,Delivered,On Time
+SHP00259,2026-07-16,2026-07-23,Individual,Central,East,Parcel,Standard,192,7,Delivered,Not On Time
+SHP00517,2026-07-17,2026-07-19,Individual,East,West,Parcel,Standard,138,2,Delivered,On Time
+SHP00176,2026-07-17,2026-07-20,Individual,East,South,Parcel,Standard,96,3,Delivered,On Time
+SHP00482,2026-07-17,2026-07-18,Individual,West,North,Parcel,Express,532,1,Failed,Not On Time
+SHP00092,2026-07-18,2026-07-25,Business,South,Central,Fragile,Express,400,7,Delivered,Not On Time
+SHP01781,2026-07-19,2026-07-21,Business,East,West,Parcel,Standard,229,2,Delayed,Not On Time
+SHP01443,2026-07-20,2026-07-26,Individual,North,East,Document,Express,238,6,Delivered,Not On Time
+SHP01001,2026-07-22,2026-07-28,Individual,North,South,Parcel,Same Day,268,6,Delivered,Not On Time
+SHP01307,2026-07-22,2026-07-26,Individual,East,Central,Fragile,Standard,266,4,Delayed,Not On Time
+SHP00973,2026-07-22,2026-07-23,Business,East,Central,Electronics,Same Day,880,1,Cancelled,Not On Time
+SHP00483,2026-07-22,2026-07-24,Individual,East,East,Parcel,Same Day,500,2,Delivered,On Time
+SHP00440,2026-07-23,2026-07-28,Individual,South,Central,Parcel,Express,545,5,Cancelled,Not On Time
+SHP01093,2026-07-23,2026-07-27,Individual,Central,Central,Parcel,Express,476,4,Delivered,Not On Time
+SHP01964,2026-07-24,2026-07-28,Individual,North,South,Parcel,Express,158,4,Delivered,Not On Time
+SHP00865,2026-07-24,2026-07-26,Business,North,West,Parcel,Express,553,2,Delivered,On Time
+SHP01362,2026-07-24,2026-07-26,Individual,West,Central,Parcel,Express,378,2,Delivered,On Time
+SHP01102,2026-07-24,2026-07-27,Business,West,South,Electronics,Express,171,3,Delivered,On Time
+SHP00316,2026-07-24,2026-07-30,Business,South,East,Document,Standard,433,6,Delivered,Not On Time
+SHP01164,2026-07-25,2026-08-01,Individual,East,North,Document,Express,696,7,Delayed,Not On Time
+SHP00871,2026-07-25,2026-07-27,Individual,Central,South,Electronics,Standard,488,2,Delivered,On Time
+SHP01152,2026-07-27,2026-07-29,Individual,North,North,Fragile,Standard,269,2,Delivered,On Time
+SHP00881,2026-07-27,2026-07-29,Business,South,East,Document,Standard,342,2,Delivered,On Time
+SHP01050,2026-07-27,2026-08-01,Individual,East,East,Parcel,Standard,251,5,Delivered,Not On Time
+SHP01910,2026-07-28,2026-07-31,Business,South,West,Electronics,Standard,205,3,Delivered,On Time
+SHP01456,2026-07-28,2026-07-30,Individual,North,North,Parcel,Standard,191,2,Delivered,On Time
+SHP00976,2026-07-28,2026-07-31,Individual,Central,South,Electronics,Express,556,3,Delivered,On Time
+SHP01582,2026-07-30,2026-08-01,Individual,Central,East,Parcel,Express,647,2,Delivered,On Time
+SHP01979,2026-07-31,2026-08-05,Individual,South,West,Parcel,Standard,266,5,Cancelled,Not On Time
+SHP01595,2026-08-01,2026-08-03,Individual,West,Central,Parcel,Same Day,592,2,Delivered,On Time
+SHP00954,2026-08-01,2026-08-06,Business,South,South,Fragile,Standard,223,5,Delivered,Not On Time
+SHP01904,2026-08-02,2026-08-03,Business,West,North,Parcel,Express,434,1,Delivered,On Time
+SHP01942,2026-08-03,2026-08-05,Individual,South,Central,Document,Standard,437,2,Delivered,On Time
+SHP00453,2026-08-03,2026-08-07,Business,West,South,Document,Standard,164,4,Delivered,Not On Time
+SHP00924,2026-08-04,2026-08-07,Business,North,East,Parcel,Standard,422,3,Delivered,On Time
+SHP01286,2026-08-04,2026-08-05,Individual,South,South,Parcel,Standard,453,1,Delivered,On Time
+SHP01437,2026-08-04,2026-08-07,Individual,West,West,Parcel,Standard,232,3,Delayed,Not On Time
+SHP00728,2026-08-04,2026-08-06,Individual,West,North,Fragile,Standard,85,2,Delivered,On Time
+SHP00819,2026-08-05,2026-08-09,Individual,South,East,Fragile,Same Day,187,4,Delivered,Not On Time
+SHP01775,2026-08-05,2026-08-09,Business,North,South,Parcel,Express,319,4,Delivered,Not On Time
+SHP00434,2026-08-05,2026-08-06,Individual,East,North,Fragile,Standard,373,1,Delivered,On Time
+SHP01277,2026-08-05,2026-08-10,Individual,East,West,Parcel,Standard,255,5,Delivered,Not On Time
+SHP01145,2026-08-06,2026-08-12,Individual,South,East,Parcel,Standard,381,6,Delayed,Not On Time
+SHP00809,2026-08-08,2026-08-12,Business,South,South,Electronics,Express,251,4,Delivered,Not On Time
+SHP01636,2026-08-09,2026-08-12,Individual,Central,South,Parcel,Standard,441,3,Delivered,On Time
+SHP00143,2026-08-09,2026-08-12,Business,West,West,Electronics,Express,200,3,Delayed,Not On Time
+SHP01184,2026-08-09,2026-08-12,Individual,North,West,Parcel,Standard,122,3,Delivered,On Time
+SHP00908,2026-08-09,2026-08-14,Business,North,North,Fragile,Express,584,5,Delivered,Not On Time
+SHP00449,2026-08-11,2026-08-15,Individual,South,North,Document,Standard,203,4,Delivered,Not On Time
+SHP00882,2026-08-12,2026-08-15,Business,South,North,Fragile,Express,368,3,Delivered,On Time
+SHP00222,2026-08-12,2026-08-14,Individual,West,Central,Electronics,Express,399,2,Delayed,Not On Time
+SHP01192,2026-08-12,2026-08-16,Individual,South,East,Parcel,Standard,479,4,Delayed,Not On Time
+SHP00171,2026-08-12,2026-08-16,Individual,North,North,Document,Standard,320,4,Delivered,Not On Time
+SHP01333,2026-08-13,2026-08-16,Individual,Central,East,Fragile,Express,449,3,Delivered,On Time
+SHP01906,2026-08-13,2026-08-14,Individual,East,West,Document,Standard,169,1,Delivered,On Time
+SHP01435,2026-08-13,2026-08-14,Business,East,East,Fragile,Standard,402,1,Delivered,On Time
+SHP01701,2026-08-13,2026-08-14,Individual,North,North,Fragile,Standard,470,1,Delivered,On Time
+SHP00014,2026-08-13,2026-08-16,Business,East,North,Document,Standard,139,3,Delivered,On Time
+SHP00045,2026-08-13,2026-08-16,Individual,South,South,Parcel,Express,113,3,Delivered,On Time
+SHP00376,2026-08-14,2026-08-18,Individual,West,North,Document,Standard,364,4,Delivered,Not On Time
+SHP00212,2026-08-14,2026-08-15,Individual,North,North,Electronics,Express,645,1,Failed,Not On Time
+SHP01428,2026-08-14,2026-08-17,Business,South,West,Parcel,Express,386,3,Delivered,On Time
+SHP01063,2026-08-14,2026-08-17,Individual,Central,West,Document,Same Day,833,3,Delivered,On Time
+SHP01497,2026-08-14,2026-08-17,Individual,South,East,Parcel,Express,112,3,Delivered,On Time
+SHP00029,2026-08-15,2026-08-17,Business,East,South,Fragile,Express,490,2,Delivered,On Time
+SHP01040,2026-08-15,2026-08-18,Individual,East,West,Parcel,Standard,436,3,Delivered,On Time
+SHP00842,2026-08-15,2026-08-17,Individual,North,South,Parcel,Standard,264,2,Delivered,On Time
+SHP00027,2026-08-15,2026-08-18,Business,South,South,Parcel,Same Day,871,3,Delivered,On Time
+SHP00348,2026-08-15,2026-08-18,Individual,East,North,Document,Standard,471,3,Cancelled,Not On Time
+SHP01124,2026-08-15,2026-08-17,Individual,Central,South,Document,Standard,271,2,Delivered,On Time
+SHP01632,2026-08-16,2026-08-17,Individual,South,South,Document,Express,343,1,Delivered,On Time
+SHP00516,2026-08-16,2026-08-17,Individual,East,West,Document,Standard,426,1,Cancelled,Not On Time
+SHP01322,2026-08-17,2026-08-22,Individual,West,East,Parcel,Standard,486,5,Delayed,Not On Time
+SHP00235,2026-08-17,2026-08-19,Individual,North,North,Document,Standard,256,2,Delivered,On Time
+SHP00101,2026-08-18,2026-08-21,Individual,South,South,Document,Standard,278,3,Delivered,On Time
+SHP01940,2026-08-19,2026-08-20,Business,North,South,Electronics,Standard,442,1,Delivered,On Time
+SHP01581,2026-08-19,2026-08-24,Business,North,South,Fragile,Standard,179,5,Delivered,Not On Time
+SHP00267,2026-08-19,2026-08-21,Business,South,South,Document,Standard,354,2,Delivered,On Time
+SHP01943,2026-08-20,2026-08-27,Individual,Central,North,Parcel,Standard,312,7,Delivered,Not On Time
+SHP01149,2026-08-21,2026-08-23,Business,Central,Central,Document,Express,196,2,Delayed,Not On Time
+SHP01800,2026-08-21,2026-08-23,Individual,North,North,Parcel,Same Day,302,2,Delivered,On Time
+SHP01616,2026-08-21,2026-08-22,Individual,East,Central,Fragile,Express,302,1,Delivered,On Time
+SHP00896,2026-08-24,2026-08-26,Individual,West,East,Parcel,Standard,202,2,Delivered,On Time
+SHP01578,2026-08-25,2026-08-31,Individual,North,West,Parcel,Standard,338,6,Delivered,Not On Time
+SHP00501,2026-08-25,2026-08-26,Individual,Central,West,Parcel,Standard,376,1,Failed,Not On Time
+SHP01757,2026-08-26,2026-08-29,Individual,North,Central,Electronics,Express,447,3,Delivered,On Time
+SHP01674,2026-08-26,2026-08-27,Business,South,Central,Electronics,Express,700,1,Delivered,On Time
+SHP01499,2026-08-26,2026-08-29,Business,East,South,Parcel,Standard,365,3,Delivered,On Time
+SHP00867,2026-08-26,2026-08-30,Individual,West,North,Fragile,Express,329,4,Delayed,Not On Time
+SHP00390,2026-08-27,2026-08-30,Business,South,North,Document,Express,214,3,Delivered,On Time
+SHP00497,2026-08-28,2026-09-02,Individual,West,West,Fragile,Standard,177,5,Delivered,Not On Time
+SHP01558,2026-08-28,2026-08-31,Individual,North,Central,Parcel,Standard,157,3,Delivered,On Time
+SHP01400,2026-08-28,2026-09-01,Individual,North,East,Parcel,Express,118,4,Delivered,Not On Time
+SHP00287,2026-08-29,2026-09-04,Business,North,East,Document,Same Day,466,6,Delivered,Not On Time
+SHP01487,2026-08-29,2026-08-30,Individual,North,North,Parcel,Express,235,1,Delivered,On Time
+SHP00503,2026-08-29,2026-09-03,Individual,South,East,Fragile,Express,122,5,Delivered,Not On Time
+SHP00135,2026-08-30,2026-09-01,Business,Central,North,Parcel,Standard,286,2,Delivered,On Time
+SHP01202,2026-08-30,2026-09-02,Individual,Central,South,Parcel,Express,458,3,Delivered,On Time
+SHP01200,2026-08-30,2026-09-02,Individual,West,Central,Parcel,Standard,224,3,Delivered,On Time
+SHP01579,2026-08-31,2026-09-03,Business,Central,South,Parcel,Standard,171,3,Delivered,On Time
+SHP01297,2026-08-31,2026-09-02,Individual,East,Central,Document,Same Day,898,2,Delivered,On Time
+SHP01592,2026-09-01,2026-09-05,Individual,Central,North,Fragile,Standard,347,4,Delivered,Not On Time
+SHP01194,2026-09-01,2026-09-02,Business,East,East,Parcel,Standard,350,1,Delivered,On Time
+SHP01071,2026-09-02,2026-09-04,Business,South,West,Fragile,Express,640,2,Delivered,On Time
+SHP00025,2026-09-02,2026-09-06,Individual,North,East,Parcel,Standard,463,4,Delivered,Not On Time
+SHP01742,2026-09-04,2026-09-08,Business,South,Central,Electronics,Standard,167,4,Delivered,Not On Time
+SHP01401,2026-09-04,2026-09-09,Individual,East,Central,Document,Express,617,5,Delivered,Not On Time
+SHP00405,2026-09-04,2026-09-06,Individual,South,East,Electronics,Standard,215,2,Delivered,On Time
+SHP01731,2026-09-06,2026-09-07,Individual,West,Central,Fragile,Express,259,1,Delivered,On Time
+SHP00258,2026-09-07,2026-09-14,Individual,South,North,Parcel,Express,644,7,Delayed,Not On Time
+SHP01080,2026-09-07,2026-09-10,Business,East,North,Parcel,Standard,336,3,Failed,Not On Time
+SHP01017,2026-09-07,2026-09-10,Individual,South,West,Document,Standard,175,3,Delivered,On Time
+SHP01847,2026-09-08,2026-09-09,Individual,East,East,Fragile,Express,438,1,Failed,Not On Time
+SHP01109,2026-09-08,2026-09-11,Individual,Central,Central,Document,Standard,293,3,Cancelled,Not On Time
+SHP00163,2026-09-08,2026-09-10,Individual,South,North,Parcel,Same Day,805,2,Delayed,Not On Time
+SHP01105,2026-09-09,2026-09-10,Business,North,West,Parcel,Standard,142,1,Cancelled,Not On Time
+SHP01825,2026-09-09,2026-09-11,Individual,West,East,Fragile,Standard,469,2,Delayed,Not On Time
+SHP00860,2026-09-09,2026-09-12,Business,West,Central,Electronics,Same Day,412,3,Delivered,On Time
+SHP01646,2026-09-10,2026-09-12,Individual,North,West,Parcel,Same Day,448,2,Delivered,On Time
+SHP00611,2026-09-10,2026-09-13,Business,North,North,Electronics,Standard,459,3,Delayed,Not On Time
+SHP00600,2026-09-10,2026-09-16,Individual,East,West,Parcel,Standard,454,6,Delivered,Not On Time
+SHP01193,2026-09-10,2026-09-13,Individual,South,West,Parcel,Express,344,3,Delivered,On Time
+SHP00843,2026-09-11,2026-09-14,Individual,West,Central,Document,Express,511,3,Delivered,On Time
+SHP01969,2026-09-11,2026-09-12,Individual,Central,West,Electronics,Standard,484,1,Delivered,On Time
+SHP01315,2026-09-11,2026-09-14,Individual,West,North,Document,Standard,240,3,Delivered,On Time
+SHP01103,2026-09-12,2026-09-14,Individual,North,West,Fragile,Express,322,2,Delivered,On Time
+SHP01542,2026-09-13,2026-09-20,Individual,West,East,Parcel,Standard,276,7,Delayed,Not On Time
+SHP00922,2026-09-14,2026-09-17,Individual,North,North,Parcel,Express,665,3,Delivered,On Time
+SHP01186,2026-09-14,2026-09-15,Business,West,Central,Document,Standard,121,1,Delivered,On Time
+SHP01672,2026-09-14,2026-09-19,Individual,East,North,Document,Standard,192,5,Delayed,Not On Time
+SHP01256,2026-09-15,2026-09-18,Individual,North,West,Parcel,Standard,453,3,Delivered,On Time
+SHP01301,2026-09-15,2026-09-18,Business,North,West,Parcel,Standard,223,3,Delayed,Not On Time
+SHP01807,2026-09-15,2026-09-19,Individual,North,West,Parcel,Standard,288,4,Delivered,Not On Time
+SHP01091,2026-09-16,2026-09-17,Individual,North,South,Fragile,Standard,461,1,Delivered,On Time
+SHP00905,2026-09-16,2026-09-18,Business,West,East,Electronics,Express,682,2,Delivered,On Time
+SHP00579,2026-09-16,2026-09-19,Business,East,South,Document,Express,602,3,Delivered,On Time
+SHP01935,2026-09-18,2026-09-19,Individual,South,North,Fragile,Standard,204,1,Delivered,On Time
+SHP00311,2026-09-18,2026-09-20,Individual,South,West,Document,Express,673,2,Delivered,On Time
+SHP00789,2026-09-19,2026-09-21,Individual,Central,East,Parcel,Express,678,2,Delivered,On Time
+SHP01661,2026-09-19,2026-09-21,Individual,North,South,Parcel,Standard,232,2,Delivered,On Time
+SHP00304,2026-09-19,2026-09-23,Individual,East,North,Parcel,Express,496,4,Delivered,Not On Time
+SHP00844,2026-09-19,2026-09-22,Business,East,Central,Parcel,Express,619,3,Delivered,On Time
+SHP00255,2026-09-19,2026-09-20,Individual,North,Central,Fragile,Standard,274,1,Delivered,On Time
+SHP01799,2026-09-20,2026-09-24,Business,East,South,Parcel,Standard,297,4,Delivered,Not On Time
+SHP01375,2026-09-20,2026-09-24,Individual,North,East,Parcel,Express,372,4,Delivered,Not On Time
+SHP01252,2026-09-20,2026-09-26,Individual,North,West,Parcel,Standard,491,6,Failed,Not On Time
+SHP01097,2026-09-21,2026-09-25,Individual,North,South,Electronics,Express,311,4,Delayed,Not On Time
+SHP01094,2026-09-21,2026-09-23,Individual,North,South,Parcel,Standard,366,2,Delivered,On Time
+SHP01868,2026-09-21,2026-09-24,Individual,East,East,Parcel,Express,207,3,Cancelled,Not On Time
+SHP00058,2026-09-22,2026-09-25,Individual,East,Central,Parcel,Same Day,860,3,Delivered,On Time
+SHP00342,2026-09-23,2026-09-28,Individual,East,North,Fragile,Standard,191,5,Delivered,Not On Time
+SHP00554,2026-09-23,2026-09-26,Business,Central,Central,Electronics,Same Day,617,3,Cancelled,Not On Time
+SHP00808,2026-09-23,2026-09-28,Individual,Central,West,Fragile,Same Day,569,5,Delivered,Not On Time
+SHP01004,2026-09-24,2026-09-28,Business,East,East,Electronics,Standard,314,4,Delivered,Not On Time
+SHP01683,2026-09-25,2026-09-29,Business,North,Central,Electronics,Standard,334,4,Delivered,Not On Time
+SHP01697,2026-09-25,2026-09-28,Individual,West,Central,Fragile,Express,539,3,Delivered,On Time
+SHP01562,2026-09-27,2026-09-30,Individual,Central,East,Parcel,Same Day,526,3,Delivered,On Time
+SHP00301,2026-09-29,2026-09-30,Business,West,West,Electronics,Standard,280,1,Delivered,On Time
+SHP00891,2026-09-29,2026-10-05,Individual,North,East,Document,Standard,130,6,Delayed,Not On Time
+SHP00847,2026-09-30,2026-10-03,Individual,East,West,Fragile,Standard,127,3,Delivered,On Time
+SHP00307,2026-09-30,2026-10-01,Individual,West,Central,Fragile,Standard,263,1,Delivered,On Time
+SHP01601,2026-10-01,2026-10-05,Individual,East,West,Document,Standard,457,4,Delivered,Not On Time
+SHP01463,2026-10-01,2026-10-05,Business,Central,Central,Parcel,Standard,222,4,Cancelled,Not On Time
+SHP01689,2026-10-02,2026-10-05,Business,East,South,Electronics,Same Day,369,3,Delivered,On Time
+SHP00943,2026-10-03,2026-10-07,Individual,West,Central,Parcel,Standard,162,4,Delivered,Not On Time
+SHP00792,2026-10-03,2026-10-06,Individual,North,North,Parcel,Express,414,3,Delivered,On Time
+SHP01617,2026-10-04,2026-10-07,Individual,West,South,Document,Standard,358,3,Delivered,On Time
+SHP01248,2026-10-04,2026-10-05,Individual,Central,East,Parcel,Standard,401,1,Delivered,On Time
+SHP00849,2026-10-04,2026-10-08,Individual,Central,Central,Fragile,Standard,464,4,Delivered,Not On Time
+SHP01308,2026-10-05,2026-10-09,Individual,West,East,Document,Same Day,801,4,Cancelled,Not On Time
+SHP00406,2026-10-05,2026-10-08,Individual,Central,Central,Parcel,Standard,383,3,Delivered,On Time
+SHP01511,2026-10-05,2026-10-07,Business,North,South,Fragile,Express,512,2,Delivered,On Time
+SHP00346,2026-10-05,2026-10-08,Business,East,West,Fragile,Standard,426,3,Delivered,On Time
+SHP00852,2026-10-05,2026-10-08,Individual,South,North,Parcel,Express,651,3,Delivered,On Time
+SHP01550,2026-10-06,2026-10-07,Business,East,South,Parcel,Standard,312,1,Delivered,On Time
+SHP00919,2026-10-06,2026-10-09,Business,North,East,Parcel,Express,351,3,Delivered,On Time
+SHP01817,2026-10-07,2026-10-13,Individual,West,West,Fragile,Express,581,6,Delivered,Not On Time
+SHP00349,2026-10-08,2026-10-11,Individual,Central,South,Parcel,Express,570,3,Failed,Not On Time
+SHP00328,2026-10-09,2026-10-11,Individual,Central,East,Fragile,Standard,155,2,Failed,Not On Time
+SHP00128,2026-10-09,2026-10-11,Business,West,North,Document,Express,571,2,Delayed,Not On Time
+SHP01745,2026-10-09,2026-10-14,Individual,Central,Central,Parcel,Same Day,805,5,Delivered,Not On Time
+SHP00854,2026-10-10,2026-10-12,Business,North,West,Fragile,Express,431,2,Delivered,On Time
+SHP01708,2026-10-10,2026-10-13,Business,West,North,Parcel,Express,559,3,Delivered,On Time
+SHP01402,2026-10-10,2026-10-14,Individual,West,South,Electronics,Standard,261,4,Delivered,Not On Time
+SHP01335,2026-10-10,2026-10-15,Individual,South,Central,Electronics,Express,479,5,Delivered,Not On Time
+SHP01605,2026-10-11,2026-10-14,Business,Central,East,Parcel,Standard,166,3,Cancelled,Not On Time
+SHP01532,2026-10-11,2026-10-16,Individual,West,Central,Electronics,Express,237,5,Delivered,Not On Time
+SHP00194,2026-10-11,2026-10-18,Individual,West,East,Parcel,Standard,393,7,Delivered,Not On Time
+SHP00533,2026-10-12,2026-10-15,Individual,North,North,Parcel,Standard,436,3,Cancelled,Not On Time
+SHP00364,2026-10-12,2026-10-17,Individual,Central,North,Parcel,Standard,189,5,Delivered,Not On Time
+SHP00187,2026-10-13,2026-10-18,Individual,East,South,Parcel,Express,132,5,Delivered,Not On Time
+SHP01332,2026-10-13,2026-10-15,Business,South,South,Parcel,Express,314,2,Cancelled,Not On Time
+SHP00062,2026-10-13,2026-10-17,Individual,East,North,Parcel,Standard,330,4,Delivered,Not On Time
+SHP01720,2026-10-13,2026-10-18,Individual,North,West,Document,Same Day,781,5,Delivered,Not On Time
+SHP00086,2026-10-14,2026-10-16,Individual,West,Central,Fragile,Express,689,2,Delivered,On Time
+SHP00601,2026-10-16,2026-10-17,Individual,South,North,Fragile,Standard,400,1,Delivered,On Time
+SHP01021,2026-10-16,2026-10-20,Business,South,North,Electronics,Standard,152,4,Delivered,Not On Time
+SHP00237,2026-10-16,2026-10-18,Individual,Central,Central,Fragile,Express,419,2,Delivered,On Time
+SHP00117,2026-10-17,2026-10-23,Individual,South,West,Parcel,Standard,179,6,Delivered,Not On Time
+SHP00398,2026-10-17,2026-10-20,Individual,Central,Central,Electronics,Express,595,3,Delayed,Not On Time
+SHP00807,2026-10-17,2026-10-21,Individual,Central,East,Fragile,Same Day,160,4,Delivered,Not On Time
+SHP00391,2026-10-18,2026-10-19,Individual,East,North,Fragile,Standard,385,1,Delivered,On Time
+SHP01981,2026-10-18,2026-10-20,Business,North,South,Document,Standard,389,2,Delayed,Not On Time
+SHP00051,2026-10-18,2026-10-20,Individual,North,Central,Electronics,Express,300,2,Delivered,On Time
+SHP00967,2026-10-19,2026-10-22,Individual,South,South,Document,Standard,131,3,Delivered,On Time
+SHP01546,2026-10-21,2026-10-22,Individual,South,West,Document,Standard,458,1,Delivered,On Time
+SHP01504,2026-10-21,2026-10-25,Individual,West,Central,Parcel,Express,514,4,Delivered,Not On Time
+SHP00862,2026-10-21,2026-10-25,Business,Central,West,Document,Standard,362,4,Delivered,Not On Time
+SHP00476,2026-10-21,2026-10-24,Individual,West,West,Electronics,Standard,120,3,Cancelled,Not On Time
+SHP00050,2026-10-22,2026-10-23,Individual,South,West,Document,Same Day,697,1,Delivered,On Time
+SHP00673,2026-10-23,2026-10-27,Individual,West,North,Document,Express,315,4,Cancelled,Not On Time
+SHP01583,2026-10-23,2026-10-28,Business,South,West,Document,Standard,274,5,Delivered,Not On Time
+SHP00632,2026-10-25,2026-10-28,Individual,East,West,Document,Express,552,3,Delayed,Not On Time
+SHP00104,2026-10-25,2026-10-31,Individual,South,North,Fragile,Express,627,6,Delivered,Not On Time
+SHP00532,2026-10-25,2026-10-29,Business,South,West,Parcel,Express,270,4,Delayed,Not On Time
+SHP00672,2026-10-27,2026-11-01,Business,South,South,Parcel,Standard,420,5,Delivered,Not On Time
+SHP01280,2026-10-27,2026-10-30,Individual,Central,West,Parcel,Standard,479,3,Delivered,On Time
+SHP01774,2026-10-27,2026-10-31,Individual,North,East,Fragile,Standard,107,4,Delivered,Not On Time
+SHP01530,2026-10-28,2026-11-01,Business,North,South,Parcel,Standard,355,4,Delivered,Not On Time
+SHP00506,2026-10-28,2026-10-31,Business,Central,South,Parcel,Express,384,3,Delivered,On Time
+SHP01914,2026-10-28,2026-10-30,Individual,South,North,Fragile,Standard,368,2,Delivered,On Time
+SHP00933,2026-10-28,2026-11-01,Business,West,South,Document,Express,462,4,Delivered,Not On Time
+SHP00448,2026-10-29,2026-10-31,Business,West,South,Fragile,Standard,332,2,Delivered,On Time
+SHP01894,2026-10-30,2026-11-03,Business,South,North,Parcel,Same Day,328,4,Delayed,Not On Time
+SHP01480,2026-10-30,2026-11-02,Business,Central,East,Electronics,Express,347,3,Delivered,On Time
+SHP00498,2026-11-01,2026-11-03,Individual,East,North,Parcel,Standard,408,2,Delivered,On Time
+SHP01403,2026-11-01,2026-11-05,Business,South,West,Parcel,Standard,191,4,Delivered,Not On Time
+SHP01513,2026-11-01,2026-11-04,Individual,North,North,Document,Standard,234,3,Delivered,On Time
+SHP01802,2026-11-01,2026-11-04,Individual,West,North,Fragile,Standard,350,3,Delivered,On Time
+SHP01729,2026-11-01,2026-11-05,Business,East,West,Parcel,Standard,301,4,Delayed,Not On Time
+SHP01859,2026-11-02,2026-11-06,Individual,South,Central,Parcel,Standard,160,4,Delayed,Not On Time
+SHP00679,2026-11-04,2026-11-05,Individual,West,North,Parcel,Same Day,200,1,Delivered,On Time
+SHP00112,2026-11-04,2026-11-07,Individual,Central,South,Parcel,Standard,217,3,Cancelled,Not On Time
+SHP00801,2026-11-04,2026-11-05,Individual,Central,Central,Parcel,Standard,403,1,Delivered,On Time
+SHP01077,2026-11-05,2026-11-09,Individual,Central,North,Document,Standard,151,4,Delivered,Not On Time
+SHP00366,2026-11-05,2026-11-07,Business,East,West,Parcel,Standard,386,2,Delivered,On Time
+SHP01064,2026-11-06,2026-11-10,Business,North,South,Document,Same Day,664,4,Delivered,Not On Time
+SHP01003,2026-11-06,2026-11-09,Business,East,Central,Document,Standard,94,3,Delivered,On Time
+SHP01262,2026-11-06,2026-11-09,Business,South,Central,Parcel,Standard,447,3,Delivered,On Time
+SHP01048,2026-11-06,2026-11-10,Business,West,Central,Electronics,Express,578,4,Cancelled,Not On Time
+SHP01920,2026-11-06,2026-11-09,Individual,East,West,Parcel,Express,234,3,Delivered,On Time
+SHP00915,2026-11-08,2026-11-10,Individual,West,North,Fragile,Standard,248,2,Delivered,On Time
+SHP00419,2026-11-08,2026-11-11,Individual,East,East,Parcel,Same Day,535,3,Delivered,On Time
+SHP01172,2026-11-09,2026-11-12,Individual,South,South,Parcel,Express,343,3,Delivered,On Time
+SHP01501,2026-11-09,2026-11-13,Business,East,East,Document,Standard,353,4,Delivered,Not On Time
+SHP00003,2026-11-10,2026-11-12,Individual,West,North,Electronics,Standard,207,2,Delayed,Not On Time
+SHP01298,2026-11-11,2026-11-13,Business,West,Central,Fragile,Express,123,2,Delivered,On Time
+SHP00224,2026-11-11,2026-11-12,Individual,South,South,Parcel,Standard,397,1,Delivered,On Time
+SHP00553,2026-11-12,2026-11-13,Individual,North,West,Parcel,Standard,256,1,Delayed,Not On Time
+SHP00786,2026-11-12,2026-11-15,Business,West,South,Fragile,Standard,170,3,Delivered,On Time
+SHP00433,2026-11-14,2026-11-16,Individual,West,West,Parcel,Express,547,2,Delivered,On Time
+SHP01796,2026-11-14,2026-11-20,Individual,West,Central,Fragile,Express,251,6,Delivered,Not On Time
+SHP01643,2026-11-15,2026-11-17,Individual,Central,South,Parcel,Standard,466,2,Delivered,On Time
+SHP00654,2026-11-15,2026-11-20,Individual,Central,Central,Parcel,Express,532,5,Delivered,Not On Time
+SHP00733,2026-11-15,2026-11-18,Business,East,East,Parcel,Standard,174,3,Delivered,On Time
+SHP01318,2026-11-16,2026-11-17,Individual,Central,West,Parcel,Standard,160,1,Delivered,On Time
+SHP00088,2026-11-17,2026-11-20,Business,South,South,Parcel,Same Day,265,3,Delivered,On Time
+SHP00131,2026-11-17,2026-11-19,Individual,Central,West,Document,Standard,461,2,Delivered,On Time
+SHP00856,2026-11-18,2026-11-23,Individual,North,South,Document,Standard,171,5,Delayed,Not On Time
+SHP01230,2026-11-20,2026-11-22,Individual,West,East,Document,Express,438,2,Cancelled,Not On Time
+SHP01283,2026-11-22,2026-11-27,Business,Central,Central,Document,Express,258,5,Delivered,Not On Time
+SHP00093,2026-11-22,2026-11-26,Business,North,South,Parcel,Standard,128,4,Delivered,Not On Time
+SHP00219,2026-11-22,2026-11-24,Business,West,Central,Fragile,Express,218,2,Cancelled,Not On Time
+SHP01506,2026-11-24,2026-11-27,Individual,South,West,Document,Standard,129,3,Cancelled,Not On Time
+SHP00123,2026-11-25,2026-11-26,Business,North,West,Parcel,Express,557,1,Delivered,On Time
+SHP00248,2026-11-26,2026-12-03,Individual,North,East,Parcel,Express,202,7,Delivered,Not On Time
+SHP00193,2026-11-26,2026-11-28,Business,South,North,Parcel,Express,182,2,Delivered,On Time
+SHP00272,2026-11-28,2026-11-29,Business,South,Central,Electronics,Standard,134,1,Delayed,Not On Time
+SHP01121,2026-11-28,2026-12-05,Individual,Central,West,Parcel,Standard,400,7,Delivered,Not On Time
+SHP01053,2026-11-28,2026-11-30,Individual,Central,East,Parcel,Standard,425,2,Delivered,On Time
+SHP01629,2026-11-28,2026-11-30,Individual,South,East,Fragile,Express,375,2,Delivered,On Time
+SHP00796,2026-11-28,2026-11-30,Business,East,West,Parcel,Standard,98,2,Delivered,On Time
+SHP01520,2026-11-28,2026-12-02,Business,Central,East,Document,Express,287,4,Delivered,Not On Time
+SHP00437,2026-11-28,2026-11-30,Business,North,South,Parcel,Standard,268,2,Delivered,On Time
+SHP00683,2026-11-28,2026-12-01,Individual,Central,South,Parcel,Standard,412,3,Delivered,On Time
+SHP01204,2026-11-29,2026-12-01,Business,Central,Central,Electronics,Express,119,2,Failed,Not On Time
+SHP01210,2026-11-29,2026-12-01,Business,East,South,Parcel,Standard,404,2,Delivered,On Time
+SHP00716,2026-11-29,2026-12-02,Individual,Central,South,Fragile,Express,398,3,Delivered,On Time
+SHP00074,2026-11-30,2026-12-02,Individual,North,West,Parcel,Standard,99,2,Delivered,On Time
+SHP00779,2026-12-01,2026-12-04,Individual,West,South,Electronics,Express,507,3,Delivered,On Time
+SHP00439,2026-12-01,2026-12-04,Individual,South,West,Parcel,Express,356,3,Delivered,On Time
+SHP00378,2026-12-02,2026-12-04,Individual,North,North,Electronics,Express,307,2,Delivered,On Time
+SHP01061,2026-12-03,2026-12-04,Business,South,Central,Document,Express,574,1,Delivered,On Time
+SHP00245,2026-12-05,2026-12-10,Individual,North,South,Electronics,Same Day,452,5,Delivered,Not On Time
+SHP00641,2026-12-05,2026-12-07,Individual,Central,East,Parcel,Express,416,2,Cancelled,Not On Time
+SHP01357,2026-12-05,2026-12-06,Individual,North,Central,Parcel,Standard,247,1,Delivered,On Time
+SHP01239,2026-12-05,2026-12-07,Business,North,East,Electronics,Standard,464,2,Delivered,On Time
+SHP01169,2026-12-06,2026-12-09,Individual,East,East,Electronics,Standard,278,3,Delivered,On Time
+SHP00345,2026-12-06,2026-12-09,Individual,South,West,Document,Express,455,3,Delivered,On Time
+SHP00094,2026-12-07,2026-12-11,Business,East,Central,Electronics,Express,155,4,Delivered,Not On Time
+SHP01652,2026-12-08,2026-12-09,Business,South,East,Fragile,Standard,437,1,Delivered,On Time
+SHP00895,2026-12-08,2026-12-11,Business,East,East,Parcel,Standard,267,3,Delivered,On Time
+SHP00241,2026-12-08,2026-12-11,Individual,Central,North,Document,Express,440,3,Delivered,On Time
+SHP00631,2026-12-10,2026-12-13,Business,South,Central,Document,Standard,145,3,Delivered,On Time
+SHP00942,2026-12-10,2026-12-13,Individual,West,North,Fragile,Standard,416,3,Failed,Not On Time
+SHP01547,2026-12-12,2026-12-13,Business,Central,South,Document,Standard,293,1,Delivered,On Time
+SHP00306,2026-12-12,2026-12-13,Business,East,East,Parcel,Same Day,265,1,Delivered,On Time
+SHP00067,2026-12-12,2026-12-13,Business,West,West,Parcel,Same Day,826,1,Delivered,On Time
+SHP00151,2026-12-12,2026-12-13,Individual,South,East,Document,Express,455,1,Delivered,On Time
+SHP00975,2026-12-12,2026-12-14,Business,South,Central,Fragile,Express,300,2,Cancelled,Not On Time
+SHP00576,2026-12-13,2026-12-18,Individual,North,North,Document,Standard,399,5,Delivered,Not On Time
+SHP00939,2026-12-13,2026-12-17,Business,South,Central,Document,Standard,471,4,Delivered,Not On Time
+SHP00300,2026-12-13,2026-12-15,Individual,North,East,Document,Standard,473,2,Delivered,On Time
+SHP00648,2026-12-15,2026-12-21,Individual,North,North,Fragile,Express,218,6,Delivered,Not On Time
+SHP01823,2026-12-15,2026-12-17,Individual,South,West,Fragile,Express,298,2,Delivered,On Time
+SHP00329,2026-12-17,2026-12-18,Individual,Central,South,Document,Standard,302,1,Delivered,On Time
+SHP00324,2026-12-17,2026-12-19,Individual,West,Central,Parcel,Standard,224,2,Delivered,On Time
+SHP00471,2026-12-17,2026-12-23,Business,South,East,Document,Express,430,6,Delivered,Not On Time
+SHP01509,2026-12-18,2026-12-22,Business,West,North,Parcel,Standard,159,4,Delivered,Not On Time
+SHP01418,2026-12-18,2026-12-19,Individual,Central,West,Document,Express,115,1,Delivered,On Time
+SHP00022,2026-12-18,2026-12-23,Individual,North,South,Electronics,Standard,270,5,Delivered,Not On Time
+SHP01313,2026-12-19,2026-12-25,Business,West,Central,Parcel,Standard,333,6,Delivered,Not On Time
+SHP01657,2026-12-19,2026-12-26,Individual,North,Central,Parcel,Standard,185,7,Delivered,Not On Time
+SHP01813,2026-12-19,2026-12-21,Individual,North,North,Document,Express,248,2,Delivered,On Time
+SHP01156,2026-12-21,2026-12-23,Individual,North,Central,Parcel,Standard,380,2,Cancelled,Not On Time
+SHP01841,2026-12-22,2026-12-26,Individual,North,West,Document,Standard,294,4,Cancelled,Not On Time
+SHP00902,2026-12-22,2026-12-28,Business,North,North,Electronics,Standard,331,6,Delivered,Not On Time
+SHP00079,2026-12-22,2026-12-26,Individual,West,West,Electronics,Express,375,4,Delivered,Not On Time
+SHP01341,2026-12-23,2026-12-26,Individual,South,East,Parcel,Express,267,3,Delivered,On Time
+SHP01567,2026-12-24,2026-12-27,Individual,South,East,Electronics,Express,517,3,Delivered,On Time
+SHP00535,2026-12-24,2026-12-29,Business,West,South,Parcel,Standard,385,5,Delivered,Not On Time
+SHP01773,2026-12-26,2026-12-27,Individual,North,North,Fragile,Standard,378,1,Delivered,On Time
+SHP00431,2026-12-28,2026-12-31,Individual,Central,West,Parcel,Same Day,706,3,Delayed,Not On Time
+SHP01548,2026-12-28,2026-12-30,Individual,West,South,Document,Express,696,2,Delivered,On Time
+SHP00344,2026-12-28,2026-12-31,Individual,West,East,Parcel,Standard,160,3,Delayed,Not On Time
+SHP01695,2026-12-29,2026-12-31,Business,North,South,Document,Standard,197,2,Delivered,On Time
+SHP00461,2026-12-29,2027-01-03,Individual,West,Central,Parcel,Same Day,389,5,Delivered,Not On Time
+SHP00002,2026-12-31,2027-01-03,Individual,South,East,Parcel,Express,349,3,Delivered,On Time
+SHP00568,2026-12-31,2027-01-04,Business,North,Central,Electronics,Standard,143,4,Delivered,Not On Time
