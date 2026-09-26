@@ -1,0 +1,44 @@
+name,description,query,id,parentId,isFolder,isProtected
+Courier Delivery & Logistics Analytics,,,0,,true,false
+Total Nodes,,MATCH (n) RETURN count(n) AS TotalNodes,1,0,false,false
+Zones list,,"MATCH (z: Zone)
+RETURN z.Zone_Name,z.Zone_ID
+LIMIT 10",2,0,false,false
+Top 5 Shipment,,"MATCH (s:Shipment)
+RETURN s.Shipment_ID, s.Shipping_Cost
+ORDER BY s.Shipping_Cost DESCENDING
+LIMIT 5",3,0,false,false
+Total_Shipments,,"MATCH (s:Shipment)
+RETURN count(s) As Total_Shipments",4,0,false,false
+Total Revenue,,"MATCH (s:Shipment)
+RETURN sum(s.Shipping_Cost) AS TotalRevenue",5,0,false,false
+Total Delivered,,"MATCH (s:Shipment)
+WHERE s.Delivery_Status = 'Delivered'
+RETURN count(s) AS DeliveredShipments",6,0,false,false
+Delivery Status,,"MATCH (total:Shipment)
+WITH count(total) AS TotalCount
+MATCH (s:Shipment)
+WITH TotalCount, s.Delivery_Status AS Status, count(s) AS Total_Records
+RETURN Status, 
+       Total_Records, 
+       round((toFloat(Total_Records) / TotalCount) * 100, 2) AS `Percentage`
+ORDER BY Total_Records DESC
+",7,0,false,false
+Shipments by Destination Zone,,"MATCH (total:Shipment)
+WITH count(total) AS TotalCount
+MATCH (s:Shipment)
+WITH TotalCount, s.Destination_Zone AS DestinationZone, count(s) AS ShipmentCount
+RETURN DestinationZone, 
+       ShipmentCount, 
+       round((toFloat(ShipmentCount) / TotalCount) * 100, 2) AS `Percentage`
+ORDER BY ShipmentCount DESC
+",8,0,false,false
+Delayed Shipments by Destination Zone,,"MATCH (total:Shipment) WHERE total.Delivery_Status = 'Delayed'
+WITH count(total) AS TotalDelayed
+MATCH (s:Shipment) WHERE s.Delivery_Status = 'Delayed'
+WITH TotalDelayed, s.Destination_Zone AS DestinationZone, count(s) AS DelayedCount
+RETURN DestinationZone, 
+       DelayedCount, 
+       round((toFloat(DelayedCount) / TotalDelayed) * 100, 2) AS `Percentage_of_Total_Delays`
+ORDER BY DelayedCount DESC
+",9,0,false,false

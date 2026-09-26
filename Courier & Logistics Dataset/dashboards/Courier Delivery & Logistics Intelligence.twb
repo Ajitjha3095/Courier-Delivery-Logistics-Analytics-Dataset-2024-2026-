@@ -1,0 +1,2092 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0603.1643                               -->
+<workbook original-version='18.1' source-build='2026.2.0 (20262.26.0603.1643)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='courier_cleaned_data_2024_2026' inline='true' name='federated.0ndibrc1bqdtxc156e7v20etxiac' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='courier_cleaned_data_2024_2026' name='textscan.1k8soff0c8g9la11zdu9b123t508'>
+            <connection class='textscan' directory='C:/Users/Admin/Desktop/Workspace/Neo4j Project/Courier &amp; Logistics Dataset/Data set' filename='courier_cleaned_data_2024_2026.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1k8soff0c8g9la11zdu9b123t508' name='courier_cleaned_data_2024_2026.csv' table='[courier_cleaned_data_2024_2026#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Shipment_ID' ordinal='0' />
+            <column datatype='date' name='Order_Date' ordinal='1' />
+            <column datatype='date' name='Delivery_Date' ordinal='2' />
+            <column datatype='string' name='Customer_Type' ordinal='3' />
+            <column datatype='string' name='Origin_Zone' ordinal='4' />
+            <column datatype='string' name='Destination_Zone' ordinal='5' />
+            <column datatype='string' name='Package_Type' ordinal='6' />
+            <column datatype='string' name='Shipping_Mode' ordinal='7' />
+            <column datatype='integer' name='Shipping_Cost' ordinal='8' />
+            <column datatype='integer' name='Delivery_Days' ordinal='9' />
+            <column datatype='string' name='Delivery_Status' ordinal='10' />
+            <column datatype='string' name='Delivery_Performance' ordinal='11' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[courier_cleaned_data_2024_2026.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipment_ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Shipment_ID]</local-name>
+            <parent-name>[courier_cleaned_data_2024_2026.csv]</parent-name>
+            <remote-alias>Shipment_ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order_Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Order_Date]</local-name>
+            <parent-name>[courier_cleaned_data_2024_2026.csv]</parent-name>
+            <remote-alias>Order_Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Delivery_Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Delivery_Date]</local-name>
+            <parent-name>[courier_cleaned_data_2024_2026.csv]</parent-name>
+            <remote-alias>Delivery_Date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer_Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Customer_Type]</local-name>
+            <parent-name>[courier_cleaned_data_2024_2026.csv]</parent-name>
+            <remote-alias>Customer_Type</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Origin_Zone</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Origin_Zone]</local-name>
+            <parent-name>[courier_cleaned_data_2024_2026.csv]</parent-name>
+            <remote-alias>Origin_Zone</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Destination_Zone</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Destination_Zone]</local-name>
+            <parent-name>[courier_cleaned_data_2024_2026.csv]</parent-name>
+            <remote-alias>Destination_Zone</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Package_Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Package_Type]</local-name>
+            <parent-name>[courier_cleaned_data_2024_2026.csv]</parent-name>
+            <remote-alias>Package_Type</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipping_Mode</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Shipping_Mode]</local-name>
+            <parent-name>[courier_cleaned_data_2024_2026.csv]</parent-name>
+            <remote-alias>Shipping_Mode</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipping_Cost</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shipping_Cost]</local-name>
+            <parent-name>[courier_cleaned_data_2024_2026.csv]</parent-name>
+            <remote-alias>Shipping_Cost</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Delivery_Days</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Delivery_Days]</local-name>
+            <parent-name>[courier_cleaned_data_2024_2026.csv]</parent-name>
+            <remote-alias>Delivery_Days</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Delivery_Status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Delivery_Status]</local-name>
+            <parent-name>[courier_cleaned_data_2024_2026.csv]</parent-name>
+            <remote-alias>Delivery_Status</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Delivery_Performance</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Delivery_Performance]</local-name>
+            <parent-name>[courier_cleaned_data_2024_2026.csv]</parent-name>
+            <remote-alias>Delivery_Performance</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Total Shipments' datatype='integer' name='[Calculation_0193560939237376]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([Shipment_ID])' />
+      </column>
+      <column caption='Delivered Shipments' datatype='integer' name='[Calculation_0193560940490753]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT(IF [Delivery_Status] = &quot;Delivered&quot; THEN [Shipment_ID] END)' />
+      </column>
+      <column caption='Time Shipments' datatype='integer' name='[Calculation_0193560942714882]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT(IF [Delivery_Performance] = &quot;On Time&quot; THEN [Shipment_ID] END)' />
+      </column>
+      <column caption='On-Time Delivery %' datatype='real' name='[Calculation_0193560943046659]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_0193560942714882]/[Calculation_0193560939237376]' />
+      </column>
+      <column caption='Customer Type' datatype='string' name='[Customer_Type]' role='dimension' type='nominal' />
+      <column caption='Delivery Date' datatype='date' name='[Delivery_Date]' role='dimension' type='ordinal' />
+      <column caption='Delivery Days' datatype='integer' name='[Delivery_Days]' role='measure' type='quantitative' />
+      <column caption='Delivery Performance' datatype='string' name='[Delivery_Performance]' role='dimension' type='nominal' />
+      <column caption='Delivery Status' datatype='string' name='[Delivery_Status]' role='dimension' type='nominal' />
+      <column caption='Destination Zone' datatype='string' name='[Destination_Zone]' role='dimension' type='nominal' />
+      <column caption='Order Date' datatype='date' name='[Order_Date]' role='dimension' type='ordinal' />
+      <column caption='Origin Zone' datatype='string' name='[Origin_Zone]' role='dimension' type='nominal' />
+      <column caption='Package Type' datatype='string' name='[Package_Type]' role='dimension' type='nominal' />
+      <column caption='Shipment ID' datatype='string' name='[Shipment_ID]' role='dimension' type='nominal' />
+      <column caption='Shipping Cost' datatype='integer' name='[Shipping_Cost]' role='measure' type='quantitative' />
+      <column caption='Shipping Mode' datatype='string' name='[Shipping_Mode]' role='dimension' type='nominal' />
+      <column caption='Delayed Shipments ' datatype='integer' name='[Time Shipments (copy)_0193560948908045]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT(IF [Delivery_Status] = &quot;Delayed&quot; THEN [Shipment_ID] END)' />
+      </column>
+      <column caption='courier_cleaned_data_2024_2026.csv' datatype='table' name='[__tableau_internal_object_id__].[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]' role='measure' type='quantitative' />
+      <column-instance column='[Delivery_Status]' derivation='None' name='[none:Delivery_Status:nk]' pivot='key' type='nominal' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Admin/AppData/Local/Temp/TableauTemp/#TableauTemp_1fozn9c0huon1n15n0kzh09cy9a2.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/19/2026 03:55:10 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Shipment_ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Shipment_ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Shipment_ID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>courier_cleaned_data_2024_2026.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2000</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order_Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Order_Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order_Date</remote-alias>
+              <ordinal>1</ordinal>
+              <family>courier_cleaned_data_2024_2026.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>796</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Delivery_Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Delivery_Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Delivery_Date</remote-alias>
+              <ordinal>2</ordinal>
+              <family>courier_cleaned_data_2024_2026.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>846</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer_Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer_Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer_Type</remote-alias>
+              <ordinal>3</ordinal>
+              <family>courier_cleaned_data_2024_2026.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Origin_Zone</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Origin_Zone]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Origin_Zone</remote-alias>
+              <ordinal>4</ordinal>
+              <family>courier_cleaned_data_2024_2026.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Destination_Zone</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Destination_Zone]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Destination_Zone</remote-alias>
+              <ordinal>5</ordinal>
+              <family>courier_cleaned_data_2024_2026.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Package_Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Package_Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Package_Type</remote-alias>
+              <ordinal>6</ordinal>
+              <family>courier_cleaned_data_2024_2026.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Shipping_Mode</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Shipping_Mode]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Shipping_Mode</remote-alias>
+              <ordinal>7</ordinal>
+              <family>courier_cleaned_data_2024_2026.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Shipping_Cost</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Shipping_Cost]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Shipping_Cost</remote-alias>
+              <ordinal>8</ordinal>
+              <family>courier_cleaned_data_2024_2026.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>568</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Delivery_Days</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Delivery_Days]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Delivery_Days</remote-alias>
+              <ordinal>9</ordinal>
+              <family>courier_cleaned_data_2024_2026.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Delivery_Status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Delivery_Status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Delivery_Status</remote-alias>
+              <ordinal>10</ordinal>
+              <family>courier_cleaned_data_2024_2026.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Delivery_Performance</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Delivery_Performance]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Delivery_Performance</remote-alias>
+              <ordinal>11</ordinal>
+              <family>courier_cleaned_data_2024_2026.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Delivery_Status:nk]&#10;[:Measure Names]' type='palette'>
+            <map to='#59504e'>
+              <multibucket>
+                <bucket>&quot;Delivered&quot;</bucket>
+                <bucket>&quot;[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560945803276:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#8cd17d'>
+              <multibucket>
+                <bucket>&quot;Delivered&quot;</bucket>
+                <bucket>&quot;[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560945766410:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#8d8481'>
+              <multibucket>
+                <bucket>&quot;Delayed&quot;</bucket>
+                <bucket>&quot;[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560945803276:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#a0cbe8'>
+              <multibucket>
+                <bucket>&quot;Cancelled&quot;</bucket>
+                <bucket>&quot;[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560945766410:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#a29996'>
+              <multibucket>
+                <bucket>&quot;Failed&quot;</bucket>
+                <bucket>&quot;[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560945803276:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#dcd4d0'>
+              <multibucket>
+                <bucket>&quot;Cancelled&quot;</bucket>
+                <bucket>&quot;[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560945803276:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>&quot;Failed&quot;</bucket>
+                <bucket>&quot;[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560945766410:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#ffbe7d'>
+              <multibucket>
+                <bucket>&quot;Delayed&quot;</bucket>
+                <bucket>&quot;[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560945766410:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='courier_cleaned_data_2024_2026.csv' id='courier_cleaned_data_2024_2026.csv_5986B5F9CCF049B59FC55899E08D8688'>
+            <properties context=''>
+              <relation connection='textscan.1k8soff0c8g9la11zdu9b123t508' name='courier_cleaned_data_2024_2026.csv' table='[courier_cleaned_data_2024_2026#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Shipment_ID' ordinal='0' />
+                  <column datatype='date' name='Order_Date' ordinal='1' />
+                  <column datatype='date' name='Delivery_Date' ordinal='2' />
+                  <column datatype='string' name='Customer_Type' ordinal='3' />
+                  <column datatype='string' name='Origin_Zone' ordinal='4' />
+                  <column datatype='string' name='Destination_Zone' ordinal='5' />
+                  <column datatype='string' name='Package_Type' ordinal='6' />
+                  <column datatype='string' name='Shipping_Mode' ordinal='7' />
+                  <column datatype='integer' name='Shipping_Cost' ordinal='8' />
+                  <column datatype='integer' name='Delivery_Days' ordinal='9' />
+                  <column datatype='string' name='Delivery_Status' ordinal='10' />
+                  <column datatype='string' name='Delivery_Performance' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Avg Delivery Days'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courier_cleaned_data_2024_2026' name='federated.0ndibrc1bqdtxc156e7v20etxiac' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ndibrc1bqdtxc156e7v20etxiac'>
+            <column caption='Delivery Days' datatype='integer' name='[Delivery_Days]' role='measure' type='quantitative' />
+            <column-instance column='[Delivery_Days]' derivation='Avg' name='[avg:Delivery_Days:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0ndibrc1bqdtxc156e7v20etxiac].[avg:Delivery_Days:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontname='Roboto' fontsize='10'>Avg Delivery Days</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontsize='11'><![CDATA[<[federated.0ndibrc1bqdtxc156e7v20etxiac].[avg:Delivery_Days:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{326440BA-DA4F-4509-99E4-25F4C74C8C08}' />
+    </worksheet>
+    <worksheet name='Delivered Shipments'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courier_cleaned_data_2024_2026' name='federated.0ndibrc1bqdtxc156e7v20etxiac' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ndibrc1bqdtxc156e7v20etxiac'>
+            <column caption='Delivered Shipments' datatype='integer' name='[Calculation_0193560940490753]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT(IF [Delivery_Status] = &quot;Delivered&quot; THEN [Shipment_ID] END)' />
+            </column>
+            <column caption='Delivery Status' datatype='string' name='[Delivery_Status]' role='dimension' type='nominal' />
+            <column caption='Shipment ID' datatype='string' name='[Shipment_ID]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_0193560940490753]' derivation='User' name='[usr:Calculation_0193560940490753:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560940490753:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontname='Roboto' fontsize='10'>Delivered Shipments</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontsize='11'><![CDATA[<[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560940490753:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{405FA10E-0541-4339-A158-0A59088F01BD}' />
+    </worksheet>
+    <worksheet name='Delivery Status'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontname='Tableau Semibold' fontsize='11'>Delivery Status</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courier_cleaned_data_2024_2026' name='federated.0ndibrc1bqdtxc156e7v20etxiac' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ndibrc1bqdtxc156e7v20etxiac'>
+            <column caption='Total Shipments' datatype='integer' name='[Calculation_0193560939237376]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Shipment_ID])' />
+            </column>
+            <column caption='avg(0)' datatype='real' name='[Calculation_0193560945766410]' role='measure' type='quantitative' user:unnamed='Sheet 7'>
+              <calculation class='tableau' formula='avg(0)' />
+            </column>
+            <column caption='AVG(0)' datatype='real' name='[Calculation_0193560945803276]' role='measure' type='quantitative' user:unnamed='Sheet 7'>
+              <calculation class='tableau' formula='AVG(0)' />
+            </column>
+            <column caption='Delivery Status' datatype='string' name='[Delivery_Status]' role='dimension' type='nominal' />
+            <column caption='Shipment ID' datatype='string' name='[Shipment_ID]' role='dimension' type='nominal' />
+            <column-instance column='[Delivery_Status]' derivation='None' name='[none:Delivery_Status:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_0193560939237376]' derivation='User' name='[pcto:usr:Calculation_0193560939237376:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Calculation_0193560939237376]' derivation='User' name='[usr:Calculation_0193560939237376:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_0193560945766410]' derivation='User' name='[usr:Calculation_0193560945766410:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_0193560945803276]' derivation='User' name='[usr:Calculation_0193560945803276:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560945803276:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560945766410:qk]' scope='rows' value='' />
+            <format attr='title' class='0' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560945803276:qk]' scope='rows' value='' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Delivery_Status:nk]' />
+              <wedge-size column='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560945766410:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Delivery_Status:nk]' />
+              <wedge-size column='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' />
+              <text column='[federated.0ndibrc1bqdtxc156e7v20etxiac].[pcto:usr:Calculation_0193560939237376:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.64767956733703613' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560945803276:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Delivery_Status:nk]' />
+              <wedge-size column='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' />
+              <color column='[federated.0ndibrc1bqdtxc156e7v20etxiac].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2.1546962261199951' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560945766410:qk] + [federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560945803276:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{68C6CAE8-5493-41F3-A566-1DFF3F695458}' />
+    </worksheet>
+    <worksheet name='On-Time Delivery %'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courier_cleaned_data_2024_2026' name='federated.0ndibrc1bqdtxc156e7v20etxiac' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ndibrc1bqdtxc156e7v20etxiac'>
+            <column caption='Total Shipments' datatype='integer' name='[Calculation_0193560939237376]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Shipment_ID])' />
+            </column>
+            <column caption='Time Shipments' datatype='integer' name='[Calculation_0193560942714882]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT(IF [Delivery_Performance] = &quot;On Time&quot; THEN [Shipment_ID] END)' />
+            </column>
+            <column caption='On-Time Delivery %' datatype='real' name='[Calculation_0193560943046659]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_0193560942714882]/[Calculation_0193560939237376]' />
+            </column>
+            <column caption='Delivery Performance' datatype='string' name='[Delivery_Performance]' role='dimension' type='nominal' />
+            <column caption='Shipment ID' datatype='string' name='[Shipment_ID]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_0193560943046659]' derivation='User' name='[usr:Calculation_0193560943046659:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560943046659:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560943046659:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontname='Roboto' fontsize='10'>On-Time Delivery %</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontsize='11'><![CDATA[<[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560943046659:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{14512FAD-9904-46C2-9EBE-F9D1933DB404}' />
+    </worksheet>
+    <worksheet name='Shipment Volume Trend'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#232323' fontname='Roboto' fontsize='11'>Shipment Volume Trend</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courier_cleaned_data_2024_2026' name='federated.0ndibrc1bqdtxc156e7v20etxiac' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ndibrc1bqdtxc156e7v20etxiac'>
+            <column caption='Total Shipments' datatype='integer' name='[Calculation_0193560939237376]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Shipment_ID])' />
+            </column>
+            <column caption='Order Date' datatype='date' name='[Order_Date]' role='dimension' type='ordinal' />
+            <column caption='Shipment ID' datatype='string' name='[Shipment_ID]' role='dimension' type='nominal' />
+            <column-instance column='[Order_Date]' derivation='Month' name='[mn:Order_Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_0193560939237376]' derivation='User' name='[usr:Calculation_0193560939237376:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' field-type='quantitative' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' scope='rows' value='' />
+            <format attr='width' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' value='40' />
+            <format attr='tick-color' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' value='#00000000' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-weight' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' value='bold' />
+            <format attr='font-size' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' value='10' />
+            <format attr='color' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' value='#000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-weight' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[mn:Order_Date:ok]' value='bold' />
+            <format attr='color' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[mn:Order_Date:ok]' value='#000000' />
+            <format attr='font-size' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[mn:Order_Date:ok]' value='10' />
+            <format attr='font-weight' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' value='bold' />
+            <format attr='color' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' value='#000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#e6e6e6' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontname='Tableau Semibold' fontsize='10'>&lt;</run>
+                <run fontname='Tableau Semibold' fontsize='10'>[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]</run>
+                <run fontname='Tableau Semibold' fontsize='10'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#434138' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]</rows>
+        <cols>[federated.0ndibrc1bqdtxc156e7v20etxiac].[mn:Order_Date:ok]</cols>
+      </table>
+      <simple-id uuid='{08661D97-06EE-42B3-B69F-EECD222E08C1}' />
+    </worksheet>
+    <worksheet name='Shipments by Destination Zone'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#232323' fontname='Roboto' fontsize='11'>Shipments by Destination Zone</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courier_cleaned_data_2024_2026' name='federated.0ndibrc1bqdtxc156e7v20etxiac' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ndibrc1bqdtxc156e7v20etxiac'>
+            <column caption='Total Shipments' datatype='integer' name='[Calculation_0193560939237376]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Shipment_ID])' />
+            </column>
+            <column caption='Destination Zone' datatype='string' name='[Destination_Zone]' role='dimension' type='nominal' />
+            <column caption='Shipment ID' datatype='string' name='[Shipment_ID]' role='dimension' type='nominal' />
+            <column-instance column='[Destination_Zone]' derivation='None' name='[none:Destination_Zone:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_0193560939237376]' derivation='User' name='[usr:Calculation_0193560939237376:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' scope='cols' value='' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-weight' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' value='bold' />
+            <format attr='color' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' value='#000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-weight' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' value='bold' />
+            <format attr='color' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' value='#000000' />
+            <format attr='font-size' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' value='10' />
+            <format attr='font-weight' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Destination_Zone:nk]' value='bold' />
+            <format attr='color' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Destination_Zone:nk]' value='#000000' />
+            <format attr='font-size' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Destination_Zone:nk]' value='10' />
+            <format attr='font-family' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Destination_Zone:nk]' value='Tableau Semibold' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontname='Tableau Semibold' fontsize='10'>&lt;</run>
+                <run fontname='Tableau Semibold' fontsize='10'>[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]</run>
+                <run fontname='Tableau Semibold' fontsize='10'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#55557f' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Destination_Zone:nk]</rows>
+        <cols>[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]</cols>
+      </table>
+      <simple-id uuid='{67AEB223-9124-4D75-A622-90F25DB37498}' />
+    </worksheet>
+    <worksheet name='Shipments by Destination ZoneShipments by Destination ZoneShipments by Destination Zone '>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#232323' fontname='Roboto' fontsize='11'>Delayed Shipments by Destination Zone </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courier_cleaned_data_2024_2026' name='federated.0ndibrc1bqdtxc156e7v20etxiac' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ndibrc1bqdtxc156e7v20etxiac'>
+            <column caption='Delivery Status' datatype='string' name='[Delivery_Status]' role='dimension' type='nominal' />
+            <column caption='Destination Zone' datatype='string' name='[Destination_Zone]' role='dimension' type='nominal' />
+            <column caption='Shipment ID' datatype='string' name='[Shipment_ID]' role='dimension' type='nominal' />
+            <column caption='Delayed Shipments ' datatype='integer' name='[Time Shipments (copy)_0193560948908045]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT(IF [Delivery_Status] = &quot;Delayed&quot; THEN [Shipment_ID] END)' />
+            </column>
+            <column-instance column='[Destination_Zone]' derivation='None' name='[none:Destination_Zone:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Time Shipments (copy)_0193560948908045]' derivation='User' name='[usr:Time Shipments (copy)_0193560948908045:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='font-weight' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Destination_Zone:nk]' value='bold' />
+            <format attr='color' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Destination_Zone:nk]' value='#000000' />
+            <format attr='font-size' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Destination_Zone:nk]' value='10' />
+            <format attr='font-family' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Destination_Zone:nk]' value='Tableau Semibold' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Time Shipments (copy)_0193560948908045:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#55557f' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Destination_Zone:nk]</rows>
+        <cols>[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Time Shipments (copy)_0193560948908045:qk]</cols>
+      </table>
+      <simple-id uuid='{D642EBEF-5AE4-4E43-8F73-48BF65217F16}' />
+    </worksheet>
+    <worksheet name='Shipments by Shipping Mode'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#232323' fontname='Roboto' fontsize='11'>Shipments by Shipping Mode</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courier_cleaned_data_2024_2026' name='federated.0ndibrc1bqdtxc156e7v20etxiac' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ndibrc1bqdtxc156e7v20etxiac'>
+            <column caption='Total Shipments' datatype='integer' name='[Calculation_0193560939237376]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Shipment_ID])' />
+            </column>
+            <column caption='Shipment ID' datatype='string' name='[Shipment_ID]' role='dimension' type='nominal' />
+            <column caption='Shipping Mode' datatype='string' name='[Shipping_Mode]' role='dimension' type='nominal' />
+            <column-instance column='[Shipping_Mode]' derivation='None' name='[none:Shipping_Mode:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_0193560939237376]' derivation='User' name='[usr:Calculation_0193560939237376:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' scope='rows' value='' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-weight' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' value='bold' />
+            <format attr='color' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' value='#000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Shipping_Mode:nk]' value='Tableau Semibold' />
+            <format attr='font-weight' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Shipping_Mode:nk]' value='bold' />
+            <format attr='font-size' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Shipping_Mode:nk]' value='10' />
+            <format attr='font-weight' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' value='bold' />
+            <format attr='color' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' value='#000000' />
+            <format attr='font-size' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' value='10' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontname='Tableau Semibold' fontsize='10'>&lt;</run>
+                <run fontname='Tableau Semibold' fontsize='10'>[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]</run>
+                <run fontname='Tableau Semibold' fontsize='10'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#55557f' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]</rows>
+        <cols>[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Shipping_Mode:nk]</cols>
+      </table>
+      <simple-id uuid='{E2FC51AC-7E06-4B42-A59E-609104283488}' />
+    </worksheet>
+    <worksheet name='Total Revenue'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courier_cleaned_data_2024_2026' name='federated.0ndibrc1bqdtxc156e7v20etxiac' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ndibrc1bqdtxc156e7v20etxiac'>
+            <column caption='Shipping Cost' datatype='integer' name='[Shipping_Cost]' role='measure' type='quantitative' />
+            <column-instance column='[Shipping_Cost]' derivation='Sum' name='[sum:Shipping_Cost:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0ndibrc1bqdtxc156e7v20etxiac].[sum:Shipping_Cost:qk]' value='c&quot;₹&quot;#,##0,.00K;(&quot;₹&quot;#,##0,.00K)' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0ndibrc1bqdtxc156e7v20etxiac].[sum:Shipping_Cost:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontname='Roboto' fontsize='10'>Total Revenue</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontsize='11'><![CDATA[<[federated.0ndibrc1bqdtxc156e7v20etxiac].[sum:Shipping_Cost:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A6DA3279-81B2-4AD9-A173-5A6A14CB9E6A}' />
+    </worksheet>
+    <worksheet name='Total Shipments'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='courier_cleaned_data_2024_2026' name='federated.0ndibrc1bqdtxc156e7v20etxiac' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ndibrc1bqdtxc156e7v20etxiac'>
+            <column caption='Total Shipments' datatype='integer' name='[Calculation_0193560939237376]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Shipment_ID])' />
+            </column>
+            <column caption='Shipment ID' datatype='string' name='[Shipment_ID]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_0193560939237376]' derivation='User' name='[usr:Calculation_0193560939237376:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontname='Roboto' fontsize='10'>Total Shipments</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontsize='11'><![CDATA[<[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560939237376:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{8B04AB66-BC50-4DED-A4C4-C7C163AF7CC2}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Total Shipments'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{95BCC82B-5638-4EF1-AF57-466C422317AB}' />
+    </window>
+    <window class='worksheet' name='Total Revenue'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0ndibrc1bqdtxc156e7v20etxiac].[sum:Shipping_Cost:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>713108</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+      </viewpoint>
+      <simple-id uuid='{A78D1F34-F001-45B6-BC7F-1FE02A080968}' />
+    </window>
+    <window class='worksheet' name='Delivered Shipments'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{A0B58137-152E-4C22-897B-4BF8E742F67F}' />
+    </window>
+    <window class='worksheet' name='On-Time Delivery %'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0ndibrc1bqdtxc156e7v20etxiac].[usr:Calculation_0193560943046659:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.48949999999999999</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+      </viewpoint>
+      <simple-id uuid='{339E3FA5-3521-4F3F-84CF-A15E0F7B3420}' />
+    </window>
+    <window class='worksheet' name='Avg Delivery Days'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{64DE0F8C-B777-4B75-ADF0-4B8AA6A3CCBF}' />
+    </window>
+    <window class='worksheet' name='Shipment Volume Trend'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ndibrc1bqdtxc156e7v20etxiac].[mn:Order_Date:ok]</field>
+            <field>[federated.0ndibrc1bqdtxc156e7v20etxiac].[yr:Delivery_Date:ok]</field>
+            <field>[federated.0ndibrc1bqdtxc156e7v20etxiac].[yr:Order_Date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{205AC6D6-5C19-4FB0-8545-1AE841914F8E}' />
+    </window>
+    <window class='worksheet' name='Delivery Status'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Delivery_Status:nk]&#10;[federated.0ndibrc1bqdtxc156e7v20etxiac].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ndibrc1bqdtxc156e7v20etxiac].[:Measure Names]</field>
+            <field>[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Delivery_Status:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{444F256C-9C75-4C41-AA45-5F0B36E73D1C}' />
+    </window>
+    <window class='worksheet' name='Shipments by Shipping Mode'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Shipping_Mode:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A2AE1FDB-626C-4F75-A593-DB53992D7282}' />
+    </window>
+    <window class='worksheet' name='Shipments by Destination Zone'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Destination_Zone:nk]</field>
+            <field>[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Shipping_Mode:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D8BEC416-406C-4298-BA43-464860CEF877}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Shipments by Destination ZoneShipments by Destination ZoneShipments by Destination Zone '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Destination_Zone:nk]</field>
+            <field>[federated.0ndibrc1bqdtxc156e7v20etxiac].[none:Shipping_Mode:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2D1DE433-2A86-4FE7-9467-812CA3BFC69D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Avg Delivery Days' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAADp0lEQVR4nO3XP6hWdRzH8e85z712fXgKTRESmiIKimwTNGhxMkGItqLJhqaGWlpqifJC
+      zlbQH1waGhSEIJyKdIoIBNEhMREVA6U/l9s9nHtOS1RD0FI+8Hxer/V3fvA9w/twvs04jmNB
+      qKWqqmEYahiGec8Cd92fAXRdN+9Z4K5r5z0AzJMAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgm
+      AKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCI
+      JgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoA
+      iCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCa
+      AIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaEvz
+      HgD+K5vdev2yMda2e6f/8uRQP9+5UxubjQBYHOdOfVAnvunq2Fuv1qRbq5XprDbWf60t96zU
+      2tp6TZYmtXXrtCbter3/ztGaPfyQAFgQ/U/15be36vGdK/Xd9zfrypmP68lDz9fpE5/Wnkd3
+      1KXbTV29fLlee/2NenDHWN04q+dePGIHYDFcO3+uLtz4sW7euFaff/F17d/7RJ386L3avmd/
+      /XDheh189nDtmi3VWOMfN8ba7HsBsAiGunjxSr3y5mq9vXq0dve36v7H9tV0Mq1nDuyrp55+
+      pD778JO6evu3apqmqtp6YGdbx99drWYcx7Hv++q6bt5vAf+L81+drNNnL9Xyfbvr5ZdeqNmW
+      v777AmDhjeNQfb9Z7WRSbdtW87czSzALr2naWl7+5799OwDRBEA0ARBNAEQTANEEQDQBEE0A
+      RBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBN
+      AEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQ
+      TQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQB
+      EE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0
+      ARBNAEQTANEEQDQBEE0ARBMA0X4Hf2SMnBepEpUAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Delivered Shipments' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAADyklEQVR4nO3Xz6vlcxzH8ff33N/uvTODuWmOhbEhqxExKZNbjKHJxspm/gH5D+xlJRsr
+      KdlS/AGIhZSmRAzmppSFXKQ79zbnzjnnfj8WRIosdOe6Xo/H9vP+1vu7eNbn07XWWkGo2aqq
+      vu+r7/uD3gWuu98DGI/HB70LXHeDg14ADpIAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJ
+      gGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCi
+      CYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYA
+      ogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgm
+      AKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaALg0JpO
+      duuHzc3a2rlarf35bDzaqdF4Ule2rlT768+rqmp2XzeEffT9xof1wivv1+3DuZrcfKqeufB4
+      jXa2a35ppT5/983aHJ6u3cuXav382Tp6w1Ltjka1sLhQO9s7tbi8UjUdC4DDq/V7deLO++vp
+      C6fr2edeqotvX633Pv222vxarZ+c1nRvUhtfflU/fvdF3fvEU/XO62/UPXet1UcbWzV/ZFh3
+      dF+7AnG4tbZX42vXaq9vdemTj6strNZq12r319Oa7FU9dOZUvfXaq7V08r765rOLNbd6Y80M
+      Wk2mnQA4vOaXjtTPlz+o5198uR4892Q98ti5mptsV79ytNaOHa9jy0s1vPVE3Xb3mTo+2+rs
+      ww/U+qPnq9/+qRaXV+umW4bVtdbadDqt8Xh80P8D/1rf99V1XXVd9zcT7beZmeo6j2D+ZwaD
+      f7rUdDUYzPwxv7/rwH+bAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJ
+      gGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCi
+      CYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYA
+      ogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgm
+      AKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCI
+      9gscIpZpBA7wwQAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Delivery Status' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='On-Time Delivery %' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAD60lEQVR4nO3YO4seZRjH4fs97VnNYTckCsmCdinEwiZWBrURDyHE0kKs7GwC1n4BJV8g
+      hVUILCoIoiIxiAdEJCAqEhDBatm4m03czXuYsfOAVRT2Zf1fVzcwD9xT/J5nZjpt27YFofpV
+      VU3TVNM0054F9twfAQyHw2nPAnuu/9eLjWG/difdac0Ce+5vAexOunV70pvWLLDnbPdEEwDR
+      BEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA
+      0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQT
+      ANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBE
+      EwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0A
+      RBMA0QRANAEQTQBEEwDR+tMeAP6rthnX9uaNGiwerPnZwT9vmIxqc/PXapq2qtOvufmZGswu
+      1KDfEwD7XDOstTdfq517H6ytn6/X4y+dr9WVpWono+rPLdXMoF813KovPlyrL69+XCdPvVCr
+      x2dq5aFTdWhpIAD2t/H6tfrhtxN1/tVXav2rS/Xu1Q/q0++/rkOry3Xnnkfq3NknqgYH6vQz
+      5+r6d9/U6TNn6tt3LtT2/EJdvPyebwD2t+7MXNXudt0ZjWt7a6vm5mZrOHuknnr62RrdWq/P
+      1i7U5Utv17j5c00zHlXTTOrA8YedAOxv3YMn68lHP6m33ni9mu5inX35+bpyc6d6g4VaXj5c
+      jz33YnWrarx7s47cf6J63aqlw0drfvG+OnasqU7btu14PK7hcFi/7MzU7Ulv2s8Ed62ZTKrT
+      7Van07mrdU4A/he6vX+3cfsGIJoAiDXeuSEAcv34+fsCINPk1k/10ZVr/gKRqRnt1MaGVyBC
+      dQfztXL0AQGQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBN
+      AEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQ
+      TQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQB
+      EE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0
+      ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEC03wEmjancs8V2lgAAAABJRU5ErkJg
+      gg==
+    </thumbnail>
+    <thumbnail height='192' name='Shipment Volume Trend' width='192'>
+      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
+      SUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Shipments by Destination Zone' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Shipments by Destination ZoneShipments by Destination ZoneShipments by Destination Zone ' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Shipments by Shipping Mode' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Total Revenue' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAADt0lEQVR4nO3aMWtdZRzH8f+597aa5EYxKa1pooiUFMVBlKIuOjl0EDGCbi5uDr4MX4KT
+      r6BUsKN0KDhIdwkSsGrQiNBUqiYmnubex8EiinNzIb/PZzoHzvBfvud5nsPpWmutINSoqmo6
+      ndZ0Op31LHDs/gmg7/tZzwLHbvTvmzv9qA4ng1nNAsfuPwEcTga1PxnOahY4dl73RBMA0QRA
+      NAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEE
+      QDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDR
+      BEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA
+      0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQT
+      ANEEQDQBEE0ARBMA0UazHgAelP7g99rb+6Oqqk7NjWtxvPC/ZwTAiXX3h826fu1K7eyN67U3
+      360Xn3u6Dg7v1fx4vm5+9kktPb8hAE6us+sv1ysvbdWXO6t16dlzdeXjj6rvTtXyM5dq+4sb
+      tTp30RmADAe72/XLaK3efmejvt/cqtX1C7V+4UkBcLI9tHimlpceqYXHL9ZTD/9an169Vi+8
+      erlW187Xrc2vqmuttaOjo+r7vnYOTtf+ZDjrmeGBaK1Va60Gg0G1Nq3WHIIJ0nVddV13/3pQ
+      XScAgrTpvfp5+9vqp3/fP/rYGQGQo7VJ3f7xu7r909f1ze5ibbz1ukMwWQbDYY2Xz9XdnVt1
+      2C1aAUgyra2bn9fe3Fq98f6H9cTKkhWAHIPhfF1+74Oaa3/WaDSsVuUzKHn6/Tu1+9ukVlbO
+      2gKR5/TCcp2//1+cLRDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBN
+      AEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQ
+      TQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQB
+      EE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0
+      ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARDtLxBJk9y9nnRlAAAAAElFTkSu
+      QmCC
+    </thumbnail>
+    <thumbnail height='192' name='Total Shipments' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAADVklEQVR4nO3XsYpeVRSA0f3/MxFMo0aMYEiRKp2ojYVIuoCVaJEH8AUsbXwJW/UJJJVa
+      CkogBA1YaCEqWKpFjIlJHGYyudciIDZ2moH51qoOp9rNd/a9m3Vd14Go3ZmZZVlmWZajngUe
+      ub8DODg4OOpZ4JHbHvUAcJQEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0
+      AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMA
+      aQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAm
+      ANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZAmANIEQJoASBMAaQIg
+      TQCkCYA0AZAmANIEQJoASBMAaQIgTQCkCYA0AZC2e9QDwH9pXZe5dfPG3H8wM5vtPPnUqXls
+      99/feRuAY2VdHsz1Kx/Pu2+/M5c/+2Ju3t2fu3/cnnt7+7P320/z3vsfzf3D+3P71u9zb2/f
+      BuB42e6cmItvXJqrn3w3r196c25/9el88PkPsy7LvPrSmbn25Tdz4YVn58q1r+eXu7s2AMfb
+      t9evz4VLb82Lpw/m7uPPzNlz5+fkcmeW3ZPz551bAuA42pkz587OiZl55eJrc/Xyh/P93nPz
+      8vPn54n9X+fHn2/M4bqZ00+fms26ruvh4eEcHBwc9dTwv1iWZWazme3m4Xmz2Zl1XWa73foH
+      4Pjbbrf/OO/MzMxm8/DOJxBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRA
+      mgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJ
+      gDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBI
+      EwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQB
+      kCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0gRAmgBIEwBpAiBNAKQJgDQBkCYA0v4Cv1525XpB
+      rZoAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
